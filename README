@@ -1,0 +1,26 @@
+Bonjour et bienvenue sur le projet de calcul du ELO pour le format Brawl Set !
+Deux calculs sont effectués : un prenant en compte toutes les données à disposition et l'autre se concentrant sur les rencontres qui ont eu lieu en tournois.
+Chaque deck et chaque joueureuse a donc deux ELO.
+Étant donné une rencontre, la mise à jour du ELO d'un.e joueureuses ou d'un decks prend en compte à la fois le ELO précedent du/de la joueureuse, celui de son adversaire et ceux des decks joués. C'est donc un calcul de ELO mixte !
+
+Le répertoire contient des fichiers de données, des scripts python et des fichiers d'analyse des données.
+
+* Les données :
+	- Le fichier rencontres.csv contient toutes les rencontres ('Best of 3's) qui ont été prises en compte pour le calcul du ELO en l'état actuel.
+	- Le fichier rencontres_fraiches.csv contient toutes les rencontres qui n'ont PAS encore été prises en compte. (Idéalement, il est vide).
+	- Le fichier rencontres_fraiches.ods permet de rentrer des rencontres à prendre en compte en s'aidant de l'autocompletion de libreoffice.
+
+* Les scripts :
+	- update.py met à jour tous les ELOs en fonction des rencontres dans rencontres_fraiches.csv et vide rencontres_fraiches.csv.
+	- elo_from_scratch calcule tous les ELOs de zero en lisant les rencontres présentes dans rencontres.csv.
+	- get_list_decks.py calcule la liste des commandants qui sont joués dans au moins une rencontre, triée par ordre alphabétique, et la stocke dans list_decks.csv.
+	- get_list_players.py calcule la liste des joueurs qui ont joué au moins une rencontre, triée par ordre alphabétique, et la stocke dans list_players.csv.
+	- get_list_sets.py calcule la liste des extensions d'un commandant qui a été joué dans au moins une rencontre, triée par ordre alphabétique, et la stocke dans list_magic_sets.csv.
+	- get_sorted_decks.py calcule la liste des commandants ainsi que leur ELO, trié par ordre croissant de ELO et la stocke dans sorted_decks.csv.
+	- get_sorted_decks_tournois.py calcule la liste des commandants ainsi que leur ELO Tournois, trié par ordre croissant de ELO Tournois et la stocke dans sorted_decks_tournois.csv.
+	- get_sorted_players.py calcule la liste des joueureuses ainsi que leur ELO, trié par ordre croissant de ELO et la stocke dans sorted_players.csv.
+	- get_sorted_players_tournois.py calcule la liste des joueureuses ainsi que leur ELO Tournois, trié par ordre croissant de ELO Tournois et la stocke dans sorted_players_tournois.csv.
+
+* Les jsons :
+	- decks.json est le fichier contenant les ELOs des decks. C'est un dictionnaire dont la clé primaire est l'extension et pour chaque extension, sa valeur associée est l'ensemble des decks de cette extension.
+	- players.json est le fichier contenant les ELOs des joueureuses.
