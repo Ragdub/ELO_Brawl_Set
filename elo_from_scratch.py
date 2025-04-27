@@ -24,10 +24,10 @@ if __name__ == '__main__':
         players_data, decks_data = generateELO(rencontres_list)
 
     with open(players_filename, mode="w") as players_file:
-        json.dump(players_data, players_file)
+        json.dump(players_data, players_file, ensure_ascii=False)
 
     with open(decks_filename, mode="w") as decks_file:
-        json.dump(decks_data, decks_file)
+        json.dump(decks_data, decks_file, ensure_ascii=False)
 
     import get_list_players
     get_list_players.writing_list_players_file("players.json", "list_players.csv")
