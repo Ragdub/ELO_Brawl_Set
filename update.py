@@ -129,4 +129,14 @@ if __name__ == "__main__" :
     if "decks" in data_changed:
         import get_list_decks
         get_list_decks.writing_list_decks_file("decks.json", "list_decks.csv")
-        prin("decks updated")
+        print("decks updated")
+
+    import get_sorted_decks
+    import get_sorted_decks_tournois
+    import get_sorted_players
+    import get_sorted_players_tournois
+
+    get_sorted_decks.writing_sorted_decks("decks.json","list_magic_sets.csv")
+    get_sorted_decks_tournois.writing_sorted_decks_tournois("decks.json","sorted_decks_tournois.csv")
+    get_sorted_players.writing_sorted_players("players.json", "sorted_players.csv")
+    get_sorted_players_tournois.writing_sorted_players_tournois("players.json","sorted_players_tournois.csv")
