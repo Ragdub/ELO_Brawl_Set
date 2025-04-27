@@ -18,7 +18,7 @@ def getEloModifier(won, elo_player, elo_opponent):
     """
     return won - 1 / ( 1 + 10 ** ((elo_opponent - elo_player) / 400))
 
-def processRencontre(rencontre, players_global, decks_global):
+def processRencontre(rencontre, players_global, decks_global, is_trusted):
     data_changed = set()
     players = []
     decks = []
@@ -30,8 +30,10 @@ def processRencontre(rencontre, players_global, decks_global):
         try:
             players.append(players_global[player])
         except KeyError:
-            is_player_correct = input(f"Is {player} a new player? (Y/n)")
-            if is_player_correct == "Y" or is_player_correct == "y" or is_player_correct == "":
+            is_player_correct = "Y"
+            if not is_trusted:
+                is_player_correct = input(f"Is {player} a new player? (Y/n)")
+            if is_player_correct == "Y" or is_player_correct == "y" or is_player_correct == "" or is_trusted:
                 new_player = getDefaultPlayerELO()
                 players_global[player] = new_player
                 players.append(new_player)
@@ -41,9 +43,11 @@ def processRencontre(rencontre, players_global, decks_global):
         try:
             magic_set_work = decks_global[magic_set]
         except KeyError:
-            is_set_correct = input(f"Is {magic_set} a correct magic set? (Y/n)")
+            is_set_correct = "Y"
+            if not is_trusted:
+                is_set_correct = input(f"Is {magic_set} a correct magic set? (Y/n)")
             magic_set_work = dict()
-            if is_set_correct == "Y" or is_set_correct == "y" or is_set_correct == "":
+            if is_set_correct == "Y" or is_set_correct == "y" or is_set_correct == "" or is_trusted:
                 decks_global[magic_set] = magic_set_work
                 data_changed.add("sets")
             else:
@@ -51,8 +55,10 @@ def processRencontre(rencontre, players_global, decks_global):
         try:
             decks.append(magic_set_work[deck])
         except KeyError:
-            is_deck_correct = input(f"Is {deck} a correct deck from the set {magic_set}? (Y/n)")
-            if is_deck_correct == "Y" or is_deck_correct == "y" or is_deck_correct == "":
+            is_deck_correct = "Y"
+            if not is_trusted:
+                is_deck_correct = input(f"Is {deck} a correct deck from the set {magic_set}? (Y/n)")
+            if is_deck_correct == "Y" or is_deck_correct == "y" or is_deck_correct == "" or is_trusted:
                 new_deck = getDefaultDeckELO()
                 magic_set_work[deck] = new_deck
                 decks.append(new_deck)
@@ -90,7 +96,7 @@ def processRencontre(rencontre, players_global, decks_global):
             # decks and player are storing references to the data in the global datas.
             decks[index][elo_label] += K_DECKS * elo_modifier[index]
             players[index][elo_label] += K_PLAYER * elo_modifier[index]
-        return data_changed
+    return data_changed
 
 if __name__ == "__main__" :
 
@@ -100,7 +106,7 @@ if __name__ == "__main__" :
         decks = json.load(decks_file)
         data_changed = set()
         for rencontre in rencontres_csv:
-            data_changed = data_changed | processRencontre(rencontre, players, decks)
+            data_changed = data_changed | processRencontre(rencontre, players, decks, False)
 
     with open("players.json","w") as players_file, open("decks.json","w") as decks_file :
         json.dump(players, players_file)
@@ -136,7 +142,7 @@ if __name__ == "__main__" :
     import get_sorted_players
     import get_sorted_players_tournois
 
-    get_sorted_decks.writing_sorted_decks("decks.json","list_magic_sets.csv")
+    get_sorted_decks.writing_sorted_decks("decks.json","sorted_decks.csv")
     get_sorted_decks_tournois.writing_sorted_decks_tournois("decks.json","sorted_decks_tournois.csv")
     get_sorted_players.writing_sorted_players("players.json", "sorted_players.csv")
     get_sorted_players_tournois.writing_sorted_players_tournois("players.json","sorted_players_tournois.csv")

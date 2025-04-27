@@ -14,6 +14,7 @@ Marina Vendrell,dsk,90.04066905341263
 "Vivien, Monsters' Advocate",iko,90.13062537261196
 "Byrke, Long Ear of the Law",blb,90.17295610360902
 "Falco Spara, Pactweaver",snc,90.30099166991057
+"Voja, Jaws of the Conclave",mkm,90.51630003279112
 "Migloz, Maze Crusher",one,94.23329625578262
 "Kolodin, Triumph Caster",dft,94.2747616102876
 "Ral, Crackling Wit",blb,94.48045396513079
@@ -63,7 +64,6 @@ Sharuum the Hegemon,ala,100
 "Vadrik, Astral Archmage",mid,100
 "Esika, God of the Tree // The Prismatic Bridge",khm,100
 "Alquist Proft, Master Sleuth",mkm,100
-"Voja, Jaws of the Conclave",mkm,100
 "Kellan, the Kid",otj,100
 "Vraska, Relic Seeker",xln,100
 Ezio Auditore Da Firenze,acr,100
@@ -89,7 +89,6 @@ Nissa of Shadowed Boughs,znr,100
 Cromat,apc,100
 Scion of the Ur-Dragon,tsp,100
 "Rhys, the Exiled",mor,100
-"Mendicant Core, Guidelight",dft,100
 Liliana of the Veil,isd,100
 Admiral Beckett Brass,lcc,100
 "Zurgo, Thunder's Decree",tdm,100
@@ -98,11 +97,13 @@ Admiral Beckett Brass,lcc,100
 "Kutzil, Malamet Exemplar",lci,100.27426188761018
 "Angrath, the Flame-Chained",rix,100.54179645074518
 "Depala, Pilot Exemplar",kld,100.75561014771058
+"Mabel, Heir to Cragflame",blb,100.82989806437152
 The Mycotyrant,lci,100.9112246409609
 "Lukka, Bound to Ruin",one,101.02859642783002
 "Sigarda, Host of Herons",avr,104.11549760920582
 "Tovolar, Dire Overlord",mid,104.30260185342168
 "Rocco, Street Chef",mat,104.43943200207636
+"Mendicant Core, Guidelight",dft,104.45753171955185
 "Totentanz, Swarm Piper",woe,104.51641439492093
 "Winter, Misanthropic Guide",dsk,104.52615121547223
 "Huatli, Poet of Unity",lci,104.57262353671078
@@ -121,9 +122,7 @@ Wrenn and Seven,mid,104.8127296885996
 "Aurelia, Exemplar of Justice",grn,105.37175741650407
 "Snapdax, Apex of the Hunt",iko,106.02681666376901
 "Etrata, the Silencer",grn,109.93294054507078
-"Mabel, Heir to Cragflame",blb,109.93895463339351
 "Korvold, Fae-Cursed King",eld,110.05966729186491
-"Arabella, Abandoned Doll",dsk,110.46173749150108
 "Skithiryx, the Blight Dragon",som,111.06416414204159
 Thalia and The Gitrog Monster,mom,114.33376874296664
 "Obyra, Dreaming Duelist",woe,114.49232657604668
@@ -132,5 +131,6 @@ The Swarmweaver,dsk,114.60526246732752
 "Atraxa, Grand Unifier",one,114.82947758488154
 The Wandering Emperor,neo,114.90646839261645
 "Glarb, Calamity's Augur",blb,115.25832712418892
+"Arabella, Abandoned Doll",dsk,120.87880808082757
 "Niko, Light of Hope",dsk,124.54352575195423
-"Finneas, Ace Archer",blb,125.11610643501251
+"Finneas, Ace Archer",blb,128.83426066236504
