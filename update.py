@@ -100,7 +100,7 @@ def processRencontre(rencontre, players_global, decks_global, is_trusted):
 
 if __name__ == "__main__" :
 
-    with open("rencontres_fraiches.csv", newline="") as rencontre_csv_file, open("players.json") as players_file, open("decks.json") as decks_file :
+    with open("rencontres_fraiches.csv", newline="") as rencontre_csv_file, open("players.json", encoding="utf-8") as players_file, open("decks.json", encoding="utf-8") as decks_file :
         rencontres_csv = csv.DictReader(rencontre_csv_file)
         players = json.load(players_file)
         decks = json.load(decks_file)
@@ -108,8 +108,8 @@ if __name__ == "__main__" :
         for rencontre in rencontres_csv:
             data_changed = data_changed | processRencontre(rencontre, players, decks, False)
 
-    with open("players.json","w") as players_file, open("decks.json","w") as decks_file :
-        json.dump(players, players_file, ensure_ascii=False)
+    with open("players.json","w", encoding="utf-8") as players_file, open("decks.json","w", encoding="utf-8") as decks_file :
+        json.dump(players, players_file)
         json.dump(decks, decks_file, ensure_ascii=False)
     
     with open("rencontres_fraiches.csv", newline="") as rencontres_fraiches_file, open("rencontres.csv", "a", newline="") as rencontres_file :
