@@ -108,7 +108,7 @@ if __name__ == "__main__" :
         for rencontre in rencontres_csv:
             data_changed = data_changed | processRencontre(rencontre, players, decks, False)
 
-    with open("players.json","w", encoding="utf-8") as players_file, open("decks.json","w", encoding="utf-8") as decks_file :
+    with open("players.json","w") as players_file, open("decks.json","w") as decks_file :#, encoding="utf-8"
         json.dump(players, players_file)
         json.dump(decks, decks_file, ensure_ascii=False)
     
