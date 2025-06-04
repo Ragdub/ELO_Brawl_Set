@@ -109,7 +109,7 @@ if __name__ == "__main__" :
             data_changed = data_changed | processRencontre(rencontre, players, decks, False)
 
     with open("players.json","w") as players_file, open("decks.json","w") as decks_file :#, encoding="utf-8"
-        json.dump(players, players_file)
+        json.dump(players, players_file, ensure_ascii=False)
         json.dump(decks, decks_file, ensure_ascii=False)
     
     with open("rencontres_fraiches.csv", newline="") as rencontres_fraiches_file, open("rencontres.csv", "a", newline="") as rencontres_file :
