@@ -6,7 +6,7 @@ def writing_sorted_players_tournois(players_file_name, sorted_players_tournois_f
         players = json.load(players_file)
         players_elo = []
         for player,player_elo in players.items():
-            players_elo.append([player,player_elo["ELO Tournoi"]])
+            players_elo.append([player,player_elo["ELO Tournoi"]["current"]])
         writer = csv.writer(sorted_players_csv)
         writer.writerow(["Joueureuses","ELO"])
         for player in sorted(players_elo,key = lambda x : x[1]) :

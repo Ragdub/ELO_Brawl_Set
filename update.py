@@ -6,10 +6,10 @@ K_DECKS = 10
 ALPHA = 0.7
 
 def getDefaultPlayerELO():
-    return { "ELO" : 100, "ELO Tournoi" : 100 }
+    return { "ELO" : { "current" : 100, "historic" : {} }, "ELO Tournoi" : { "current" : 100, "historic" : {} } }
 
 def getDefaultDeckELO():
-    return { "ELO" : 100, "ELO Tournoi" : 100 }
+    return { "ELO" : { "current" : 100, "historic" : {} }, "ELO Tournoi" : { "current" : 100, "historic" : {} } }
 
 def getEloModifier(won, elo_player, elo_opponent):
     """Returns the pourcentage to add to the ELO of a given player.
@@ -74,8 +74,8 @@ def processRencontre(rencontre, players_global, decks_global, is_trusted):
     for elo_label in elo_to_modify:
         elo_mixed = []
         for index in range(2):
-            deck_elo = decks[index][elo_label]
-            player_elo = players[index][elo_label]
+            deck_elo = decks[index][elo_label]["current"]
+            player_elo = players[index][elo_label]["current"]
             elo_mixed.append(ALPHA * deck_elo + (1 - ALPHA) * player_elo)
 
         elo_modifier = []
@@ -91,11 +91,14 @@ def processRencontre(rencontre, players_global, decks_global, is_trusted):
 
         # Modifying elos
         for index in range(2):
-            old_deck_elo = decks[index][elo_label]
-            old_player_elo = players[index][elo_label]
+            new_deck_elo = decks[index][elo_label]["current"] + K_DECKS * elo_modifier[index]
+            new_player_elo = players[index][elo_label]["current"] + K_PLAYER * elo_modifier[index]
+            
             # decks and player are storing references to the data in the global datas.
-            decks[index][elo_label] += K_DECKS * elo_modifier[index]
-            players[index][elo_label] += K_PLAYER * elo_modifier[index]
+            decks[index][elo_label]["current"] = new_deck_elo
+            decks[index][elo_label]["historic"][rencontre["Date"]] = new_deck_elo
+            players[index][elo_label]["current"] = new_player_elo
+            players[index][elo_label]["historic"][rencontre["Date"]] = new_player_elo
     return data_changed
 
 if __name__ == "__main__" :

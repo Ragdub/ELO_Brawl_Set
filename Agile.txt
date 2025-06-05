@@ -1,17 +1,21 @@
-Tâches à faire:
----------------
+Tâches à faire :
+----------------
 
-Changer les jsons de ELO pour garder l'historique du ELO (on ajoute un json dans le json avec date:ELO_à_cette_date)
-Changer les jsons de ELO pour calculer quels decks chaque joueureuse a joué (en tournois ou pas), contre qui, les némésis et souffre-douleurs, etc
 Faire en sorte que les rencontres soient rangées dans l'ordre chronologique dans rencontres.csv
 Développer update
 Lier les decks et leurs sets possibles dans l'odt
 Mettre à jour automatiquement les listes de decks/joueureuses/sets dans les feuilles de rencontres_fraiches.odt
 Ou développer un moyen de rentrer les rencontres qui soit facile d'utilisation (auto-completion, etc)
 
+Propositions :
+--------------
+
+Rajouter le nom complet des sets (àdemander lors de l'ajout d'un nouveau set)
+
 Dylan :
 -------
 Mettre à jour les noms des joueureuses pour avoir tout le monde en "prénom nom"
+Changer les jsons de ELO pour calculer quels decks chaque joueureuse a joué (en tournois ou pas), contre qui, les némésis et souffre-douleurs, etc
 
 Gaëlle :
 --------
@@ -19,3 +23,5 @@ Factoriser les gets
 
 Accomplies :
 ------------
+
+Changer les jsons de ELO pour garder l'historique du ELO (on ajoute un json dans le json avec date:ELO_à_cette_date)

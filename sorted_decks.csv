@@ -14,17 +14,16 @@ Vorinclex,khm,75.91668845600259
 Rafiq of the Many,ala,85.18759571355248
 "Falco Spara, Pactweaver",snc,85.43562557903444
 "Wylie Duke, Atiin Hero",otj,85.52872168650619
-"Dovin, Grand Arbiter",rna,86.08704114762402
 Admiral Beckett Brass,xln,87.0967886415876
 "Kolodin, Triumph Caster",dft,88.10500985231575
 "Totentanz, Swarm Piper",woe,88.51527828163114
-"Kellan, the Kid",otj,89.47844119300161
+"Kellan, the Kid",otj,89.55182653162838
 "Byrke, Long Ear of the Law",blb,90.08356184824765
 "Raff Capashen, Ship's Mage",dom,90.09353160738355
 "Vivien, Monsters' Advocate",iko,90.13062537261196
 "Baylen, the Haymaker",blb,90.18746873466594
-Gideon Jura,roe,90.36607321496552
-"Kyodai, Soul of Kamigawa",neo,91.44137679548801
+"Dovin, Grand Arbiter",rna,90.26439310083073
+Gideon Jura,roe,90.29145678403833
 "Wydwen, the Biting Gale",lrw,91.56920975779776
 "Neriv, Heart of the Storm",tdm,91.64624005648355
 "Lagrella, the Magpie",snc,92.255429539645
@@ -32,7 +31,7 @@ The Mindskinner,dsk,92.37649213415004
 "Camellia, the Seedmiser",blb,92.48776208713097
 "Helga, Skittish Seer",blb,93.3623793674698
 Marina Vendrell,dsk,93.54104086809647
-"Esika, God of the Tree // The Prismatic Bridge",khm,93.81824671621584
+"Esika, God of the Tree // The Prismatic Bridge",khm,93.89047174021704
 "Vohar, Vodalian Desecrator",dmu,93.96432244400485
 Teysa Karlov,rna,94.13638680694396
 Admiral Beckett Brass,lcc,94.1435069517591
@@ -59,6 +58,7 @@ Nissa of Shadowed Boughs,znr,95.26522915359371
 "Titania, Nature's Force",brc,95.39914045638298
 Quintorius Kand,lci,95.4542114286319
 "Mishra, Claimed by Gix",bro,95.47190496412506
+"Kyodai, Soul of Kamigawa",neo,95.55957263242547
 "Marchesa, Dealer of Death",otj,95.95123153851851
 The Mycotyrant,lci,96.12208589304294
 "Etrata, the Silencer",grn,97.36918595186206
@@ -68,9 +68,9 @@ The Mycotyrant,lci,96.12208589304294
 "Migloz, Maze Crusher",one,98.91221168465214
 Cromat,apc,99.06336774376769
 "Omnath, Locus of Mana",wwk,99.20849024475277
-Beluna Grandsquall,woe,99.47680903366859
 "Chandra, Hope's Beacon",mom,99.49196522884431
 "Tovolar, Dire Overlord",mid,99.50185408546352
+Beluna Grandsquall,woe,99.6231116066728
 Scion of the Ur-Dragon,tsp,99.62574163232645
 Eshki Dragonclaw,tdm,99.67695513152212
 "Talion, the Kindly Lord",woe,99.72121802501734
@@ -105,8 +105,8 @@ Zurgo and Ojutai,mom,102.99691886250802
 "Chandra, Flamecaller",ogw,104.20587435460314
 Hylda of the Icy Crown,woe,104.26346916763765
 "Niv-Mizzet, Guildpact",mkm,104.4217518388524
-"Ob Nixilis, the Adversary",snc,104.57916532400586
 "Loot, the Pathfinder",dft,104.5907277292124
+"Ob Nixilis, the Adversary",snc,104.65378175493305
 The Wandering Rescuer,dsk,104.70711982001866
 Satoru Umezawa,neo,104.73477084640629
 Thraximundar,arb,104.76353119469229
@@ -114,15 +114,16 @@ Thraximundar,arb,104.76353119469229
 "Syr Gwyn, Hero of Ashvale",eld,105.00548060045355
 "Liesa, Forgotten Archangel",mid,105.08622237163927
 Dovin Baan,kld,105.30851792483406
+"Sorin, Lord of Innistrad",dka,105.32414670406764
 "Vadrik, Astral Archmage",mid,105.36321410301824
-"Sorin, Lord of Innistrad",dka,105.39753204269441
-"Nissa, Who Shakes the World",war,105.46393242449541
-"Rem Karolus, Stalwart Slayer",mid,105.59176585037056
+"Nissa, Who Shakes the World",war,105.38811963679439
+"Rem Karolus, Stalwart Slayer",mid,105.51954082636937
 "Depala, Pilot Exemplar",kld,105.70400184608707
 "Hama Pashar, Ruin Seeker",afr,105.71636624439157
+"Lagorin, Soul of Alacria",dft,108.95076397129253
 "Chandra, Dressed to Kill",vow,109.59616291470554
 "Malcolm, Alluring Scoundrel",lci,109.74400369182797
-The Wandering Emperor,neo,109.96572693445245
+The Wandering Emperor,neo,109.89523714914927
 "Ral, Crackling Wit",blb,109.97010394477066
 "Ash, Party Crasher",woe,110.05687959820176
 "Korvold, Fae-Cursed King",eld,110.10074199444524
@@ -141,7 +142,6 @@ Anax and Cymede,ths,111.8229342139202
 "Far Fortune, End Boss",dft,115.5377919885521
 "Mabel, Heir to Cragflame",blb,115.83570258637648
 Thalia and The Gitrog Monster,mom,116.59776640083074
-"Lagorin, Soul of Alacria",dft,117.2463117614367
 "Illuna, Apex of Wishes",iko,118.23121436245737
 "Raffine, Scheming Seer",snc,118.9162387123056
 The Swarmweaver,dsk,119.46237485923109
