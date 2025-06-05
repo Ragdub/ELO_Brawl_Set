@@ -6,10 +6,10 @@ K_DECKS = 10
 ALPHA = 0.7
 
 def getDefaultPlayerELO():
-    return { "ELO" : { "current" : 100, "historic" : {} }, "ELO Tournoi" : { "current" : 100, "historic" : {} } }
+    return { "ELO" : { "current" : 100, "match number" : 0, "list decks" : [], "historic" : {} }, "ELO Tournoi" : { "current" : 100, "match number" : 0, "list decks" : [], "historic" : {} } }
 
 def getDefaultDeckELO():
-    return { "ELO" : { "current" : 100, "historic" : {} }, "ELO Tournoi" : { "current" : 100, "historic" : {} } }
+    return { "ELO" : { "current" : 100, "match number" : 0, "list players" : [], "historic" : {} }, "ELO Tournoi" : { "current" : 100, "match number" : 0, "list players" : [], "historic" : {} } }
 
 def getEloModifier(won, elo_player, elo_opponent):
     """Returns the pourcentage to add to the ELO of a given player.
@@ -19,13 +19,23 @@ def getEloModifier(won, elo_player, elo_opponent):
     return won - 1 / ( 1 + 10 ** ((elo_opponent - elo_player) / 400))
 
 def processRencontre(rencontre, players_global, decks_global, is_trusted):
+    """Process a match and update the ELO of decks and players involved
+    Return which among "decks", "players" and "magic_sets" has a new entry
+    
+    rencontre: a match that happend at Date between JoueureuseA playing DeckA of SetA and JoueureuseB playing DeckB of SetB. The score is ScoreA to ScoreB. Tournois != "" if the match took place during a tournament
+    is_trusted: is true if the verifications that the data in rencontre doesn't need double checking when not already in the database.
+    """
     data_changed = set()
     players = []
+    players_names = []
     decks = []
+    decks_names = []
     scores = []
     for suffix in ["A", "B"]:
         player = rencontre[f"Joueureuse{suffix}"]
+        players_names.append(player)
         deck = rencontre[f"Deck{suffix}"]
+        decks_names.append(deck)
         magic_set = rencontre[f"Set{suffix}"]
         try:
             players.append(players_global[player])
@@ -93,11 +103,21 @@ def processRencontre(rencontre, players_global, decks_global, is_trusted):
         for index in range(2):
             new_deck_elo = decks[index][elo_label]["current"] + K_DECKS * elo_modifier[index]
             new_player_elo = players[index][elo_label]["current"] + K_PLAYER * elo_modifier[index]
+            player_name = players_names[index]
+            deck_name = decks_names[index]
             
             # decks and player are storing references to the data in the global datas.
             decks[index][elo_label]["current"] = new_deck_elo
+            decks[index][elo_label]["match number"] += 1
+            if not player_name in decks[index][elo_label]["list players"]:
+                decks[index][elo_label]["list players"].append(player_name)
+                decks[index][elo_label]["list players"].sort()
             decks[index][elo_label]["historic"][rencontre["Date"]] = new_deck_elo
             players[index][elo_label]["current"] = new_player_elo
+            players[index][elo_label]["match number"] += 1
+            if not deck_name in players[index][elo_label]["list decks"]:
+                players[index][elo_label]["list decks"].append(deck_name)
+                players[index][elo_label]["list decks"].sort()
             players[index][elo_label]["historic"][rencontre["Date"]] = new_player_elo
     return data_changed
 
