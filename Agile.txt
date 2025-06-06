@@ -10,10 +10,11 @@ Ou développer un moyen de rentrer les rencontres qui soit facile d'utilisation 
 Propositions :
 --------------
 
-Rajouter le nom complet des sets (àdemander lors de l'ajout d'un nouveau set)
-Prendre en compte les tier d'un deck pour le ELO de base (1000 -100 x tier)
+Rajouter le nom complet des sets (à demander lors de l'ajout d'un nouveau set)
+Prendre en compte le tier d'un deck pour le ELO de base (1000 -100 x tier)
 Calculer la liste triée de qui a joué combien de parties (tournois/amical)
-Calculer la liste de qui a joué combien de BSets (tournois/amical)
+Calculer la liste triée de qui a joué combien de BSets (tournois/amical)
+Rajouter des commentaires de description du code
 
 Dylan :
 -------

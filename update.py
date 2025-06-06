@@ -6,10 +6,16 @@ K_DECKS = 10
 ALPHA = 0.7
 
 def getDefaultPlayerELO():
-    return { "ELO" : { "current" : 100, "match number" : 0, "list decks" : [], "historic" : {} }, "ELO Tournoi" : { "current" : 100, "match number" : 0, "list decks" : [], "historic" : {} } }
-
+    return { "current" : 100, "match number" : 0, "decks played" : {}, "players fought" : {}, "historic" : {} }
+    
 def getDefaultDeckELO():
-    return { "ELO" : { "current" : 100, "match number" : 0, "list players" : [], "historic" : {} }, "ELO Tournoi" : { "current" : 100, "match number" : 0, "list players" : [], "historic" : {} } }
+    return { "current" : 100, "match number" : 0, "players" : {}, "decks fought" : {}, "historic" : {} }
+
+def getDefaultPlayerData():
+    return { "ELO" : getDefaultPlayerELO(), "ELO Tournoi" : getDefaultPlayerELO() }
+
+def getDefaultDeckData():
+    return { "ELO" : getDefaultDeckELO(), "ELO Tournoi" : getDefaultDeckELO() }
 
 def getEloModifier(won, elo_player, elo_opponent):
     """Returns the pourcentage to add to the ELO of a given player.
@@ -44,7 +50,7 @@ def processRencontre(rencontre, players_global, decks_global, is_trusted):
             if not is_trusted:
                 is_player_correct = input(f"Is {player} a new player? (Y/n)")
             if is_player_correct == "Y" or is_player_correct == "y" or is_player_correct == "" or is_trusted:
-                new_player = getDefaultPlayerELO()
+                new_player = getDefaultPlayerData()
                 players_global[player] = new_player
                 players.append(new_player)
                 data_changed.add("players")
@@ -69,7 +75,7 @@ def processRencontre(rencontre, players_global, decks_global, is_trusted):
             if not is_trusted:
                 is_deck_correct = input(f"Is {deck} a correct deck from the set {magic_set}? (Y/n)")
             if is_deck_correct == "Y" or is_deck_correct == "y" or is_deck_correct == "" or is_trusted:
-                new_deck = getDefaultDeckELO()
+                new_deck = getDefaultDeckData()
                 magic_set_work[deck] = new_deck
                 decks.append(new_deck)
                 data_changed.add("decks")
@@ -101,24 +107,47 @@ def processRencontre(rencontre, players_global, decks_global, is_trusted):
 
         # Modifying elos
         for index in range(2):
-            new_deck_elo = decks[index][elo_label]["current"] + K_DECKS * elo_modifier[index]
-            new_player_elo = players[index][elo_label]["current"] + K_PLAYER * elo_modifier[index]
+            opp_index = 1 - index
+            deck = decks[index][elo_label]
+            player = players[index][elo_label]
+            new_deck_elo = deck["current"] + K_DECKS * elo_modifier[index]
+            new_player_elo = player["current"] + K_PLAYER * elo_modifier[index]
             player_name = players_names[index]
             deck_name = decks_names[index]
+            opponent_name = players_names[opp_index]
+            opponent_deck_name = decks_names[opp_index]
             
             # decks and player are storing references to the data in the global datas.
-            decks[index][elo_label]["current"] = new_deck_elo
-            decks[index][elo_label]["match number"] += 1
-            if not player_name in decks[index][elo_label]["list players"]:
-                decks[index][elo_label]["list players"].append(player_name)
-                decks[index][elo_label]["list players"].sort()
-            decks[index][elo_label]["historic"][rencontre["Date"]] = new_deck_elo
-            players[index][elo_label]["current"] = new_player_elo
-            players[index][elo_label]["match number"] += 1
-            if not deck_name in players[index][elo_label]["list decks"]:
-                players[index][elo_label]["list decks"].append(deck_name)
-                players[index][elo_label]["list decks"].sort()
-            players[index][elo_label]["historic"][rencontre["Date"]] = new_player_elo
+            # we first update the data of the deck
+            deck["current"] = new_deck_elo
+            deck["match number"] += 1
+            if not player_name in deck["players"].keys():
+                deck["players"][player_name] = 0
+            deck["players"][player_name] += 1
+            if not opponent_deck_name in deck["decks fought"].keys():
+                deck["decks fought"][opponent_deck_name] = {"win" : 0, "draw" : 0, "lose" : 0}
+            if scores[index] > scores[opp_index]:
+                deck["decks fought"][opponent_deck_name]["win"] += 1
+            elif scores[index] < scores[opp_index]:
+                deck["decks fought"][opponent_deck_name]["lose"] += 1
+            else:
+                deck["decks fought"][opponent_deck_name]["draw"] += 1
+            deck["historic"][rencontre["Date"]] = new_deck_elo
+            # then we update the data of the player
+            player["current"] = new_player_elo
+            player["match number"] += 1
+            if not deck_name in player["decks played"].keys():
+                player["decks played"][deck_name] = 0
+            if not opponent_name in player["players fought"].keys():
+                player["players fought"][opponent_name] = {"win" : 0, "draw" : 0, "lose" : 0}
+            if scores[index] > scores[opp_index]:
+                player["players fought"][opponent_name]["win"] += 1
+            elif scores[index] < scores[opp_index]:
+                player["players fought"][opponent_name]["lose"] += 1
+            else:
+                player["players fought"][opponent_name]["draw"] += 1
+            player["decks played"][deck_name] += 1
+            player["historic"][rencontre["Date"]] = new_player_elo
     return data_changed
 
 if __name__ == "__main__" :
