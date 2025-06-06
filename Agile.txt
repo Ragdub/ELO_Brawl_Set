@@ -19,7 +19,6 @@ Rajouter des commentaires de description du code
 Dylan :
 -------
 Mettre à jour les noms des joueureuses pour avoir tout le monde en "prénom nom"
-Changer les jsons de ELO pour calculer quels decks chaque joueureuse a joué (en tournois ou pas), contre qui, les némésis et souffre-douleurs, etc
 
 Gaëlle :
 --------
@@ -29,3 +28,4 @@ Accomplies :
 ------------
 
 Changer les jsons de ELO pour garder l'historique du ELO (on ajoute un json dans le json avec date:ELO_à_cette_date)
+Changer les jsons de ELO pour calculer quels decks chaque joueureuse a joué (en tournois ou pas), contre qui, les némésis et souffre-douleurs, etc
