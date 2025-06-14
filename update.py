@@ -152,7 +152,7 @@ def processRencontre(rencontre, players_global, decks_global, is_trusted):
 
 if __name__ == "__main__" :
 
-    with open("rencontres_fraiches.csv", newline="") as rencontre_csv_file, open("players.json", encoding="utf-8") as players_file, open("decks.json", encoding="utf-8") as decks_file :
+    with open("rencontres_fraiches.csv", newline="", encoding='utf-8') as rencontre_csv_file, open("players.json", encoding="utf-8") as players_file, open("decks.json", encoding="utf-8") as decks_file :
         rencontres_csv = csv.DictReader(rencontre_csv_file)
         players = json.load(players_file)
         decks = json.load(decks_file)
