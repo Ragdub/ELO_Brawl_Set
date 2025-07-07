@@ -6,6 +6,9 @@ Développer update
 Lier les decks et leurs sets possibles dans l'odt
 Mettre à jour automatiquement les listes de decks/joueureuses/sets dans les feuilles de rencontres_fraiches.odt
 Ou développer un moyen de rentrer les rencontres qui soit facile d'utilisation (auto-completion, etc)
+Adapter le ELO de départ des decks en fonction de leur tiers
+Demander le tier d'un deck lors de son premier ajout
+Demander si un nouveau joueur veut un ELO lors de son ajout
 
 Propositions :
 --------------
@@ -19,6 +22,7 @@ Rajouter des commentaires de description du code
 Dylan :
 -------
 Mettre à jour les noms des joueureuses pour avoir tout le monde en "prénom nom"
+Adapter le ELO pour les joueurs ne voulant pas de ELO
 
 Gaëlle :
 --------
