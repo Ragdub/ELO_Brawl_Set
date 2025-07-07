@@ -2,11 +2,11 @@ import datetime
 import update
 
 
-def generateELO(rencontres_list):
+def generateELO(rencontres_list, ELO_clearance):
     global_players_data = {}
     global_decks_data = {}
     for rencontre in rencontres_list:
-        update.processRencontre(rencontre, global_players_data, global_decks_data, True)
+        update.processRencontre(rencontre, global_players_data, ELO_clearance, global_decks_data, True)
 
     return global_players_data, global_decks_data
 
@@ -16,12 +16,16 @@ if __name__ == '__main__':
 
     decks_filename = "decks.json"
     players_filename = "players.json"
+    ELO_clearance_filename = "players_ELO_clearance.txt"
     rencontres_filename = "rencontres.csv"
 
-    with open(rencontres_filename, newline="") as rencontres_file:
+    with open(rencontres_filename, newline="") as rencontres_file, open(ELO_clearance_filename) as ELO_clearance_file:
         rencontres_list = csv.DictReader(rencontres_file)
+        ELO_clearance = ELO_clearance_file.read().split("\n")
+        ELO_clearance = ELO_clearance[0:len(ELO_clearance)-1]
+        print(ELO_clearance)
 
-        players_data, decks_data = generateELO(rencontres_list)
+        players_data, decks_data = generateELO(rencontres_list, ELO_clearance)
 
     with open(players_filename, mode="w") as players_file:
         json.dump(players_data, players_file, ensure_ascii=False)
@@ -48,8 +52,8 @@ if __name__ == '__main__':
 
     get_sorted_decks.writing_sorted_decks("decks.json","sorted_decks.csv")
     get_sorted_decks_tournois.writing_sorted_decks_tournois("decks.json","sorted_decks_tournois.csv")
-    get_sorted_players.writing_sorted_players("players.json", "sorted_players.csv")
-    get_sorted_players_tournois.writing_sorted_players_tournois("players.json","sorted_players_tournois.csv")
+    get_sorted_players.writing_sorted_players("players.json", "sorted_players.csv",ELO_clearance_filename)
+    get_sorted_players_tournois.writing_sorted_players_tournois("players.json","sorted_players_tournois.csv",ELO_clearance_filename)
 
 
 
