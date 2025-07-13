@@ -23,7 +23,6 @@ if __name__ == '__main__':
         rencontres_list = csv.DictReader(rencontres_file)
         ELO_clearance = ELO_clearance_file.read().split("\n")
         ELO_clearance = ELO_clearance[0:len(ELO_clearance)-1]
-        print(ELO_clearance)
 
         players_data, decks_data = generateELO(rencontres_list, ELO_clearance)
 

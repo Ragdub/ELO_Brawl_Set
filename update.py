@@ -171,7 +171,6 @@ if __name__ == "__main__" :
         rencontres_csv = csv.DictReader(rencontre_csv_file)
         ELO_clearance = ELO_clearance_file.read().split("\n")
         ELO_clearance = ELO_clearance[0:len(ELO_clearance)-1]
-        print(ELO_clearance)
         players = json.load(players_file)
         decks = json.load(decks_file)
         data_changed = set()
