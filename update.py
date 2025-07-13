@@ -151,15 +151,19 @@ def updateDeck(deck, opponent_deck_name, player_name, date, result, elo_modifier
     deck["historic"][date] = new_deck_elo
     deck["match number"] += 1
     if not player_name in deck["players"].keys():
-        deck["players"][player_name] = 0
-    deck["players"][player_name] += 1
+        deck["players"][player_name] = {"number" : 0, "win" : 0, "draw" : 0, "lose" : 0}
     if not opponent_deck_name in deck["decks fought"].keys():
-        deck["decks fought"][opponent_deck_name] = {"win" : 0, "draw" : 0, "lose" : 0}
+        deck["decks fought"][opponent_deck_name] = {"number" : 0, "win" : 0, "draw" : 0, "lose" : 0}
+    deck["players"][player_name]["number"] += 1
+    deck["decks fought"][opponent_deck_name]["number"] += 1
     if result == "win":
+        deck["players"][player_name]["win"] += 1
         deck["decks fought"][opponent_deck_name]["win"] += 1
     elif result == "lose":
+        deck["players"][player_name]["lose"] += 1
         deck["decks fought"][opponent_deck_name]["lose"] += 1
     else:
+        deck["players"][player_name]["draw"] += 1
         deck["decks fought"][opponent_deck_name]["draw"] += 1
 
 def updatePlayer(player, elo_clearance, opponent_name, deck_name, date, result, elo_modifier):
@@ -171,15 +175,19 @@ def updatePlayer(player, elo_clearance, opponent_name, deck_name, date, result, 
         player["historic"][date] = new_player_elo
     player["match number"] += 1
     if not deck_name in player["decks played"].keys():
-        player["decks played"][deck_name] = 0
-    player["decks played"][deck_name] += 1
+        player["decks played"][deck_name] = {"number" : 0, "win" : 0, "draw" : 0, "lose" : 0}
     if not opponent_name in player["players fought"].keys():
-        player["players fought"][opponent_name] = {"win" : 0, "draw" : 0, "lose" : 0}
+        player["players fought"][opponent_name] = {"number" : 0, "win" : 0, "draw" : 0, "lose" : 0}
+    player["decks played"][deck_name]["number"] += 1
+    player["players fought"][opponent_name]["number"] += 1
     if result == "win":
+        player["decks played"][deck_name]["win"] += 1
         player["players fought"][opponent_name]["win"] += 1
     elif result == "lose":
+        player["decks played"][deck_name]["lose"] += 1
         player["players fought"][opponent_name]["lose"] += 1
     else:
+        player["decks played"][deck_name]["draw"] += 1
         player["players fought"][opponent_name]["draw"] += 1
 
 def updateData(decks, players, decks_names, players_names, scores, date, elo_clearances, data_label):
