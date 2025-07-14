@@ -30,17 +30,17 @@ def getEloModifier(won, elo_player, elo_opponent):
     """
     return won - 1 / ( 1 + 10 ** ((elo_opponent - elo_player) / 400))
 
-def readPlayer(player, players_global, data_changed, ELO_clearance, elo_clearances, is_trusted):
+def readPlayer(player, players_global, data_changed, elo_clearance, elo_clearances, is_trusted):
     """Returns the json of the player "player" in players_global and stores whether the player have agreed to have a personal ELO in elo_clearance. If player is not in players_global, returns a new entry and adds "players" to data_changed.
     
     player: the name of the player.
     players_global: the data base of all players data.
     data_changed: tracks new entries in the data_base.
-    ELO_clearance: list of players that have agreed to have a personal ELO.
+    elo_clearance: list of players that have agreed to have a personal ELO.
     elo_clearances: list of clearances.
     is_trusted: bypass input verification.
     """
-    elo_clearance = player in ELO_clearance
+    elo_clearance = player in elo_clearance
     elo_clearances.append(elo_clearance)
     try:
         return players_global[player]
@@ -208,13 +208,31 @@ def updateData(decks, players, decks_names, players_names, scores, date, elo_cle
         updateDeck(deck, opponent_deck_name, player_name, date, result, elo_modifier[index])
         updatePlayer(player, elo_clearances[index], opponent_name, deck_name, date, result, elo_modifier[index])
 
-def processRencontre(rencontre, players_global, ELO_clearance, decks_global, is_trusted):
-    """Process a match and update the ELO of decks and players involved
-    Return which among "decks", "players" and "magic_sets" has a new entry
+def updateDataDeck(decks, players, decks_names, players_names, scores, date, elo_clearances, data_label):
+    """Updates the data in decks and players.
+    """
+    elo_decks = []
+    elo_decks.append(decks[1][data_label]["ELO"])
+    elo_decks.append(decks[2][data_label]["ELO"])
+    elo_modifier = computeELOmodifier(scores, elo_decks)
+    for index in range(2):
+        opp_index = 1 - index
+        result = computeResult(scores, index)
+        deck = decks[index][data_label]
+        player_name = players_names[index]
+        deck_name = decks_names[index]
+        opponent_name = players_names[opp_index]
+        opponent_deck_name = decks_names[opp_index]
+        
+        updateDeck(deck, opponent_deck_name, player_name, date, result, elo_modifier[index])
+
+def processRencontre(rencontre, players_global, elo_clearance, decks_global, is_trusted):
+    """Process a match and update the ELO of decks and players involved.
+    Return which among "decks", "players" and "magic_sets" has a new entry.
     
     rencontre: a match that happend at Date between JoueureuseA playing DeckA of SetA and JoueureuseB playing DeckB of SetB. The score is ScoreA to ScoreB. Tournois != "" if the match took place during a tournament.
-    ELO_clearnace : table of which players want to have a ELO.
-    is_trusted: is true if the verifications that the data in rencontre doesn't need double checking when not already in the database.
+    elo_clearnace : list of which players want to have a ELO.
+    is_trusted: is true if the data in rencontre don't need double checking when not already in the database.
     """
     data_changed = set()
     players = []
@@ -232,7 +250,7 @@ def processRencontre(rencontre, players_global, ELO_clearance, decks_global, is_
         magic_set = rencontre[f"Set{suffix}"]
         scores.append(rencontre[f"Score{suffix}"])
         
-        players.append(readPlayer(player, players_global, data_changed, ELO_clearance, elo_clearances, is_trusted))
+        players.append(readPlayer(player, players_global, data_changed, elo_clearance, elo_clearances, is_trusted))
         magic_set_work = readSet(magic_set, decks_global, data_changed, is_trusted)
         decks.append(readDeck(deck, decks_global, magic_set_work, data_changed, is_trusted))
 
@@ -245,29 +263,141 @@ def processRencontre(rencontre, players_global, ELO_clearance, decks_global, is_
     
     return data_changed
 
-if __name__ == "__main__" :
-
-    with open("rencontres_fraiches.csv", newline="", encoding='utf-8') as rencontre_csv_file, open("players.json", encoding="utf-8") as players_file, open("decks.json", encoding="utf-8") as decks_file, open("players_ELO_clearance.txt", encoding='utf-8') as ELO_clearance_file:
-        rencontres_csv = csv.DictReader(rencontre_csv_file)
-        ELO_clearance = ELO_clearance_file.read().split("\n")
-        ELO_clearance = ELO_clearance[0:len(ELO_clearance)-1]
-        players = json.load(players_file)
-        decks = json.load(decks_file)
-        data_changed = set()
-        for rencontre in rencontres_csv:
-            data_changed = data_changed | processRencontre(rencontre, players, ELO_clearance, decks, False)
-
-    with open("players.json","w") as players_file, open("decks.json","w") as decks_file :#, encoding="utf-8"
-        json.dump(players, players_file, ensure_ascii=False)
-        json.dump(decks, decks_file, ensure_ascii=False)
+def processRencontreDeckOnly(rencontre, decks_global, is_trusted):
+    """Process a match and update the ELO of decks involved.
+    Return which among "decks" and "magic_sets" has a new entry.
     
-    with open("rencontres_fraiches.csv", newline="") as rencontres_fraiches_file, open("rencontres.csv", "a", newline="") as rencontres_file :
+    rencontre: a match that happend at Date between JoueureuseA playing DeckA of SetA and JoueureuseB playing DeckB of SetB. The score is ScoreA to ScoreB. Tournois != "" if the match took place during a tournament.
+    is_trusted: is true if the data in rencontre don't need double checking when not already in the database.
+    """
+    data_changed = set()
+    players_names = []
+    decks = []
+    decks_names = []
+    scores = []
+    date = rencontre["Date"]
+    elo_clearances = []
+    for suffix in ["A", "B"]:
+        player = rencontre[f"Joueureuse{suffix}"]
+        players_names.append(player)
+        deck = rencontre[f"Deck{suffix}"]
+        decks_names.append(deck)
+        magic_set = rencontre[f"Set{suffix}"]
+        scores.append(rencontre[f"Score{suffix}"])
+        
+        magic_set_work = readSet(magic_set, decks_global, data_changed, is_trusted)
+        decks.append(readDeck(deck, decks_global, magic_set_work, data_changed, is_trusted))
+
+    data_to_modify = [ "Data" ]
+    if rencontre["Tournois"]:
+        data_to_modify.append("Data Tournoi")
+
+    for data_label in data_to_modify:
+        updateData(decks, players, decks_names, players_names, scores, date, elo_clearances, data_label)
+    
+    return data_changed
+
+def checkClearance(players, elo_clearance):
+    """Return wether all players is "players" are in elo_clearance
+    """
+    resu = True
+    for player in players:
+        resu = resu & (player in elo_clearance)
+    return resu
+
+def processRencontreMixtOnly(rencontre, players_global, elo_clearance, decks_global, is_trusted):
+    """Process a match and update the ELO of decks and players involved when both opponent agreed to have a ELO.
+    Return which among "decks", "players" and "magic_sets" has a new entry
+    
+    rencontre: a match that happend at Date between JoueureuseA playing DeckA of SetA and JoueureuseB playing DeckB of SetB. The score is ScoreA to ScoreB. Tournois != "" if the match took place during a tournament.
+    elo_clearnace : table of which players want to have a ELO.
+    is_trusted: is true if the data in rencontre don't need double checking when not already in the database.
+    """
+    data_changed = set()
+    players = []
+    players_names = []
+    decks = []
+    decks_names = []
+    magic_set_names = []
+    scores = []
+    date = rencontre["Date"]
+    elo_clearances = [True,True]
+    for suffix in ["A", "B"]:
+        player = rencontre[f"Joueureuse{suffix}"]
+        players_names.append(player)
+        deck = rencontre[f"Deck{suffix}"]
+        decks_names.append(deck)
+        magic_set = rencontre[f"Set{suffix}"]
+        magic_set_names.append(magic_set)
+        scores.append(rencontre[f"Score{suffix}"])
+    
+    if not check_clearance(players_names, elo_clearance):
+        return set()
+    for index in range(2):
+        players.append(readPlayer(players_names[index], players_global, data_changed, elo_clearance, [], is_trusted))
+        magic_set_work = readSet(magic_set_names[index], decks_global, data_changed, is_trusted)
+        decks.append(readDeck(decks_names[index], decks_global, magic_set_work, data_changed, is_trusted))
+
+    data_to_modify = [ "Data" ]
+    if rencontre["Tournois"]:
+        data_to_modify.append("Data Tournoi")
+
+    for data_label in data_to_modify:
+        updateData(decks, players, decks_names, players_names, scores, date, elo_clearances, data_label)
+    
+    return data_changed
+
+def computeELO(rencontres, players, elo_clearance, decks, is_trusted):
+    data_changed = set()
+    for rencontre in rencontres:
+        data_changed = data_changed | processRencontre(rencontre, players, elo_clearance, decks, is_trusted)
+
+def computeELODecksOnly(rencontres, players, elo_clearance, decks, is_trusted):
+    data_changed = set()
+    for rencontre in rencontres:
+        data_changed = data_changed | processRencontreDeckOnly(rencontre, players, elo_clearance, decks, is_trusted)
+
+def computeELOMixtOnly(rencontres, players, elo_clearance, decks, is_trusted):
+    data_changed = set()
+    for rencontre in rencontres:
+        data_changed = data_changed | processRencontreMixtOnly(rencontre, players, elo_clearance, decks, is_trusted)
+
+if __name__ == "__main__" :
+    
+    decks_filenames = ["decks.json", "decks_decks_only.json", "decks_mixt_only.json"]
+    players_filename = ["players.json", "players_decks_only.json", "players_mixt_only.json"]
+    elo_labels = ["g", "d", "m"]
+    elo_clearance_filename = "players_ELO_clearance.txt"
+    rencontres_filename = "rencontres.csv"
+    
+    with open(rencontres_file_name, newline="", encoding='utf-8') as rencontre_csv_file, open(elo_clearance_file_name, encoding='utf-8') as elo_clearance_file:
+        for decks_filename, players_filename, elo_label in zip(decks_filenames, players_filenames, elo_labels):
+            with open(players_file_name, encoding="utf-8") as players_file, open(decks_file_name, encoding="utf-8") as decks_file:
+                rencontres_csv = csv.DictReader(rencontre_csv_file)
+                elo_clearance = elo_clearance_file.read().split("\n")
+                elo_clearance = elo_clearance[0:len(elo_clearance)-1]
+                players = json.load(players_file)
+                decks = json.load(decks_file)
+                if elo_label == "g":
+                    data_changed = computeELO(rencontres, players, elo_clearance, decks, False)
+                elif elo_label == "d":
+                    computeELODecksOnly(rencontres, players, elo_clearance, decks, False)
+                elif elo_label == "m":
+                    computeELOMixtOnly(rencontres, players, elo_clearance, decks, False)
+                else:
+                    raise Exception("Bad elo_label")
+        
+            with open(players_file_name,"w", encoding="utf-8") as players_file, open(decks_file_name,"w", encoding="utf-8") as decks_file :#, encoding="utf-8"
+                json.dump(players, players_file, ensure_ascii=False)
+                json.dump(decks, decks_file, ensure_ascii=False)
+    
+    with open(rencontres_file_name, newline="") as rencontres_fraiches_file, open("rencontres.csv", "a", newline="") as rencontres_file :
         rencontres_fraiches = csv.DictReader(rencontres_fraiches_file)
         fieldnames = rencontres_fraiches.fieldnames
         writer = csv.DictWriter(rencontres_file,fieldnames=fieldnames)
         writer.writerows(rencontres_fraiches)
         
-    with open("rencontres_fraiches.csv", newline="", mode="w") as rencontres_fraiches_file :
+    with open(rencontres_file_name, newline="", mode="w") as rencontres_fraiches_file :
         writer = csv.writer(rencontres_fraiches_file)
         writer.writerow(fieldnames)
     
