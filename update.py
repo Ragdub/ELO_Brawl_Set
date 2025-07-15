@@ -208,12 +208,12 @@ def updateData(decks, players, decks_names, players_names, scores, date, elo_cle
         updateDeck(deck, opponent_deck_name, player_name, date, result, elo_modifier[index])
         updatePlayer(player, elo_clearances[index], opponent_name, deck_name, date, result, elo_modifier[index])
 
-def updateDataDeck(decks, players, decks_names, players_names, scores, date, elo_clearances, data_label):
+def updateDataDecks(decks, decks_names, players_names, scores, date, data_label):
     """Updates the data in decks and players.
     """
     elo_decks = []
+    elo_decks.append(decks[0][data_label]["ELO"])
     elo_decks.append(decks[1][data_label]["ELO"])
-    elo_decks.append(decks[2][data_label]["ELO"])
     elo_modifier = computeELOmodifier(scores, elo_decks)
     for index in range(2):
         opp_index = 1 - index
@@ -263,7 +263,7 @@ def processRencontre(rencontre, players_global, elo_clearance, decks_global, is_
     
     return data_changed
 
-def processRencontreDeckOnly(rencontre, decks_global, is_trusted):
+def processRencontreDecksOnly(rencontre, decks_global, is_trusted):
     """Process a match and update the ELO of decks involved.
     Return which among "decks" and "magic_sets" has a new entry.
     
@@ -293,7 +293,7 @@ def processRencontreDeckOnly(rencontre, decks_global, is_trusted):
         data_to_modify.append("Data Tournoi")
 
     for data_label in data_to_modify:
-        updateData(decks, players, decks_names, players_names, scores, date, elo_clearances, data_label)
+        updateDataDecks(decks, decks_names, players_names, scores, date, data_label)
     
     return data_changed
 
@@ -331,7 +331,7 @@ def processRencontreMixtOnly(rencontre, players_global, elo_clearance, decks_glo
         magic_set_names.append(magic_set)
         scores.append(rencontre[f"Score{suffix}"])
     
-    if not check_clearance(players_names, elo_clearance):
+    if not checkClearance(players_names, elo_clearance):
         return set()
     for index in range(2):
         players.append(readPlayer(players_names[index], players_global, data_changed, elo_clearance, [], is_trusted))
@@ -351,16 +351,16 @@ def computeELO(rencontres, players, elo_clearance, decks, is_trusted):
     data_changed = set()
     for rencontre in rencontres:
         data_changed = data_changed | processRencontre(rencontre, players, elo_clearance, decks, is_trusted)
+    return data_changed
 
 def computeELODecksOnly(rencontres, players, elo_clearance, decks, is_trusted):
-    data_changed = set()
     for rencontre in rencontres:
-        data_changed = data_changed | processRencontreDeckOnly(rencontre, players, elo_clearance, decks, is_trusted)
+        processRencontreDecksOnly(rencontre, players, elo_clearance, decks, is_trusted)
 
 def computeELOMixtOnly(rencontres, players, elo_clearance, decks, is_trusted):
     data_changed = set()
     for rencontre in rencontres:
-        data_changed = data_changed | processRencontreMixtOnly(rencontre, players, elo_clearance, decks, is_trusted)
+        processRencontreMixtOnly(rencontre, players, elo_clearance, decks, is_trusted)
 
 if __name__ == "__main__" :
     
@@ -371,11 +371,11 @@ if __name__ == "__main__" :
     rencontres_filename = "rencontres.csv"
     
     with open(rencontres_file_name, newline="", encoding='utf-8') as rencontre_csv_file, open(elo_clearance_file_name, encoding='utf-8') as elo_clearance_file:
+        rencontres_csv = csv.DictReader(rencontre_csv_file)
+        elo_clearance = elo_clearance_file.read().split("\n")
+        elo_clearance = elo_clearance[0:len(elo_clearance)-1]
         for decks_filename, players_filename, elo_label in zip(decks_filenames, players_filenames, elo_labels):
             with open(players_file_name, encoding="utf-8") as players_file, open(decks_file_name, encoding="utf-8") as decks_file:
-                rencontres_csv = csv.DictReader(rencontre_csv_file)
-                elo_clearance = elo_clearance_file.read().split("\n")
-                elo_clearance = elo_clearance[0:len(elo_clearance)-1]
                 players = json.load(players_file)
                 decks = json.load(decks_file)
                 if elo_label == "g":

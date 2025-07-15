@@ -29,7 +29,7 @@ if __name__ == '__main__':
     rencontres_filename = "rencontres.csv"
     
     with open(rencontres_filename, newline="", encoding="utf-8") as rencontres_file, open(elo_clearance_filename, encoding="utf-8") as elo_clearance_file:
-        rencontres_list = csv.DictReader(rencontres_file)
+        rencontres_list = list(csv.DictReader(rencontres_file))
         elo_clearance = elo_clearance_file.read().split("\n")
         elo_clearance = elo_clearance[0:len(elo_clearance)-1]
         
