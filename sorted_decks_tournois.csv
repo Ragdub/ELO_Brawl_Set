@@ -7,6 +7,7 @@ Vorinclex,khm,75.7341048905458
 Rafiq of the Many,ala,85.12302321169724
 "Neriv, Heart of the Storm",tdm,85.15744631511569
 "Choco, Seeker of Paradise",fin,85.20900876633755
+"Mabel, Heir to Cragflame",blb,85.85276051235716
 "Marchesa, Dealer of Death",otj,86.5988269474291
 "Johann, Apprentice Sorcerer",woe,89.52214187179558
 "Dina, Soul Steeper",stx,89.9370140026973
@@ -29,12 +30,14 @@ Sarkhan Unbroken,dtk,94.81017080960376
 Sharae of Numbing Depths,woe,94.95565001062056
 The Royal Scions,eld,94.9597527964247
 Gideon Jura,roe,95.01191428393999
+Gladiolus Amicitia,fin,95.11552897232781
 "Vial Smasher, Gleeful Grenadier",otj,95.13377448529764
 Kaito Shizuki,neo,95.13430612520249
 Eshki Dragonclaw,tdm,95.22505176091526
 "Florian, Voldaren Scion",mid,95.22734362258434
 "Baylen, the Haymaker",blb,95.22881031358453
 Quintorius Kand,lci,95.25290227400279
+"Squall, SeeD Mercenary",fin,95.27790212343076
 "Loot, the Pathfinder",dft,95.31223609202634
 "Far Fortune, End Boss",dft,95.93105659552833
 "Wydwen, the Biting Gale",lrw,96.11765349789192
@@ -68,8 +71,11 @@ Beluna Grandsquall,woe,100
 "Chandra, Torch of Defiance",kld,100
 Sharuum the Hegemon,ala,100
 "Venser, Corpse Puppet",one,100
+"Jor Kadeen, First Goldwarden",one,100
 "Vadrik, Astral Archmage",mid,100
+"Adeline, Resplendent Cathar",mid,100
 "Esika, God of the Tree // The Prismatic Bridge",khm,100
+"Firja, Judge of Valor",khm,100
 "Shaile, Dean of Radiance // Embrose, Dean of Shadow",stx,100
 "Alquist Proft, Master Sleuth",mkm,100
 "Kellan, the Kid",otj,100
@@ -77,6 +83,7 @@ Sharuum the Hegemon,ala,100
 Ezio Auditore Da Firenze,acr,100
 "Cormela, Glamour Thief",snc,100
 "Ob Nixilis, the Adversary",snc,100
+"Clement, the Worrywort",blb,100
 Brion Stoutarm,lrw,100
 "Sygg, River Guide",lrw,100
 Chandra Nalaar,lrw,100
@@ -104,6 +111,7 @@ Cromat,apc,100
 Scion of the Ur-Dragon,tsp,100
 Rhys the Exiled,mor,100
 "Captain Howler, Sea Scourge",dft,100
+"Chandra, Spark Hunter",dft,100
 Liliana of the Veil,isd,100
 Geist of Saint Traft,isd,100
 Admiral Beckett Brass,lcc,100
@@ -119,7 +127,6 @@ Domri Rade,gtc,100
 "Kutzil, Malamet Exemplar",lci,100.1641999501647
 "Greta, Sweettooth Scourge",woe,100.18446682134464
 "Miriam, Herd Whisperer",otj,100.21345702487741
-"Mabel, Heir to Cragflame",blb,100.60432049807855
 "Totentanz, Swarm Piper",woe,100.64153768287615
 "Angrath, the Flame-Chained",rix,100.66013870217843
 "Gev, Scaled Scorch",blb,100.71663008507386
@@ -134,7 +141,6 @@ Thraximundar,arb,104.80620882125638
 "Ziatora, the Incinerator",snc,104.89235774433699
 "Malcolm, Alluring Scoundrel",lci,104.9305828320359
 "Sigarda, Host of Herons",avr,104.93100989383055
-"Sigarda, Champion of Light",mid,104.96505704366201
 "Mendicant Core, Guidelight",dft,104.99541969616456
 "Rem Karolus, Stalwart Slayer",mid,105.03699492799997
 "Kaito, Bane of Nightmares",dsk,105.04550821243984
@@ -143,20 +149,22 @@ Wrenn and Seven,mid,105.05739455711836
 "Judith, the Scourge Diva",rna,105.3658121205647
 "Aurelia, Exemplar of Justice",grn,105.46364756814488
 "Snapdax, Apex of the Hunt",iko,105.53923063690794
-"Zoraline, Cosmos Caller",blb,105.63822914614354
 "Depala, Pilot Exemplar",kld,105.7524602774216
+"Cecil, Dark Knight",fin,109.27912841508522
 "Obyra, Dreaming Duelist",woe,109.39982735004446
 "Etrata, the Silencer",grn,109.75201321549046
 "Skithiryx, the Blight Dragon",som,109.82901904441479
 "Huatli, Poet of Unity",lci,110.05278475132658
 "Korvold, Fae-Cursed King",eld,110.15855815078757
 "Nashi, Searcher in the Dark",dsk,110.35145197914144
+"Zoraline, Cosmos Caller",blb,110.69257978704832
 Thalia and The Gitrog Monster,mom,114.3121680272136
 "Raffine, Scheming Seer",snc,114.48461236424208
 The Swarmweaver,dsk,114.62273667172468
 "Jenova, Ancient Calamity",fin,114.85968325525911
 The Wandering Emperor,neo,114.90646839261645
 "Atraxa, Grand Unifier",one,114.91434944193983
+"Sigarda, Champion of Light",mid,114.98970687763483
 "Glarb, Calamity's Augur",blb,115.109198187684
 "Finneas, Ace Archer",blb,129.01065593182807
 "Arabella, Abandoned Doll",dsk,129.98520156682525

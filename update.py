@@ -72,7 +72,7 @@ def readSet(magic_set, decks_global, data_changed, is_trusted):
     except KeyError:
         is_set_correct = "Y"
         if not is_trusted:
-            is_set_correct = input(f"Is {magic_set} a correct magic set? (Y/n)")
+            is_set_correct = input(f"Is {magic_set_name} a correct magic set? (Y/n)")
         magic_set_work = dict()
         if is_set_correct == "Y" or is_set_correct == "y" or is_set_correct == "" or is_trusted:
             decks_global[magic_set] = magic_set_work
@@ -81,7 +81,7 @@ def readSet(magic_set, decks_global, data_changed, is_trusted):
         else:
             raise Exception("Bad set name")
 
-def readDeck(deck, decks_global, magic_set_work, data_changed, is_trusted):
+def readDeck(deck, decks_global, magic_set_work, magic_set_work_name, data_changed, is_trusted):
     """Returns the json of the deck "deck" in decks_global[magic_set_work]. If deck is not in decks_global[magic_set_work], returns a new entry and adds "decks" to data_changed.
     
     deck: the name of the deck.
@@ -95,7 +95,7 @@ def readDeck(deck, decks_global, magic_set_work, data_changed, is_trusted):
     except KeyError:
         is_deck_correct = "Y"
         if not is_trusted:
-            is_deck_correct = input(f"Is {deck} a correct deck from the set {magic_set}? (Y/n)")
+            is_deck_correct = input(f"Is {deck} a correct deck from the set {magic_set_work_name}? (Y/n)")
         if is_deck_correct == "Y" or is_deck_correct == "y" or is_deck_correct == "" or is_trusted:
             new_deck = getDefaultDeck()
             magic_set_work[deck] = new_deck
@@ -252,7 +252,7 @@ def processRencontre(rencontre, players_global, elo_clearance, decks_global, is_
         
         players.append(readPlayer(player, players_global, data_changed, elo_clearance, elo_clearances, is_trusted))
         magic_set_work = readSet(magic_set, decks_global, data_changed, is_trusted)
-        decks.append(readDeck(deck, decks_global, magic_set_work, data_changed, is_trusted))
+        decks.append(readDeck(deck, decks_global, magic_set_work, magic_set, data_changed, is_trusted))
 
     data_to_modify = [ "Data" ]
     if rencontre["Tournois"]:
@@ -286,7 +286,7 @@ def processRencontreDecksOnly(rencontre, decks_global, is_trusted):
         scores.append(rencontre[f"Score{suffix}"])
         
         magic_set_work = readSet(magic_set, decks_global, data_changed, is_trusted)
-        decks.append(readDeck(deck, decks_global, magic_set_work, data_changed, is_trusted))
+        decks.append(readDeck(deck, decks_global, magic_set_work, magic_set, data_changed, is_trusted))
 
     data_to_modify = [ "Data" ]
     if rencontre["Tournois"]:
@@ -336,7 +336,7 @@ def processRencontreMixtOnly(rencontre, players_global, elo_clearance, decks_glo
     for index in range(2):
         players.append(readPlayer(players_names[index], players_global, data_changed, elo_clearance, [], is_trusted))
         magic_set_work = readSet(magic_set_names[index], decks_global, data_changed, is_trusted)
-        decks.append(readDeck(decks_names[index], decks_global, magic_set_work, data_changed, is_trusted))
+        decks.append(readDeck(decks_names[index], decks_global, magic_set_work, magic_set_names[index], data_changed, is_trusted))
 
     data_to_modify = [ "Data" ]
     if rencontre["Tournois"]:
@@ -348,42 +348,48 @@ def processRencontreMixtOnly(rencontre, players_global, elo_clearance, decks_glo
     return data_changed
 
 def computeELO(rencontres, players, elo_clearance, decks, is_trusted):
+    n = len(rencontres)
+    print(f"Processing {n} matchs")
     data_changed = set()
     for rencontre in rencontres:
         data_changed = data_changed | processRencontre(rencontre, players, elo_clearance, decks, is_trusted)
     return data_changed
 
-def computeELODecksOnly(rencontres, players, elo_clearance, decks, is_trusted):
+def computeELODecksOnly(rencontres, decks, is_trusted):
+    n = len(rencontres)
+    print(f"Processing {n} matchs")
     for rencontre in rencontres:
-        processRencontreDecksOnly(rencontre, players, elo_clearance, decks, is_trusted)
+        processRencontreDecksOnly(rencontre, decks, is_trusted)
 
 def computeELOMixtOnly(rencontres, players, elo_clearance, decks, is_trusted):
-    data_changed = set()
+    n = len(rencontres)
+    print(f"Processing {n} matchs")
     for rencontre in rencontres:
         processRencontreMixtOnly(rencontre, players, elo_clearance, decks, is_trusted)
 
 if __name__ == "__main__" :
     
-    decks_filenames = ["decks.json", "decks_decks_only.json", "decks_mixt_only.json"]
-    players_filename = ["players.json", "players_decks_only.json", "players_mixt_only.json"]
+    decks_file_names = ["decks.json", "decks_decks_only.json", "decks_mixt_only.json"]
+    players_file_names = ["players.json", "players_decks_only.json", "players_mixt_only.json"]
     elo_labels = ["g", "d", "m"]
-    elo_clearance_filename = "players_ELO_clearance.txt"
-    rencontres_filename = "rencontres.csv"
+    elo_clearance_file_name = "players_ELO_clearance.txt"
+    rencontres_file_name = "rencontres_fraiches.csv"
     
-    with open(rencontres_file_name, newline="", encoding='utf-8') as rencontre_csv_file, open(elo_clearance_file_name, encoding='utf-8') as elo_clearance_file:
-        rencontres_csv = csv.DictReader(rencontre_csv_file)
+    with open(rencontres_file_name, newline="", encoding='utf-8') as rencontres_csv_file, open(elo_clearance_file_name, encoding='utf-8') as elo_clearance_file:
+        rencontres = list(csv.DictReader(rencontres_csv_file))
         elo_clearance = elo_clearance_file.read().split("\n")
         elo_clearance = elo_clearance[0:len(elo_clearance)-1]
-        for decks_filename, players_filename, elo_label in zip(decks_filenames, players_filenames, elo_labels):
+        for decks_file_name, players_file_name, elo_label in zip(decks_file_names, players_file_names, elo_labels):
+            print(f"Starting {elo_label} update")
             with open(players_file_name, encoding="utf-8") as players_file, open(decks_file_name, encoding="utf-8") as decks_file:
                 players = json.load(players_file)
                 decks = json.load(decks_file)
                 if elo_label == "g":
                     data_changed = computeELO(rencontres, players, elo_clearance, decks, False)
                 elif elo_label == "d":
-                    computeELODecksOnly(rencontres, players, elo_clearance, decks, False)
+                    computeELODecksOnly(rencontres, decks, True)
                 elif elo_label == "m":
-                    computeELOMixtOnly(rencontres, players, elo_clearance, decks, False)
+                    computeELOMixtOnly(rencontres, players, elo_clearance, decks, True)
                 else:
                     raise Exception("Bad elo_label")
         
