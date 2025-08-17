@@ -72,7 +72,7 @@ def readSet(magic_set, decks_global, data_changed, is_trusted):
     except KeyError:
         is_set_correct = "Y"
         if not is_trusted:
-            is_set_correct = input(f"Is {magic_set_name} a correct magic set? (Y/n)")
+            is_set_correct = input(f"Is {magic_set} a correct magic set? (Y/n)")
         magic_set_work = dict()
         if is_set_correct == "Y" or is_set_correct == "y" or is_set_correct == "" or is_trusted:
             decks_global[magic_set] = magic_set_work
@@ -104,16 +104,25 @@ def readDeck(deck, decks_global, magic_set_work, magic_set_work_name, data_chang
         else:
             raise Exception("Bad deck name")
 
-def computeELOmixte(decks, players, data_label, elo_clearances):
+def getElo(entity, date):
+    resu = 100
+    for d in sorted(entity["historic"].keys()):
+        if d <= date:
+            resu = entity["historic"][d]
+        else: 
+            entity["historic"].pop(d)
+    return resu
+
+def computeELOmixte(decks, players, data_label, elo_clearances, date):
     """Returns a list of the mixed elo.
     """
     elo_mixed = []
     for index in range(2):
-        deck_elo = decks[index][data_label]["ELO"]
+        deck_elo = getElo(decks[index][data_label], date)
         if elo_clearances[index]:
-            player_elo = players[index][data_label]["ELO"]
+            player_elo = getElo(players[index][data_label], date)
         else:
-            player_elo = deck_elo
+            player_elo = 100
         elo_mixed.append(ALPHA * deck_elo + (1 - ALPHA) * player_elo)
     return elo_mixed
 
@@ -146,7 +155,7 @@ def computeResult(scores, index):
 def updateDeck(deck, opponent_deck_name, player_name, date, result, elo_modifier):
     """Updates the data of the deck "deck".
     """
-    new_deck_elo = deck["ELO"] + K_DECKS * elo_modifier
+    new_deck_elo = getElo(deck, date) + K_DECKS * elo_modifier
     deck["ELO"] = new_deck_elo
     deck["historic"][date] = new_deck_elo
     deck["match number"] += 1
@@ -170,7 +179,7 @@ def updatePlayer(player, elo_clearance, opponent_name, deck_name, date, result, 
     """Updates the data of the player "player".
     """
     if elo_clearance:
-        new_player_elo = player["ELO"] + K_PLAYER * elo_modifier
+        new_player_elo = getElo(player, date) + K_PLAYER * elo_modifier
         player["ELO"] = new_player_elo
         player["historic"][date] = new_player_elo
     player["match number"] += 1
@@ -193,7 +202,7 @@ def updatePlayer(player, elo_clearance, opponent_name, deck_name, date, result, 
 def updateData(decks, players, decks_names, players_names, scores, date, elo_clearances, data_label):
     """Updates the data in decks and players.
     """
-    elo_mixed = computeELOmixte(decks, players, data_label, elo_clearances)
+    elo_mixed = computeELOmixte(decks, players, data_label, elo_clearances, date)
     elo_modifier = computeELOmodifier(scores, elo_mixed)
     for index in range(2):
         opp_index = 1 - index
@@ -212,8 +221,8 @@ def updateDataDecks(decks, decks_names, players_names, scores, date, data_label)
     """Updates the data in decks and players.
     """
     elo_decks = []
-    elo_decks.append(decks[0][data_label]["ELO"])
-    elo_decks.append(decks[1][data_label]["ELO"])
+    elo_decks.append(getElo(decks[0][data_label], date))
+    elo_decks.append(getElo(decks[1][data_label], date))
     elo_modifier = computeELOmodifier(scores, elo_decks)
     for index in range(2):
         opp_index = 1 - index
@@ -373,37 +382,64 @@ if __name__ == "__main__" :
     players_file_names = ["players.json", "players_decks_only.json", "players_mixt_only.json"]
     elo_labels = ["g", "d", "m"]
     elo_clearance_file_name = "players_ELO_clearance.txt"
-    rencontres_file_name = "rencontres_fraiches.csv"
+    rencontres_file_name = "rencontres.csv"
+    rencontres_fraiches_file_name = "rencontres_fraiches.csv"
     
-    with open(rencontres_file_name, newline="", encoding='utf-8') as rencontres_csv_file, open(elo_clearance_file_name, encoding='utf-8') as elo_clearance_file:
+    with open(rencontres_fraiches_file_name, newline="", encoding='utf-8') as rencontres_fraiches_csv_file, open(elo_clearance_file_name, encoding='utf-8') as elo_clearance_file, open(rencontres_file_name, encoding='utf-8') as rencontres_csv_file:
         rencontres = list(csv.DictReader(rencontres_csv_file))
+        last_date = rencontres[-1]["Date"]
+        rencontres_fraiches_reader = csv.DictReader(rencontres_fraiches_csv_file)
+        rencontres_fraiches = sorted(list(rencontres_fraiches_reader), key=lambda rencontre: rencontre["Date"])
+        new_date = rencontres_fraiches[0]["Date"]
+        print(f"last date : {last_date} and new date : {new_date}")
         elo_clearance = elo_clearance_file.read().split("\n")
         elo_clearance = elo_clearance[0:len(elo_clearance)-1]
+        if last_date <= new_date:
+            in_order = True
+            print("in order")
+        else:
+            in_order = False
+            print("not in order")
+            new_rencontres = []
+            for rencontre in rencontres:
+                if rencontre["Date"] > new_date:
+                    rencontres_fraiches.append(rencontre)
+                else:
+                    new_rencontres.append(rencontre)
+            rencontres = new_rencontres
+            sorted(rencontres_fraiches, key=lambda rencontre: rencontre["Date"])
+        
         for decks_file_name, players_file_name, elo_label in zip(decks_file_names, players_file_names, elo_labels):
             print(f"Starting {elo_label} update")
             with open(players_file_name, encoding="utf-8") as players_file, open(decks_file_name, encoding="utf-8") as decks_file:
                 players = json.load(players_file)
                 decks = json.load(decks_file)
                 if elo_label == "g":
-                    data_changed = computeELO(rencontres, players, elo_clearance, decks, False)
+                    data_changed = computeELO(rencontres_fraiches, players, elo_clearance, decks, False)
                 elif elo_label == "d":
-                    computeELODecksOnly(rencontres, decks, True)
+                    computeELODecksOnly(rencontres_fraiches, decks, True)
                 elif elo_label == "m":
-                    computeELOMixtOnly(rencontres, players, elo_clearance, decks, True)
+                    computeELOMixtOnly(rencontres_fraiches, players, elo_clearance, decks, True)
                 else:
                     raise Exception("Bad elo_label")
         
-            with open(players_file_name,"w", encoding="utf-8") as players_file, open(decks_file_name,"w", encoding="utf-8") as decks_file :#, encoding="utf-8"
+            with open(players_file_name,"w", encoding="utf-8") as players_file, open(decks_file_name,"w", encoding="utf-8") as decks_file :
                 json.dump(players, players_file, ensure_ascii=False)
                 json.dump(decks, decks_file, ensure_ascii=False)
-    
-    with open(rencontres_file_name, newline="") as rencontres_fraiches_file, open("rencontres.csv", "a", newline="") as rencontres_file :
-        rencontres_fraiches = csv.DictReader(rencontres_fraiches_file)
-        fieldnames = rencontres_fraiches.fieldnames
-        writer = csv.DictWriter(rencontres_file,fieldnames=fieldnames)
-        writer.writerows(rencontres_fraiches)
+        fieldnames = rencontres_fraiches_reader.fieldnames
+    if in_order:
+        print("in order")
+        with open(rencontres_file_name, "a", newline="", encoding="utf-8") as rencontres_file :
+            writer = csv.DictWriter(rencontres_file,fieldnames=fieldnames)
+            writer.writerows(rencontres_fraiches)
+    else:
+        print("not in order")
+        with open(rencontres_file_name, "w", newline="", encoding="utf-8") as rencontres_file :
+            writer = csv.DictWriter(rencontres_file,fieldnames=fieldnames)
+            writer.writerows(rencontres)
+            writer.writerows(rencontres_fraiches)
         
-    with open(rencontres_file_name, newline="", mode="w") as rencontres_fraiches_file :
+    with open(rencontres_fraiches_file_name, newline="", mode="w", encoding="utf-8") as rencontres_fraiches_file :
         writer = csv.writer(rencontres_fraiches_file)
         writer.writerow(fieldnames)
     
