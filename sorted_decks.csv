@@ -1,11 +1,12 @@
 Decks,Set,ELO
 "Yenna, Redtooth Regent",woe,60.01162686687954
 "Isperia, Supreme Judge",rtr,61.769738066134934
-"Satsuki, the Living Lore",neo,73.56463572122617
 Cromat,apc,74.30126915807237
 "Wylie Duke, Atiin Hero",otj,74.36698798048482
 Vorinclex,khm,75.7341048905458
 "Dina, Soul Steeper",stx,78.33874053361338
+"Satsuki, the Living Lore",neo,79.41650333282966
+Admiral Beckett Brass,xln,82.23561660321808
 "Zoraline, Cosmos Caller",blb,84.09255443459247
 "Johann, Apprentice Sorcerer",woe,84.20729300934534
 "Firja, Judge of Valor",khm,84.88607709115576
@@ -17,8 +18,7 @@ Rafiq of the Many,ala,85.12302321169724
 "Chandra, Bold Pyromancer",dom,85.53780859968417
 "Dovin, Grand Arbiter",rna,85.69934595222234
 "Chandra, Spark Hunter",dft,85.72814486562812
-"Lagrella, the Magpie",snc,87.96354605487637
-Admiral Beckett Brass,xln,88.08748421482157
+"Lagrella, the Magpie",snc,88.14670684846656
 Marina Vendrell,dsk,88.3630373758939
 Wrenn and Seven,mid,89.07984039569197
 "Kolodin, Triumph Caster",dft,89.28456363183099
@@ -31,6 +31,7 @@ Sharae of Numbing Depths,woe,89.56264724912116
 "Baylen, the Haymaker",blb,90.20155604391665
 Gideon Jura,roe,90.20551167411611
 Domri Rade,gtc,90.35989915301204
+"Harbin, Vanguard Aviator",bro,90.59871893910302
 "Kyodai, Soul of Kamigawa",neo,90.86512721489628
 "Choco, Seeker of Paradise",fin,91.29945124682776
 "Wydwen, the Biting Gale",lrw,91.64337908012114
@@ -75,8 +76,8 @@ The Mycotyrant,lci,96.01554531310653
 "Marchesa, Dealer of Death",otj,97.45085594486777
 "Neriv, Heart of the Storm",tdm,98.2220966029968
 "Mendicant Core, Guidelight",dft,98.28500728812068
+"Haliya, Ascendant Cadet",eoe,98.50404867283989
 "Vohar, Vodalian Desecrator",dmu,98.65827426778364
-"Migloz, Maze Crusher",one,98.80525470857914
 "Ziatora, the Incinerator",snc,99.03149679943421
 "Voja, Jaws of the Conclave",mkm,99.17135086416553
 "Chandra, Hope's Beacon",mom,99.4802576924511
@@ -87,7 +88,6 @@ Nissa of Shadowed Boughs,znr,99.82147489680885
 "Saheeli, Filigree Master",bro,99.82447690752002
 "Vraska, Golgari Queen",grn,99.8868718803408
 Chandra Nalaar,lrw,99.99820110981747
-"Harbin, Vanguard Aviator",bro,100.00496211833666
 Liliana of the Veil,isd,100.03396591915421
 "Kutzil, Malamet Exemplar",lci,100.06371570367821
 "Olivia, Mobilized for War",soi,100.06428287375518
@@ -136,6 +136,7 @@ Sarkhan Unbroken,dtk,106.49194879155046
 "Vial Smasher, Gleeful Grenadier",otj,108.30307206217554
 Hylda of the Icy Crown,woe,108.63962908571908
 "Obyra, Dreaming Duelist",woe,109.02451400209192
+"Migloz, Maze Crusher",one,109.5242884213827
 Thraximundar,arb,109.5397871938987
 "Chandra, Dressed to Kill",vow,109.64242517089433
 "Skithiryx, the Blight Dragon",som,109.83006122320792

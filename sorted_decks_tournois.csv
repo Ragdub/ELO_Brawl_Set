@@ -1,6 +1,6 @@
 Decks,Set,ELO
 Vorinclex,khm,75.7341048905458
-"Lagrella, the Magpie",snc,75.87602931450223
+"Lagrella, the Magpie",snc,76.20914603314624
 "Yenna, Redtooth Regent",woe,76.27050157634827
 "Hapatra, Vizier of Poisons",akh,84.37043335804972
 "Nahiri, the Harbinger",soi,84.77045223249903
@@ -10,6 +10,7 @@ Rafiq of the Many,ala,85.12302321169724
 "Mabel, Heir to Cragflame",blb,85.84328511133923
 "Marchesa, Dealer of Death",otj,86.59904950883012
 "Johann, Apprentice Sorcerer",woe,89.52214187179558
+"Harbin, Vanguard Aviator",bro,89.82487459049368
 "Dina, Soul Steeper",stx,89.9370140026973
 "Byrke, Long Ear of the Law",blb,90.00288622556259
 "Satsuki, the Living Lore",neo,90.01007608578975
@@ -19,7 +20,6 @@ Marina Vendrell,dsk,90.02645604334661
 "Falco Spara, Pactweaver",snc,90.15790512669169
 "Camellia, the Seedmiser",blb,90.30342261687028
 "Voja, Jaws of the Conclave",mkm,90.54281040252258
-"Migloz, Maze Crusher",one,94.18642890840422
 "Jodah, the Unifier",dmu,94.58482635490218
 "Lagorin, Soul of Alacria",dft,94.77102637782008
 "Ral, Crackling Wit",blb,94.7836905513991
@@ -48,6 +48,7 @@ Dovin Baan,kld,99.42928109858809
 "Niv-Mizzet, Guildpact",mkm,99.49476197783443
 "Tovolar, Dire Overlord",mid,99.63608640006106
 "Wylie Duke, Atiin Hero",otj,99.68920141262566
+"Haliya, Ascendant Cadet",eoe,99.72204516155041
 "Vraska, Golgari Queen",grn,99.75099940638765
 "Talion, the Kindly Lord",woe,99.76364562113011
 Admiral Beckett Brass,xln,99.91088466678828
@@ -123,7 +124,6 @@ Domri Rade,gtc,100
 "Sorin, Lord of Innistrad",dka,100
 "Lightning, Army of One",fin,100
 "Ulamog, the Ceaseless Hunger",bfz,100
-"Harbin, Vanguard Aviator",bro,100.00496211833666
 "Kutzil, Malamet Exemplar",lci,100.16420112741392
 "Greta, Sweettooth Scourge",woe,100.18446682134464
 "Miriam, Herd Whisperer",otj,100.23744997973272
@@ -132,6 +132,7 @@ Domri Rade,gtc,100
 "Gev, Scaled Scorch",blb,100.66447873941141
 The Mycotyrant,lci,100.80537528136371
 "Lukka, Bound to Ruin",one,100.93839971768384
+"Migloz, Maze Crusher",one,104.31135455605279
 "Rocco, Street Chef",mat,104.34431372136368
 "Winter, Misanthropic Guide",dsk,104.43668210067399
 "Dennick, Pious Apprentice",mid,104.49472652193218
