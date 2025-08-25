@@ -2,6 +2,7 @@ Decks,Set,ELO
 Vorinclex,khm,75.56232592882718
 "Yenna, Redtooth Regent",woe,75.96068282866192
 "Lagrella, the Magpie",snc,76.06716528891317
+"Voja, Jaws of the Conclave",mkm,76.09572158757287
 "Hapatra, Vizier of Poisons",akh,84.43518361445105
 "Nahiri, the Harbinger",soi,84.7850104442323
 "Neriv, Heart of the Storm",tdm,85.05138454695307
@@ -9,7 +10,6 @@ Rafiq of the Many,ala,85.05824011726938
 "Choco, Seeker of Paradise",fin,85.14097890058906
 "Mabel, Heir to Cragflame",blb,85.7799563490281
 "Marchesa, Dealer of Death",otj,86.30851851270137
-"Johann, Apprentice Sorcerer",woe,89.52177433465683
 "Harbin, Vanguard Aviator",bro,89.84721957432434
 "Dina, Soul Steeper",stx,89.95871887226397
 "Byrke, Long Ear of the Law",blb,90.00246040871131
@@ -19,8 +19,8 @@ Marina Vendrell,dsk,90.00439588994406
 "Raff Capashen, Ship's Mage",dom,90.09353160738355
 "Falco Spara, Pactweaver",snc,90.13559594503629
 "Camellia, the Seedmiser",blb,90.30675439768775
-"Voja, Jaws of the Conclave",mkm,90.44012931048046
 "Kolodin, Triumph Caster",dft,94.26400672361684
+"Johann, Apprentice Sorcerer",woe,94.60909396572683
 "Jodah, the Unifier",dmu,94.65222405327268
 "Lagorin, Soul of Alacria",dft,94.81422063319937
 "Ral, Crackling Wit",blb,94.82583317064076
@@ -49,7 +49,6 @@ Dovin Baan,kld,99.50951271482816
 "Haliya, Ascendant Cadet",eoe,99.71436168725131
 "Talion, the Kindly Lord",woe,99.80626778563727
 "Vraska, Golgari Queen",grn,99.8290995365319
-"Wylie Duke, Atiin Hero",otj,99.85741888071483
 Admiral Beckett Brass,xln,99.9075654775479
 Zurgo and Ojutai,mom,99.93259779224589
 "Tovolar, Dire Overlord",mid,99.98534360800582
@@ -147,14 +146,15 @@ Wrenn and Seven,mid,105.0371906843745
 "Mishra, Claimed by Gix",bro,105.04189563358987
 "Kaito, Bane of Nightmares",dsk,105.08542248708557
 "Sigarda, Host of Herons",avr,105.12221179262802
+"Snapdax, Apex of the Hunt",iko,105.17616587886053
+"Wylie Duke, Atiin Hero",otj,105.1865926723496
 "Judith, the Scourge Diva",rna,105.349286287672
 "Aurelia, Exemplar of Justice",grn,105.38135713775114
-"Snapdax, Apex of the Hunt",iko,105.55539812209268
 "Depala, Pilot Exemplar",kld,105.7293953243895
 "Cecil, Dark Knight",fin,109.23865855718664
 "Etrata, the Silencer",grn,109.71028761586861
 "Obyra, Dreaming Duelist",woe,109.75521706455885
-"Skithiryx, the Blight Dragon",som,109.87196588729353
+"Skithiryx, the Blight Dragon",som,109.99095885155228
 "Huatli, Poet of Unity",lci,110.18368389098463
 "Korvold, Fae-Cursed King",eld,110.26349802144108
 "Nashi, Searcher in the Dark",dsk,110.33518729157306
@@ -167,6 +167,6 @@ The Wandering Emperor,neo,114.90646839261645
 "Jenova, Ancient Calamity",fin,114.92455302515177
 "Sigarda, Champion of Light",mid,114.96500954857775
 "Glarb, Calamity's Augur",blb,115.08803739522709
-"Finneas, Ace Archer",blb,129.59436569091946
 "Arabella, Abandoned Doll",dsk,129.7173972980855
+"Finneas, Ace Archer",blb,133.7825192700957
 "Niko, Light of Hope",dsk,137.25759518095572

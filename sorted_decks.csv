@@ -1,14 +1,14 @@
 Decks,Set,ELO
 "Yenna, Redtooth Regent",woe,59.408005354264674
 "Isperia, Supreme Judge",rtr,61.77252621358141
-"Wylie Duke, Atiin Hero",otj,73.80680947043268
 Cromat,apc,74.31555765686186
 Vorinclex,khm,75.56232592882718
 "Dina, Soul Steeper",stx,78.53610912068304
 "Satsuki, the Living Lore",neo,79.00583637423453
+"Wylie Duke, Atiin Hero",otj,80.04816505638323
 Admiral Beckett Brass,xln,82.19876156684998
+"Voja, Jaws of the Conclave",mkm,82.72348235046749
 "Zoraline, Cosmos Caller",blb,82.76800636044506
-"Johann, Apprentice Sorcerer",woe,84.2063890605681
 "Firja, Judge of Valor",khm,84.89040271898456
 "Totentanz, Swarm Piper",woe,84.96186240926694
 "Hapatra, Vizier of Poisons",akh,84.99826596045641
@@ -21,6 +21,7 @@ Rafiq of the Many,ala,85.05824011726938
 "Lagrella, the Magpie",snc,87.60284378948715
 Marina Vendrell,dsk,88.43392635169221
 "Kolodin, Triumph Caster",dft,88.60113170542641
+"Johann, Apprentice Sorcerer",woe,88.98816981670142
 Wrenn and Seven,mid,89.03082431334506
 "Abuelo, Ancestral Echo",lci,89.44431918250861
 "Kellan, the Kid",otj,89.4451739473138
@@ -78,7 +79,6 @@ The Mycotyrant,lci,95.99273248298023
 "Mendicant Core, Guidelight",dft,98.29023820808268
 "Haliya, Ascendant Cadet",eoe,98.4686379733667
 "Vohar, Vodalian Desecrator",dmu,98.7081829044116
-"Voja, Jaws of the Conclave",mkm,99.01854841123776
 "Ziatora, the Incinerator",snc,99.0666853938794
 "Chandra, Hope's Beacon",mom,99.47727799203344
 Beluna Grandsquall,woe,99.65024692053719
@@ -103,7 +103,7 @@ Brion Stoutarm,lrw,100.24600487519524
 "Rocco, Street Chef",mat,101.09029007109325
 "Gev, Scaled Scorch",blb,101.27269450393078
 Zurgo and Ojutai,mom,102.3809593896562
-"Snapdax, Apex of the Hunt",iko,102.65400082170319
+"Snapdax, Apex of the Hunt",iko,103.1678067325454
 "Anim Pakal, Thousandth Moon",lci,103.30327595728662
 "Nicanzil, Current Conductor",lci,103.54428473571355
 "Rip, Spawn Hunter",dsk,104.04026615686575
@@ -142,8 +142,8 @@ Thraximundar,arb,109.587132640753
 "Cecil, Dark Knight",fin,109.7326466882279
 "Chandra, Flamecaller",ogw,109.80960432972196
 "Malcolm, Alluring Scoundrel",lci,109.8457129676902
-"Skithiryx, the Blight Dragon",som,109.87270408253737
 The Wandering Emperor,neo,109.8821647986011
+"Skithiryx, the Blight Dragon",som,110.13401092331526
 "Korvold, Fae-Cursed King",eld,110.29532768745142
 "Lord Skitter, Sewer King",woe,110.29587587763596
 "Ral, Crackling Wit",blb,110.3374093855301
@@ -167,6 +167,6 @@ Thalia and The Gitrog Monster,mom,117.4236417357247
 The Swarmweaver,dsk,124.26432220590165
 "Nicol Bolas, Dragon-God",war,126.62955337330062
 "Sigarda, Champion of Light",mid,130.63302909021755
-"Finneas, Ace Archer",blb,133.78502961684572
+"Finneas, Ace Archer",blb,138.28184658391203
 "Niko, Light of Hope",dsk,138.32412872101924
 "Arabella, Abandoned Doll",dsk,150.9508660256127
