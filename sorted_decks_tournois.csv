@@ -1,60 +1,65 @@
 Decks,Set,ELO
-"Lagrella, the Magpie",snc,62.81760544203222
+"Lagrella, the Magpie",snc,62.81758715292375
 Vorinclex,khm,75.56232592882718
-"Yenna, Redtooth Regent",woe,75.96068282866192
-"Voja, Jaws of the Conclave",mkm,76.09572158757287
-"Hapatra, Vizier of Poisons",akh,84.43518361445105
-"Nahiri, the Harbinger",soi,84.7850104442323
-"Neriv, Heart of the Storm",tdm,85.05138454695307
+"Yenna, Redtooth Regent",woe,75.96067933957488
+"Voja, Jaws of the Conclave",mkm,76.09496973250103
+"Hapatra, Vizier of Poisons",akh,84.4351804324413
+"Nahiri, the Harbinger",soi,84.78501080890757
+"Neriv, Heart of the Storm",tdm,85.05096947919641
 Rafiq of the Many,ala,85.05824011726938
-"Choco, Seeker of Paradise",fin,85.14097890058906
-"Mabel, Heir to Cragflame",blb,85.7799563490281
-"Wylie Duke, Atiin Hero",otj,85.97465429445442
-"Marchesa, Dealer of Death",otj,86.30851851270137
-Marina Vendrell,dsk,86.46211295322522
-"Harbin, Vanguard Aviator",bro,89.84721957432434
+"Choco, Seeker of Paradise",fin,85.14096600851023
+"Mabel, Heir to Cragflame",blb,85.77955605332511
+"Wylie Duke, Atiin Hero",otj,85.97389176944253
+"Marchesa, Dealer of Death",otj,86.30851226372387
+Marina Vendrell,dsk,86.46213054205953
+"Harbin, Vanguard Aviator",bro,89.84721379107678
+"Satsuki, the Living Lore",neo,89.92554940696135
 "Dina, Soul Steeper",stx,89.95871887226397
-"Byrke, Long Ear of the Law",blb,90.00246040871131
-"Satsuki, the Living Lore",neo,90.0096830867724
+"Byrke, Long Ear of the Law",blb,90.00246037312257
 "Vivien, Monsters' Advocate",iko,90.08598372202424
 "Raff Capashen, Ship's Mage",dom,90.09353160738355
 "Falco Spara, Pactweaver",snc,90.13559594503629
-"Camellia, the Seedmiser",blb,90.30675439768775
-"Kolodin, Triumph Caster",dft,94.26400672361684
-"Johann, Apprentice Sorcerer",woe,94.60909396572683
-"Jodah, the Unifier",dmu,94.65222405327268
-Infinite Guideline Station,eoe,94.66406198721697
-"Lagorin, Soul of Alacria",dft,94.81422063319937
-"Ral, Crackling Wit",blb,94.82583317064076
-"Oko, the Ringleader",otj,94.84785140011668
-Sarkhan Unbroken,dtk,94.84940319272081
+"Camellia, the Seedmiser",blb,90.30676930172345
+"Greta, Sweettooth Scourge",woe,90.54610177867266
+"Totentanz, Swarm Piper",woe,91.31614625597281
+"Kolodin, Triumph Caster",dft,94.26359828837641
+"Johann, Apprentice Sorcerer",woe,94.60908143385947
+"Jodah, the Unifier",dmu,94.6522310125152
+Infinite Guideline Station,eoe,94.66404823848367
+"Lagorin, Soul of Alacria",dft,94.81423031807171
+"Ral, Crackling Wit",blb,94.8258296578735
+"Oko, the Ringleader",otj,94.84785139883519
+Sarkhan Unbroken,dtk,94.84941295039947
 "Vito, Fanatic of Aclazotz",lci,94.87242622566525
-The Royal Scions,eld,94.91697683665429
+The Royal Scions,eld,94.91697680090252
 Sharae of Numbing Depths,woe,94.97735609544304
-Gideon Jura,roe,94.99057993840444
-Gladiolus Amicitia,fin,95.09112526855026
+Gideon Jura,roe,94.99057690428059
+Gladiolus Amicitia,fin,95.0911193151996
 "Vial Smasher, Gleeful Grenadier",otj,95.1343225117832
-Kaito Shizuki,neo,95.15729424965365
-"Florian, Voldaren Scion",mid,95.20676675841788
-Quintorius Kand,lci,95.21074971885452
-"Baylen, the Haymaker",blb,95.22834009891098
-Eshki Dragonclaw,tdm,95.24707835395894
-"Loot, the Pathfinder",dft,95.26786913699605
-"Squall, SeeD Mercenary",fin,95.27465262585008
-"Far Fortune, End Boss",dft,95.86698884409925
-"Wydwen, the Biting Gale",lrw,95.8679032575523
-"Omnath, Locus of Mana",wwk,97.46068011189857
-"Helga, Skittish Seer",blb,98.87718722990995
+"Silk, Web Weaver",spm,95.14052913582218
+"Migloz, Maze Crusher",one,95.14942096796243
+Kaito Shizuki,neo,95.1572944116722
+"Florian, Voldaren Scion",mid,95.20676326059001
+"Baylen, the Haymaker",blb,95.22833650482842
+Eshki Dragonclaw,tdm,95.24708253581787
+"Loot, the Pathfinder",dft,95.26787475094186
+"Squall, SeeD Mercenary",fin,95.27464509314726
+Quintorius Kand,lci,95.33707748947505
+"Far Fortune, End Boss",dft,95.8669869829201
+"Wydwen, the Biting Gale",lrw,95.867900099617
+"Omnath, Locus of Mana",wwk,97.46028585954026
+"Helga, Skittish Seer",blb,98.87718690027316
 "Chandra, Flamecaller",ogw,99.34479145726348
-Dovin Baan,kld,99.50951271482816
+"Ob Nixilis, the Adversary",snc,99.48715508704394
+Dovin Baan,kld,99.5095216677314
 "Niv-Mizzet, Guildpact",mkm,99.53653348115247
-"Tannuk, Memorial Ensign",eoe,99.6365611340645
-"Haliya, Ascendant Cadet",eoe,99.71436168725131
+"Tannuk, Memorial Ensign",eoe,99.63618468677166
+"Haliya, Ascendant Cadet",eoe,99.71437318418019
 "Talion, the Kindly Lord",woe,99.80626778563727
-"Vraska, Golgari Queen",grn,99.8290995365319
+"Vraska, Golgari Queen",grn,99.82909673401025
 Admiral Beckett Brass,xln,99.9075654775479
-Zurgo and Ojutai,mom,99.93259779224589
-"Tovolar, Dire Overlord",mid,99.98534360800582
+Zurgo and Ojutai,mom,99.93261293915359
+"Tovolar, Dire Overlord",mid,99.98533398432717
 Satoru Umezawa,neo,100
 "Kyodai, Soul of Kamigawa",neo,100
 "Illuna, Apex of Wishes",iko,100
@@ -85,7 +90,6 @@ Sharuum the Hegemon,ala,100
 "Vraska, Relic Seeker",xln,100
 Ezio Auditore Da Firenze,acr,100
 "Cormela, Glamour Thief",snc,100
-"Ob Nixilis, the Adversary",snc,100
 "Clement, the Worrywort",blb,100
 Brion Stoutarm,lrw,100
 "Sygg, River Guide",lrw,100
@@ -118,7 +122,6 @@ Rhys the Exiled,mor,100
 Liliana of the Veil,isd,100
 Geist of Saint Traft,isd,100
 Admiral Beckett Brass,lcc,100
-"Zurgo, Thunder's Decree",tdm,100
 "Olivia, Mobilized for War",soi,100
 "Isperia, Supreme Judge",rtr,100
 Anax and Cymede,ths,100
@@ -126,51 +129,51 @@ Domri Rade,gtc,100
 "Sorin, Lord of Innistrad",dka,100
 "Lightning, Army of One",fin,100
 "Ulamog, the Ceaseless Hunger",bfz,100
-"Kutzil, Malamet Exemplar",lci,100.11272582556255
-"Greta, Sweettooth Scourge",woe,100.18599739956538
+"Nicol Bolas, God-Pharaoh",hou,100
+"Kutzil, Malamet Exemplar",lci,100.1127257311987
 "Miriam, Herd Whisperer",otj,100.19406767351737
-"Angrath, the Flame-Chained",rix,100.61899149713577
-"Gev, Scaled Scorch",blb,100.65308381898056
+"Angrath, the Flame-Chained",rix,100.61898418233393
+"Gev, Scaled Scorch",blb,100.65307071116011
 The Mycotyrant,lci,100.78289713400758
-"Totentanz, Swarm Piper",woe,100.88351558496488
-"Lukka, Bound to Ruin",one,100.97876510849783
-"Migloz, Maze Crusher",one,104.23737706990032
-"Winter, Misanthropic Guide",dsk,104.43798823374192
-"Dennick, Pious Apprentice",mid,104.51451970266041
-"Rocco, Street Chef",mat,104.62048487531285
-"Abuelo, Ancestral Echo",lci,104.7886293594419
+"Lukka, Bound to Ruin",one,100.9787652224224
+"Winter, Misanthropic Guide",dsk,104.43799873729795
+"Dennick, Pious Apprentice",mid,104.5145292253058
+"Rocco, Street Chef",mat,104.62047597777122
+"Abuelo, Ancestral Echo",lci,104.7886331567817
 "Liesa, Forgotten Archangel",mid,104.79658295018456
 Thraximundar,arb,104.84904952711389
-"Ziatora, the Incinerator",snc,104.87105313943418
+"Ziatora, the Incinerator",snc,104.87062858907986
 "Malcolm, Alluring Scoundrel",lci,104.92923384507357
-"Mendicant Core, Guidelight",dft,104.96706072557554
+"Mendicant Core, Guidelight",dft,104.9670380626316
 Wrenn and Seven,mid,105.0371906843745
-"Rem Karolus, Stalwart Slayer",mid,105.0372384325408
-"Kaito, Bane of Nightmares",dsk,105.08542248708557
-"Sigarda, Host of Herons",avr,105.12221179262802
-"Snapdax, Apex of the Hunt",iko,105.17616587886053
-"Mishra, Claimed by Gix",bro,105.30358183346682
-"Judith, the Scourge Diva",rna,105.349286287672
+"Rem Karolus, Stalwart Slayer",mid,105.03723524795461
+"Kaito, Bane of Nightmares",dsk,105.0854225066805
+"Sigarda, Host of Herons",avr,105.12221170001912
+"Snapdax, Apex of the Hunt",iko,105.17615247274807
+"Mishra, Claimed by Gix",bro,105.30357053541516
+"Judith, the Scourge Diva",rna,105.3492800224703
 "Aurelia, Exemplar of Justice",grn,105.38135713775114
-"Kefka, Court Mage",fin,105.38968342475884
-"Depala, Pilot Exemplar",kld,105.7293953243895
-"Cecil, Dark Knight",fin,109.23865855718664
-"Narset, Jeskai Waymaster",tdm,109.52394216296234
-"Etrata, the Silencer",grn,109.71028761586861
-"Obyra, Dreaming Duelist",woe,109.75521706455885
-"Skithiryx, the Blight Dragon",som,109.99095885155228
-"Huatli, Poet of Unity",lci,110.18368389098463
-"Korvold, Fae-Cursed King",eld,110.26349802144108
-"Nashi, Searcher in the Dark",dsk,110.33518729157306
-"Zoraline, Cosmos Caller",blb,110.95538656159319
+"Kefka, Court Mage",fin,105.3892984624116
+"Depala, Pilot Exemplar",kld,105.7293875579672
+"Zurgo, Thunder's Decree",tdm,105.85523681399957
+"Cecil, Dark Knight",fin,109.23866293282362
+"Narset, Jeskai Waymaster",tdm,109.52392073459166
+"Etrata, the Silencer",grn,109.71029840390945
+"Obyra, Dreaming Duelist",woe,109.75521706422337
+"Huatli, Poet of Unity",lci,110.18367578484656
+"Korvold, Fae-Cursed King",eld,110.26349451198868
+"Nashi, Searcher in the Dark",dsk,110.33520511019005
+"Zoraline, Cosmos Caller",blb,110.95537268888806
 Thalia and The Gitrog Monster,mom,114.37395355242555
-The Swarmweaver,dsk,114.53625340568132
-"Raffine, Scheming Seer",snc,114.55000685030011
-"Atraxa, Grand Unifier",one,114.87374524668694
+"Raffine, Scheming Seer",snc,114.55000388248607
+"Atraxa, Grand Unifier",one,114.87374521822105
 The Wandering Emperor,neo,114.90646839261645
-"Jenova, Ancient Calamity",fin,114.92455302515177
-"Sigarda, Champion of Light",mid,114.96500954857775
-"Glarb, Calamity's Augur",blb,115.08803739522709
-"Niko, Light of Hope",dsk,137.25759518095572
-"Arabella, Abandoned Doll",dsk,142.96497545891606
-"Finneas, Ace Archer",blb,148.3190749736974
+"Jenova, Ancient Calamity",fin,114.9245471395969
+"Sigarda, Champion of Light",mid,114.96501956814696
+"Glarb, Calamity's Augur",blb,115.08803732800412
+"Skithiryx, the Blight Dragon",som,115.47887105113129
+The Swarmweaver,dsk,118.44912997615931
+"Olivia, Crimson Bride",vow,120.58820884030364
+"Arabella, Abandoned Doll",dsk,133.00973709104562
+"Niko, Light of Hope",dsk,145.03536249656182
+"Finneas, Ace Archer",blb,148.28207205211135
