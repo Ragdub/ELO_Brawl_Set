@@ -11,7 +11,7 @@ Rafiq of the Many,ala,85.05824011726938
 "Mabel, Heir to Cragflame",blb,85.77955605332511
 "Wylie Duke, Atiin Hero",otj,85.97389176944253
 "Marchesa, Dealer of Death",otj,86.30851226372387
-Marina Vendrell,dsk,86.46213054205953
+Marina Vendrell,dsk,86.80457521500153
 "Harbin, Vanguard Aviator",bro,89.84721379107678
 "Satsuki, the Living Lore",neo,89.92554940696135
 "Dina, Soul Steeper",stx,89.95871887226397
@@ -20,6 +20,7 @@ Marina Vendrell,dsk,86.46213054205953
 "Raff Capashen, Ship's Mage",dom,90.09353160738355
 "Falco Spara, Pactweaver",snc,90.13559594503629
 "Camellia, the Seedmiser",blb,90.30676930172345
+"Alpharael, Dreaming Acolyte",eoe,90.36008180199866
 "Greta, Sweettooth Scourge",woe,90.54610177867266
 "Totentanz, Swarm Piper",woe,91.31614625597281
 "Kolodin, Triumph Caster",dft,94.26359828837641
@@ -45,6 +46,7 @@ Eshki Dragonclaw,tdm,95.24708253581787
 "Loot, the Pathfinder",dft,95.26787475094186
 "Squall, SeeD Mercenary",fin,95.27464509314726
 Quintorius Kand,lci,95.33707748947505
+"Illuna, Apex of Wishes",iko,95.42565523118516
 "Far Fortune, End Boss",dft,95.8669869829201
 "Wydwen, the Biting Gale",lrw,95.867900099617
 "Omnath, Locus of Mana",wwk,97.46028585954026
@@ -54,6 +56,7 @@ Quintorius Kand,lci,95.33707748947505
 Dovin Baan,kld,99.5095216677314
 "Niv-Mizzet, Guildpact",mkm,99.53653348115247
 "Tannuk, Memorial Ensign",eoe,99.63618468677166
+"Nicanzil, Current Conductor",lci,99.6647173609352
 "Haliya, Ascendant Cadet",eoe,99.71437318418019
 "Talion, the Kindly Lord",woe,99.80626778563727
 "Vraska, Golgari Queen",grn,99.82909673401025
@@ -62,14 +65,12 @@ Zurgo and Ojutai,mom,99.93261293915359
 "Tovolar, Dire Overlord",mid,99.98533398432717
 Satoru Umezawa,neo,100
 "Kyodai, Soul of Kamigawa",neo,100
-"Illuna, Apex of Wishes",iko,100
 Lurrus of the Dream-Den,iko,100
 "Brokkos, Apex of Forever",iko,100
 Hylda of the Icy Crown,woe,100
 "Lord Skitter, Sewer King",woe,100
 "Ash, Party Crasher",woe,100
 Beluna Grandsquall,woe,100
-"Nicanzil, Current Conductor",lci,100
 "Anim Pakal, Thousandth Moon",lci,100
 "Chandra, Hope's Beacon",mom,100
 "Yargle, Glutton of Urborg",dom,100
@@ -136,7 +137,6 @@ Domri Rade,gtc,100
 "Gev, Scaled Scorch",blb,100.65307071116011
 The Mycotyrant,lci,100.78289713400758
 "Lukka, Bound to Ruin",one,100.9787652224224
-"Winter, Misanthropic Guide",dsk,104.43799873729795
 "Dennick, Pious Apprentice",mid,104.5145292253058
 "Rocco, Street Chef",mat,104.62047597777122
 "Abuelo, Ancestral Echo",lci,104.7886331567817
@@ -173,6 +173,7 @@ The Wandering Emperor,neo,114.90646839261645
 "Glarb, Calamity's Augur",blb,115.08803732800412
 "Skithiryx, the Blight Dragon",som,115.47887105113129
 The Swarmweaver,dsk,118.44912997615931
+"Winter, Misanthropic Guide",dsk,118.64509967023692
 "Olivia, Crimson Bride",vow,120.58820884030364
 "Arabella, Abandoned Doll",dsk,133.00973709104562
 "Niko, Light of Hope",dsk,145.03536249656182
