@@ -4,13 +4,14 @@ Marina Vendrell,dsk,71.96337561149335
 Vorinclex,khm,75.56232592882718
 "Yenna, Redtooth Regent",woe,75.96067933957488
 "Voja, Jaws of the Conclave",mkm,76.09496973250103
+"Wylie Duke, Atiin Hero",otj,81.89145409708324
+"Zoraline, Cosmos Caller",blb,82.78425541525245
 "Hapatra, Vizier of Poisons",akh,84.4351804324413
 "Nahiri, the Harbinger",soi,84.78501080890757
 "Neriv, Heart of the Storm",tdm,85.05096947919641
 Rafiq of the Many,ala,85.05824011726938
 "Choco, Seeker of Paradise",fin,85.14096600851023
 "Tovolar, Dire Overlord",mid,85.57896693378771
-"Wylie Duke, Atiin Hero",otj,85.97389176944253
 "Marchesa, Dealer of Death",otj,86.30851226372387
 "Harbin, Vanguard Aviator",bro,89.84721379107678
 "Satsuki, the Living Lore",neo,89.92554940696135
@@ -43,21 +44,18 @@ Kaito Shizuki,neo,95.1572944116722
 "Florian, Voldaren Scion",mid,95.20676326059001
 "Baylen, the Haymaker",blb,95.22833650482842
 Eshki Dragonclaw,tdm,95.24708253581787
-"Loot, the Pathfinder",dft,95.26787475094186
 "Squall, SeeD Mercenary",fin,95.27464509314726
 Quintorius Kand,lci,95.33707748947505
 "Aang, Swift Savior",tla,95.39585917281379
-Zurgo Helmsmasher,ktk,95.67303991460439
 "Far Fortune, End Boss",dft,95.8669869829201
 "Wydwen, the Biting Gale",lrw,95.867900099617
-"Zoraline, Cosmos Caller",blb,96.9601315891885
 "Omnath, Locus of Mana",wwk,97.46028585954026
+"Loot, the Pathfinder",dft,98.81015465962638
 "Helga, Skittish Seer",blb,98.87718690027316
 "Chandra, Flamecaller",ogw,99.34479145726348
 "Ob Nixilis, the Adversary",snc,99.48715508704394
 Dovin Baan,kld,99.5095216677314
 "Niv-Mizzet, Guildpact",mkm,99.53653348115247
-"Tannuk, Memorial Ensign",eoe,99.63618468677166
 "Nicanzil, Current Conductor",lci,99.6647173609352
 "Haliya, Ascendant Cadet",eoe,99.71437318418019
 "Talion, the Kindly Lord",woe,99.80626778563727
@@ -140,6 +138,8 @@ Domri Rade,gtc,100
 "Gev, Scaled Scorch",blb,100.65307071116011
 The Mycotyrant,lci,100.78289713400758
 "Lukka, Bound to Ruin",one,100.9787652224224
+Zurgo Helmsmasher,ktk,101.05231159953375
+"Tannuk, Memorial Ensign",eoe,103.96326281411095
 "Zuko, Conflicted",tla,104.20498024619775
 "Dennick, Pious Apprentice",mid,104.5145292253058
 "Rocco, Street Chef",mat,104.62047597777122
@@ -150,6 +150,7 @@ Thraximundar,arb,104.84904952711389
 "Nicol Bolas, God-Pharaoh",hou,104.8871163438021
 "Malcolm, Alluring Scoundrel",lci,104.92923384507357
 "Mendicant Core, Guidelight",dft,104.9670380626316
+"Mimeoplasm, Revered One",dft,105.00968412534218
 Wrenn and Seven,mid,105.0371906843745
 "Rem Karolus, Stalwart Slayer",mid,105.03723524795461
 "Kaito, Bane of Nightmares",dsk,105.0854225066805
