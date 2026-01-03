@@ -376,6 +376,15 @@ def computeELOMixtOnly(rencontres, players, elo_clearance, decks, is_trusted):
     for rencontre in rencontres:
         processRencontreMixtOnly(rencontre, players, elo_clearance, decks, is_trusted)
 
+def mySortedRencontres(list_rencontres):
+    resu = list()
+    for rencontre in list_rencontres:
+        i = 0
+        while i < len(resu) and resu[i]["Date"] <= rencontre["Date"]:
+            i += 1
+        resu.insert(i,rencontre)
+    return resu
+
 if __name__ == "__main__" :
     
     decks_file_names = ["decks.json", "decks_decks_only.json", "decks_mixt_only.json"]
@@ -389,7 +398,7 @@ if __name__ == "__main__" :
         rencontres = list(csv.DictReader(rencontres_csv_file))
         last_date = rencontres[-1]["Date"]
         rencontres_fraiches_reader = csv.DictReader(rencontres_fraiches_csv_file)
-        rencontres_fraiches = sorted(list(rencontres_fraiches_reader), key=lambda rencontre: rencontre["Date"])
+        rencontres_fraiches = mySortedRencontres(list(rencontres_fraiches_reader))
         new_date = rencontres_fraiches[0]["Date"]
         print(f"last date : {last_date} and new date : {new_date}")
         elo_clearance = elo_clearance_file.read().split("\n")
@@ -407,7 +416,7 @@ if __name__ == "__main__" :
                 else:
                     new_rencontres.append(rencontre)
             rencontres = new_rencontres
-            sorted(rencontres_fraiches, key=lambda rencontre: rencontre["Date"])
+            rencontres_fraiches = mySortedRencontres(rencontres_fraiches)
         
         for decks_file_name, players_file_name, elo_label in zip(decks_file_names, players_file_names, elo_labels):
             print(f"Starting {elo_label} update")

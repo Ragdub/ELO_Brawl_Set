@@ -13,6 +13,7 @@ Rafiq of the Many,ala,85.05824011726938
 "Choco, Seeker of Paradise",fin,85.14096600851023
 "Tovolar, Dire Overlord",mid,85.57896693378771
 "Marchesa, Dealer of Death",otj,86.30851226372387
+"Illuna, Apex of Wishes",iko,86.69757871529293
 "Harbin, Vanguard Aviator",bro,89.84721379107678
 "Satsuki, the Living Lore",neo,89.92554940696135
 "Dina, Soul Steeper",stx,89.95871887226397
@@ -22,8 +23,8 @@ Rafiq of the Many,ala,85.05824011726938
 "Falco Spara, Pactweaver",snc,90.13559594503629
 "Camellia, the Seedmiser",blb,90.30676930172345
 "Alpharael, Dreaming Acolyte",eoe,90.36008180199866
+"Katilda, Dawnhart Prime",mid,90.43847037096809
 "Greta, Sweettooth Scourge",woe,90.54610177867266
-"Illuna, Apex of Wishes",iko,91.13509337995774
 "Totentanz, Swarm Piper",woe,91.31614625597281
 "Johann, Apprentice Sorcerer",woe,94.60908143385947
 "Jodah, the Unifier",dmu,94.6522310125152
@@ -43,12 +44,11 @@ Gladiolus Amicitia,fin,95.0911193151996
 Kaito Shizuki,neo,95.1572944116722
 "Florian, Voldaren Scion",mid,95.20676326059001
 "Baylen, the Haymaker",blb,95.22833650482842
-Eshki Dragonclaw,tdm,95.24708253581787
 "Squall, SeeD Mercenary",fin,95.27464509314726
 Quintorius Kand,lci,95.33707748947505
-"Aang, Swift Savior",tla,95.39585917281379
 "Far Fortune, End Boss",dft,95.8669869829201
 "Wydwen, the Biting Gale",lrw,95.867900099617
+"Aang, Swift Savior",tla,96.01213172634328
 "Omnath, Locus of Mana",wwk,97.46028585954026
 "Loot, the Pathfinder",dft,98.81015465962638
 "Helga, Skittish Seer",blb,98.87718690027316
@@ -70,6 +70,7 @@ Hylda of the Icy Crown,woe,100
 "Lord Skitter, Sewer King",woe,100
 "Ash, Party Crasher",woe,100
 Beluna Grandsquall,woe,100
+Eriette of the Charmed Apple,woe,100
 "Anim Pakal, Thousandth Moon",lci,100
 "Chandra, Hope's Beacon",mom,100
 "Yargle, Glutton of Urborg",dom,100
@@ -85,6 +86,7 @@ Sharuum the Hegemon,ala,100
 "Esika, God of the Tree // The Prismatic Bridge",khm,100
 "Firja, Judge of Valor",khm,100
 "Shaile, Dean of Radiance // Embrose, Dean of Shadow",stx,100
+"Codie, Vociferous Codex",stx,100
 "Alquist Proft, Master Sleuth",mkm,100
 "Ral, Izzet Viceroy",grn,100
 "Kellan, the Kid",otj,100
@@ -114,6 +116,7 @@ Nissa of Shadowed Boughs,znr,100
 "Chandra, Fire Artisan",war,100
 "Nissa, Who Shakes the World",war,100
 Niv-Mizzet Reborn,war,100
+"Teferi, Time Raveler",war,100
 "Tezzeret, Agent of Bolas",mbs,100
 Cromat,apc,100
 Scion of the Ur-Dragon,tsp,100
@@ -161,6 +164,7 @@ Wrenn and Seven,mid,105.0371906843745
 "Depala, Pilot Exemplar",kld,105.7293875579672
 "Zurgo, Thunder's Decree",tdm,105.85523681399957
 "Kolodin, Triumph Caster",dft,108.76602409674729
+Eshki Dragonclaw,tdm,108.97515421869679
 "Cecil, Dark Knight",fin,109.23866293282362
 "Anzrag, the Quake-Mole",mkm,109.30495152981052
 "Etrata, the Silencer",grn,109.71029840390945
@@ -182,5 +186,5 @@ The Swarmweaver,dsk,118.44912997615931
 "Winter, Misanthropic Guide",dsk,118.64509967023692
 "Olivia, Crimson Bride",vow,120.58820884030364
 "Niko, Light of Hope",dsk,139.2209146129274
-"Finneas, Ace Archer",blb,142.94060785350766
+"Finneas, Ace Archer",blb,142.59530791079595
 "Arabella, Abandoned Doll",dsk,147.3923603878174
