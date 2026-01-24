@@ -408,7 +408,9 @@ if __name__ == "__main__" :
             print("in order")
         else:
             in_order = False
-            print("not in order")
+            correct_order = input("not in order ? (Y/n)")
+            if correct_order != "Y" or correct_order != "y" or correct_order != "":
+                raise Exception("Bade Dates")
             new_rencontres = []
             for rencontre in rencontres:
                 if rencontre["Date"] > new_date:
@@ -437,12 +439,12 @@ if __name__ == "__main__" :
                 json.dump(decks, decks_file, ensure_ascii=False)
         fieldnames = rencontres_fraiches_reader.fieldnames
     if in_order:
-        print("in order")
+        print("writting in order")
         with open(rencontres_file_name, "a", newline="", encoding="utf-8") as rencontres_file :
             writer = csv.DictWriter(rencontres_file,fieldnames=fieldnames)
             writer.writerows(rencontres_fraiches)
     else:
-        print("not in order")
+        print("writting reordered")
         with open(rencontres_file_name, "w", newline="", encoding="utf-8") as rencontres_file :
             writer = csv.DictWriter(rencontres_file,fieldnames=fieldnames)
             writer.writerows(rencontres)

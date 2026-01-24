@@ -1,10 +1,10 @@
 Decks,Set,ELO
 "Lagrella, the Magpie",snc,62.81758715292375
 Marina Vendrell,dsk,71.96337561149335
+"Wylie Duke, Atiin Hero",otj,73.2923120736454
 Vorinclex,khm,75.56232592882718
 "Yenna, Redtooth Regent",woe,75.96067933957488
 "Voja, Jaws of the Conclave",mkm,76.09496973250103
-"Wylie Duke, Atiin Hero",otj,81.89145409708324
 "Zoraline, Cosmos Caller",blb,82.78425541525245
 "Hapatra, Vizier of Poisons",akh,84.4351804324413
 "Nahiri, the Harbinger",soi,84.78501080890757
@@ -25,6 +25,7 @@ Rafiq of the Many,ala,85.05824011726938
 "Alpharael, Dreaming Acolyte",eoe,90.36008180199866
 "Katilda, Dawnhart Prime",mid,90.43847037096809
 "Greta, Sweettooth Scourge",woe,90.54610177867266
+"Maralen, Fae Ascendant",ecl,90.5786968059796
 "Totentanz, Swarm Piper",woe,91.31614625597281
 "Johann, Apprentice Sorcerer",woe,94.60908143385947
 "Jodah, the Unifier",dmu,94.6522310125152
@@ -46,6 +47,7 @@ Kaito Shizuki,neo,95.1572944116722
 "Baylen, the Haymaker",blb,95.22833650482842
 "Squall, SeeD Mercenary",fin,95.27464509314726
 Quintorius Kand,lci,95.33707748947505
+"Lukka, Bound to Ruin",one,95.69980247114835
 "Far Fortune, End Boss",dft,95.8669869829201
 "Wydwen, the Biting Gale",lrw,95.867900099617
 "Aang, Swift Savior",tla,96.01213172634328
@@ -104,6 +106,7 @@ The Mindskinner,dsk,100
 "Rip, Spawn Hunter",dsk,100
 "Hama Pashar, Ruin Seeker",afr,100
 "Kalain, Reclusive Painter",afr,100
+"Farideh, Devil's Chosen",afr,100
 "Elenda, the Dusk Rose",rix,100
 "Azor, the Lawbringer",rix,100
 "Oko, Thief of Crowns",eld,100
@@ -140,8 +143,9 @@ Domri Rade,gtc,100
 "Angrath, the Flame-Chained",rix,100.61898418233393
 "Gev, Scaled Scorch",blb,100.65307071116011
 The Mycotyrant,lci,100.78289713400758
-"Lukka, Bound to Ruin",one,100.9787652224224
 Zurgo Helmsmasher,ktk,101.05231159953375
+"Grub, Storied Matriarch",ecl,103.76512028598852
+"Aang, at the Crossroads",tla,103.82356702129628
 "Tannuk, Memorial Ensign",eoe,103.96326281411095
 "Zuko, Conflicted",tla,104.20498024619775
 "Dennick, Pious Apprentice",mid,104.5145292253058
@@ -182,6 +186,7 @@ The Wandering Emperor,neo,114.90646839261645
 "Sigarda, Champion of Light",mid,114.96501956814696
 "Glarb, Calamity's Augur",blb,115.08803732800412
 "Skithiryx, the Blight Dragon",som,115.47887105113129
+"Ureni, the Song Unending",tdm,115.71072066144748
 The Swarmweaver,dsk,118.44912997615931
 "Winter, Misanthropic Guide",dsk,118.64509967023692
 "Olivia, Crimson Bride",vow,120.58820884030364
