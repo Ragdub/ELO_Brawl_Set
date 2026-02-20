@@ -25,8 +25,9 @@ Rafiq of the Many,ala,85.05824011726938
 "Alpharael, Dreaming Acolyte",eoe,90.36008180199866
 "Katilda, Dawnhart Prime",mid,90.43847037096809
 "Greta, Sweettooth Scourge",woe,90.54610177867266
-"Maralen, Fae Ascendant",ecl,90.5786968059796
 "Totentanz, Swarm Piper",woe,91.31614625597281
+"Maralen, Fae Ascendant",ecl,93.15822583703735
+Glissa Sunslayer,one,93.21712021568234
 "Johann, Apprentice Sorcerer",woe,94.60908143385947
 "Jodah, the Unifier",dmu,94.6522310125152
 Infinite Guideline Station,eoe,94.66404823848367
@@ -50,6 +51,7 @@ Quintorius Kand,lci,95.33707748947505
 "Lukka, Bound to Ruin",one,95.69980247114835
 "Far Fortune, End Boss",dft,95.8669869829201
 "Wydwen, the Biting Gale",lrw,95.867900099617
+"Oko, Lorwyn Liege",ecl,95.89574191308722
 "Aang, Swift Savior",tla,96.01213172634328
 "Omnath, Locus of Mana",wwk,97.46028585954026
 "Loot, the Pathfinder",dft,98.81015465962638
@@ -66,6 +68,7 @@ Admiral Beckett Brass,xln,99.9075654775479
 Zurgo and Ojutai,mom,99.93261293915359
 Satoru Umezawa,neo,100
 "Kyodai, Soul of Kamigawa",neo,100
+"Risona, Asari Commander",neo,100
 Lurrus of the Dream-Den,iko,100
 "Brokkos, Apex of Forever",iko,100
 Hylda of the Icy Crown,woe,100
@@ -136,14 +139,15 @@ Domri Rade,gtc,100
 "Sorin, Lord of Innistrad",dka,100
 "Lightning, Army of One",fin,100
 "Ulamog, the Ceaseless Hunger",bfz,100
+"Dyadrine, Synthesis Amalgam",eoe,100
 "Kutzil, Malamet Exemplar",lci,100.1127257311987
 "Miriam, Herd Whisperer",otj,100.19406767351737
 "Mabel, Heir to Cragflame",blb,100.3724814288683
-"Snapdax, Apex of the Hunt",iko,100.42114691970554
 "Angrath, the Flame-Chained",rix,100.61898418233393
 "Gev, Scaled Scorch",blb,100.65307071116011
 The Mycotyrant,lci,100.78289713400758
 Zurgo Helmsmasher,ktk,101.05231159953375
+"Betor, Kin to All",tdm,103.49465459393471
 "Grub, Storied Matriarch",ecl,103.76512028598852
 "Aang, at the Crossroads",tla,103.82356702129628
 "Tannuk, Memorial Ensign",eoe,103.96326281411095
@@ -165,6 +169,8 @@ Wrenn and Seven,mid,105.0371906843745
 "Mishra, Claimed by Gix",bro,105.30357053541516
 "Judith, the Scourge Diva",rna,105.3492800224703
 "Aurelia, Exemplar of Justice",grn,105.38135713775114
+"Ureni, the Song Unending",tdm,105.40183357057586
+"Snapdax, Apex of the Hunt",iko,105.59579368221922
 "Depala, Pilot Exemplar",kld,105.7293875579672
 "Zurgo, Thunder's Decree",tdm,105.85523681399957
 "Kolodin, Triumph Caster",dft,108.76602409674729
@@ -186,10 +192,9 @@ The Wandering Emperor,neo,114.90646839261645
 "Sigarda, Champion of Light",mid,114.96501956814696
 "Glarb, Calamity's Augur",blb,115.08803732800412
 "Skithiryx, the Blight Dragon",som,115.47887105113129
-"Ureni, the Song Unending",tdm,115.71072066144748
 The Swarmweaver,dsk,118.44912997615931
 "Winter, Misanthropic Guide",dsk,118.64509967023692
 "Olivia, Crimson Bride",vow,120.58820884030364
 "Niko, Light of Hope",dsk,139.2209146129274
-"Finneas, Ace Archer",blb,142.59530791079595
 "Arabella, Abandoned Doll",dsk,147.3923603878174
+"Finneas, Ace Archer",blb,152.54250248539188
