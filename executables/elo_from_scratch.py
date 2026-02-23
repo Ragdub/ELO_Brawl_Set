@@ -35,10 +35,10 @@ if __name__ == '__main__':
             players_data, decks_data = generateELO(rencontres_list, elo_clearance, elo_label)
 
             with open(players_filename, mode="w", encoding="utf-8") as players_file:
-                json.dump(dict(sorted(players_data.items())), players_file, ensure_ascii=False)
+                json.dump(dict(sorted(players_data.items())), players_file, ensure_ascii=False, indent=4)
 
             with open(decks_filename, mode="w", encoding="utf-8") as decks_file:
-                json.dump(dict(sorted(decks_data.items(), key=lambda tuple: tuple[1]["Date"])), decks_file, ensure_ascii=False)
+                json.dump(dict(sorted(decks_data.items(), key=lambda tuple: tuple[1]["Date"])), decks_file, ensure_ascii=False, indent=4)
 
     import get_list_players
     get_list_players.writing_list_players_file(PLAYER_JSON, LIST_PLAYERS)

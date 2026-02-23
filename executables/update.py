@@ -461,8 +461,8 @@ if __name__ == "__main__" :
                     raise Exception("Bad elo_label")
         
             with open(players_file_name,"w", encoding="utf-8") as players_file, open(decks_file_name,"w", encoding="utf-8") as decks_file :
-                json.dump(dict(sorted(players.items())), players_file, ensure_ascii=False)
-                json.dump(dict(sorted(decks.items(), key=lambda tuple: tuple[1]["Date"])), decks_file, ensure_ascii=False)
+                json.dump(dict(sorted(players.items())), players_file, ensure_ascii=False, indent=4)
+                json.dump(dict(sorted(decks.items(), key=lambda tuple: tuple[1]["Date"])), decks_file, ensure_ascii=False, indent=4)
         fieldnames = rencontres_fraiches_reader.fieldnames
     if in_order:
         print("writting in order")
