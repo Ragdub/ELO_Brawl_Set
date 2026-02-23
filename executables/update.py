@@ -110,7 +110,7 @@ def readSet(magic_set, decks_global, data_changed, is_trusted):
         else:
             raise Exception("Bad set name")
 
-def readDeck(deck, decks_global, magic_set_work, magic_set_work_name, data_changed, is_trusted):
+def readDeck(deck, decks_global, magic_set_decks, magic_set_name, data_changed, is_trusted):
     """Returns the json of the deck "deck" in decks_global[magic_set_work]. If deck is not in decks_global[magic_set_work], returns a new entry and adds "decks" to data_changed.
     
     deck: the name of the deck.
@@ -120,14 +120,14 @@ def readDeck(deck, decks_global, magic_set_work, magic_set_work_name, data_chang
     is_trusted: bypass input verification.
     """
     try:
-        return magic_set_work["Decks"][deck]
+        return magic_set_decks[deck]
     except KeyError:
         is_deck_correct = "Y"
         if not is_trusted:
-            is_deck_correct = input(f"Is {deck} a correct deck from the set {magic_set_work_name}? (Y/n)")
+            is_deck_correct = input(f"Is {deck} a correct deck from the set {magic_set_name}? (Y/n)")
         if is_deck_correct == "Y" or is_deck_correct == "y" or is_deck_correct == "" or is_trusted:
             new_deck = getDefaultDeck()
-            magic_set_work[deck] = new_deck
+            magic_set_decks[deck] = new_deck
             data_changed.add("decks")
             return new_deck
         else:
