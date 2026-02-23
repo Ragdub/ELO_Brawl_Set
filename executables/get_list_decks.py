@@ -6,7 +6,7 @@ def writing_list_decks_file(decks_file_name, list_decks_file_name):
         magic_sets = json.load(decks_file)
         decks = set()
         for magic_set_decks in magic_sets.values():
-            for deck in magic_set_decks:
+            for deck in magic_set_decks["Decks"]:
                 decks.add(deck)
         writer = csv.writer(list_decks_csv)
         writer.writerow(["Decks"])
