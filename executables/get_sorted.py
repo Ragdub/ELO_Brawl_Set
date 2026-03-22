@@ -34,7 +34,7 @@ def writing_sorted_players(players_file_name, tournois):
         ELO_clearance = ELO_clearance[0:len(ELO_clearance)-1]
         players_elo = []
         for player in ELO_clearance:
-            players_elo.append([player,players[player]["Data"]["ELO"]])
+            players_elo.append([player,players[player][data_label]["ELO"]])
         writer = csv.writer(sorted_players_csv)
         writer.writerow(["Joueureuses","ELO"])
         for player in sorted(players_elo,key = lambda x : x[1]) :
