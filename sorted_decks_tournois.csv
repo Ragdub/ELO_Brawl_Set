@@ -5,6 +5,7 @@ Marina Vendrell,dsk,71.96329495772517
 Vorinclex,khm,75.56232592882718
 "Yenna, Redtooth Regent",woe,75.96067933957488
 "Voja, Jaws of the Conclave",mkm,76.09496973250103
+"Maralen, Fae Ascendant",ecl,79.89874009987619
 "Zoraline, Cosmos Caller",blb,82.78143730616681
 "Hapatra, Vizier of Poisons",akh,84.4351804324413
 "Nahiri, the Harbinger",soi,84.78501080890757
@@ -14,7 +15,6 @@ Rafiq of the Many,ala,85.05824011726938
 "Tovolar, Dire Overlord",mid,85.57782794014878
 "Marchesa, Dealer of Death",otj,86.30851226372387
 "Illuna, Apex of Wishes",iko,86.69447053787475
-"Maralen, Fae Ascendant",ecl,87.80355457716458
 "Harbin, Vanguard Aviator",bro,89.84721379107678
 "Satsuki, the Living Lore",neo,89.92554940696135
 "Dina, Soul Steeper",stx,89.95871887226397
@@ -48,6 +48,7 @@ Gladiolus Amicitia,fin,95.0911193151996
 Kaito Shizuki,neo,95.1572944116722
 "Florian, Voldaren Scion",mid,95.20676326059001
 "Baylen, the Haymaker",blb,95.22833650482842
+"Alania, Divergent Storm",blb,95.24911855851948
 "Squall, SeeD Mercenary",fin,95.27464509314726
 Quintorius Kand,lci,95.33707748947505
 "Lukka, Bound to Ruin",one,95.69862095638541
@@ -57,13 +58,13 @@ Quintorius Kand,lci,95.33707748947505
 "Aang, Swift Savior",tla,96.00927431949685
 "Silk, Web Weaver",spm,96.1287072156071
 "Omnath, Locus of Mana",wwk,97.46028585954026
+"Betor, Kin to All",tdm,98.5453108908589
 "Loot, the Pathfinder",dft,98.8102444319201
 "Helga, Skittish Seer",blb,98.87718690027316
 "Chandra, Flamecaller",ogw,99.34479145726348
 "Ob Nixilis, the Adversary",snc,99.48715508704394
 Dovin Baan,kld,99.5095216677314
 "Niv-Mizzet, Guildpact",mkm,99.53653348115247
-"Trystan, Callous Cultivator",ecl,99.5461114831165
 "Nicanzil, Current Conductor",lci,99.66346082722923
 "Haliya, Ascendant Cadet",eoe,99.71437318418019
 "Talion, the Kindly Lord",woe,99.80626778563727
@@ -110,6 +111,7 @@ Nissa of Shadowed Boughs,znr,100
 "Firja, Judge of Valor",khm,100
 "Shaile, Dean of Radiance // Embrose, Dean of Shadow",stx,100
 "Codie, Vociferous Codex",stx,100
+"Plargg, Dean of Chaos",stx,100
 "Hama Pashar, Ruin Seeker",afr,100
 "Kalain, Reclusive Painter",afr,100
 "Farideh, Devil's Chosen",afr,100
@@ -147,6 +149,7 @@ The Mindskinner,dsk,100
 Mabouba,tla,100
 "Toph, Hardheaded Teacher",tla,100
 "Ash, Party Crasher",ecl,100
+"Trystan, Callous Cultivator",ecl,100.09556700524078
 "Kutzil, Malamet Exemplar",lci,100.1127257311987
 "Miriam, Herd Whisperer",otj,100.19406767351737
 "Mabel, Heir to Cragflame",blb,100.36986193996937
@@ -154,7 +157,7 @@ Mabouba,tla,100
 "Gev, Scaled Scorch",blb,100.65307071116011
 The Mycotyrant,lci,100.78289713400758
 Zurgo Helmsmasher,ktk,101.05909630288507
-"Betor, Kin to All",tdm,103.49802557621922
+Dark Leo & Shredder,tmt,103.53686632820104
 "Grub, Storied Matriarch",ecl,103.76373915650302
 "Tannuk, Memorial Ensign",eoe,103.96206537343033
 "Zuko, Conflicted",tla,104.20976075856149
@@ -190,6 +193,7 @@ Eshki Dragonclaw,tdm,108.97529088775659
 "Korvold, Fae-Cursed King",eld,110.26349451198868
 "Nashi, Searcher in the Dark",dsk,110.33520511019005
 "Kefka, Court Mage",fin,110.88587357679661
+"Tajic, Legion's Edge",grn,113.5220887538039
 Thalia and The Gitrog Monster,mom,114.37395355242555
 "Narset, Jeskai Waymaster",tdm,114.53125635911917
 "Raffine, Scheming Seer",snc,114.55000388248607

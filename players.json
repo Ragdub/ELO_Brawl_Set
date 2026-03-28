@@ -91,8 +91,8 @@
     },
     "Anaïs Adelin": {
         "Data": {
-            "ELO": 39.673347063110086,
-            "match number": 11,
+            "ELO": 41.08629164360759,
+            "match number": 13,
             "decks played": {
                 "Mishra, Claimed by Gix": {
                     "number": 3,
@@ -117,6 +117,12 @@
                     "win": 0,
                     "draw": 0,
                     "lose": 2
+                },
+                "Trystan, Callous Cultivator": {
+                    "number": 2,
+                    "win": 1,
+                    "draw": 0,
+                    "lose": 1
                 }
             },
             "players fought": {
@@ -155,18 +161,31 @@
                     "win": 0,
                     "draw": 0,
                     "lose": 1
+                },
+                "Léo Gougeon": {
+                    "number": 1,
+                    "win": 0,
+                    "draw": 0,
+                    "lose": 1
+                },
+                "Hugo": {
+                    "number": 1,
+                    "win": 1,
+                    "draw": 0,
+                    "lose": 0
                 }
             },
             "historic": {
                 "2025-10-10": 102.06814697349671,
                 "2025-10-31": 81.0175188253047,
                 "2025-12-12": 55.738849667832646,
-                "2026-03-07": 39.673347063110086
+                "2026-03-07": 39.673347063110086,
+                "2026-03-28": 41.08629164360759
             }
         },
         "Data Tournoi": {
-            "ELO": 52.259602621802266,
-            "match number": 9,
+            "ELO": 53.35851366605084,
+            "match number": 11,
             "decks played": {
                 "Mishra, Claimed by Gix": {
                     "number": 3,
@@ -185,6 +204,12 @@
                     "win": 0,
                     "draw": 0,
                     "lose": 3
+                },
+                "Trystan, Callous Cultivator": {
+                    "number": 2,
+                    "win": 1,
+                    "draw": 0,
+                    "lose": 1
                 }
             },
             "players fought": {
@@ -223,12 +248,25 @@
                     "win": 0,
                     "draw": 0,
                     "lose": 1
+                },
+                "Léo Gougeon": {
+                    "number": 1,
+                    "win": 0,
+                    "draw": 0,
+                    "lose": 1
+                },
+                "Hugo": {
+                    "number": 1,
+                    "win": 1,
+                    "draw": 0,
+                    "lose": 0
                 }
             },
             "historic": {
                 "2025-10-10": 100.5233499819797,
                 "2025-10-31": 80.61361391070709,
-                "2025-12-12": 52.259602621802266
+                "2025-12-12": 52.259602621802266,
+                "2026-03-28": 53.35851366605084
             }
         }
     },
@@ -743,7 +781,7 @@
     },
     "Charlotte Beauchamp": {
         "Data": {
-            "match number": 278,
+            "match number": 282,
             "decks played": {
                 "Totentanz, Swarm Piper": {
                     "number": 36,
@@ -854,10 +892,10 @@
                     "lose": 1
                 },
                 "Maralen, Fae Ascendant": {
-                    "number": 25,
-                    "win": 11,
+                    "number": 29,
+                    "win": 13,
                     "draw": 1,
-                    "lose": 13
+                    "lose": 15
                 }
             },
             "players fought": {
@@ -892,10 +930,10 @@
                     "lose": 7
                 },
                 "Nicolas Gaidier": {
-                    "number": 182,
-                    "win": 70,
+                    "number": 184,
+                    "win": 71,
                     "draw": 3,
-                    "lose": 109
+                    "lose": 110
                 },
                 "Léon Le Loir": {
                     "number": 13,
@@ -958,8 +996,8 @@
                     "lose": 1
                 },
                 "Léo Gougeon": {
-                    "number": 3,
-                    "win": 0,
+                    "number": 4,
+                    "win": 1,
                     "draw": 0,
                     "lose": 3
                 },
@@ -976,10 +1014,10 @@
                     "lose": 1
                 },
                 "Milan Arrouas": {
-                    "number": 3,
+                    "number": 4,
                     "win": 0,
                     "draw": 0,
-                    "lose": 3
+                    "lose": 4
                 },
                 "Théo Beaumanoir": {
                     "number": 1,
@@ -1026,7 +1064,7 @@
             }
         },
         "Data Tournoi": {
-            "match number": 102,
+            "match number": 104,
             "decks played": {
                 "Totentanz, Swarm Piper": {
                     "number": 20,
@@ -1119,10 +1157,10 @@
                     "lose": 2
                 },
                 "Maralen, Fae Ascendant": {
-                    "number": 9,
-                    "win": 3,
+                    "number": 11,
+                    "win": 4,
                     "draw": 1,
-                    "lose": 5
+                    "lose": 6
                 }
             },
             "players fought": {
@@ -1217,8 +1255,8 @@
                     "lose": 1
                 },
                 "Léo Gougeon": {
-                    "number": 3,
-                    "win": 0,
+                    "number": 4,
+                    "win": 1,
                     "draw": 0,
                     "lose": 3
                 },
@@ -1235,10 +1273,10 @@
                     "lose": 1
                 },
                 "Milan Arrouas": {
-                    "number": 3,
+                    "number": 4,
                     "win": 0,
                     "draw": 0,
-                    "lose": 3
+                    "lose": 4
                 },
                 "Jules Faucherre": {
                     "number": 2,
@@ -1517,8 +1555,8 @@
     },
     "Dylan Bellier": {
         "Data": {
-            "ELO": 241.7431165051499,
-            "match number": 242,
+            "ELO": 249.94557220933044,
+            "match number": 243,
             "decks played": {
                 "The Wandering Emperor": {
                     "number": 5,
@@ -1951,6 +1989,12 @@
                     "win": 4,
                     "draw": 0,
                     "lose": 0
+                },
+                "Plargg, Dean of Chaos": {
+                    "number": 1,
+                    "win": 1,
+                    "draw": 0,
+                    "lose": 0
                 }
             },
             "players fought": {
@@ -2003,8 +2047,8 @@
                     "lose": 0
                 },
                 "Jean Jouve": {
-                    "number": 13,
-                    "win": 9,
+                    "number": 14,
+                    "win": 10,
                     "draw": 1,
                     "lose": 3
                 },
@@ -2175,7 +2219,8 @@
                 "2026-01-30": 213.59617421758372,
                 "2026-02-20": 204.55449879238233,
                 "2026-02-22": 213.2240991933392,
-                "2026-03-21": 241.7431165051499
+                "2026-03-21": 241.7431165051499,
+                "2026-03-28": 249.94557220933044
             }
         },
         "Data Tournoi": {
@@ -2506,14 +2551,14 @@
     },
     "Erwan Col": {
         "Data": {
-            "ELO": 92.31399749520935,
-            "match number": 3,
+            "ELO": 74.18337227903959,
+            "match number": 5,
             "decks played": {
                 "Maralen, Fae Ascendant": {
-                    "number": 3,
+                    "number": 5,
                     "win": 1,
                     "draw": 0,
-                    "lose": 2
+                    "lose": 4
                 }
             },
             "players fought": {
@@ -2530,6 +2575,12 @@
                     "lose": 0
                 },
                 "Milan Arrouas": {
+                    "number": 2,
+                    "win": 0,
+                    "draw": 0,
+                    "lose": 2
+                },
+                "Hugo": {
                     "number": 1,
                     "win": 0,
                     "draw": 0,
@@ -2537,18 +2588,19 @@
                 }
             },
             "historic": {
-                "2026-02-20": 92.31399749520935
+                "2026-02-20": 92.31399749520935,
+                "2026-03-28": 74.18337227903959
             }
         },
         "Data Tournoi": {
-            "ELO": 92.804785112661,
-            "match number": 3,
+            "ELO": 74.81712678138373,
+            "match number": 5,
             "decks played": {
                 "Maralen, Fae Ascendant": {
-                    "number": 3,
+                    "number": 5,
                     "win": 1,
                     "draw": 0,
-                    "lose": 2
+                    "lose": 4
                 }
             },
             "players fought": {
@@ -2565,6 +2617,12 @@
                     "lose": 0
                 },
                 "Milan Arrouas": {
+                    "number": 2,
+                    "win": 0,
+                    "draw": 0,
+                    "lose": 2
+                },
+                "Hugo": {
                     "number": 1,
                     "win": 0,
                     "draw": 0,
@@ -2572,7 +2630,8 @@
                 }
             },
             "historic": {
-                "2026-02-20": 92.804785112661
+                "2026-02-20": 92.804785112661,
+                "2026-03-28": 74.81712678138373
             }
         }
     },
@@ -3281,10 +3340,74 @@
             }
         }
     },
+    "Hugo": {
+        "Data": {
+            "match number": 3,
+            "decks played": {
+                "Betor, Kin to All": {
+                    "number": 3,
+                    "win": 1,
+                    "draw": 0,
+                    "lose": 2
+                }
+            },
+            "players fought": {
+                "Nicolas Gaidier": {
+                    "number": 1,
+                    "win": 0,
+                    "draw": 0,
+                    "lose": 1
+                },
+                "Erwan Col": {
+                    "number": 1,
+                    "win": 1,
+                    "draw": 0,
+                    "lose": 0
+                },
+                "Anaïs Adelin": {
+                    "number": 1,
+                    "win": 0,
+                    "draw": 0,
+                    "lose": 1
+                }
+            }
+        },
+        "Data Tournoi": {
+            "match number": 3,
+            "decks played": {
+                "Betor, Kin to All": {
+                    "number": 3,
+                    "win": 1,
+                    "draw": 0,
+                    "lose": 2
+                }
+            },
+            "players fought": {
+                "Nicolas Gaidier": {
+                    "number": 1,
+                    "win": 0,
+                    "draw": 0,
+                    "lose": 1
+                },
+                "Erwan Col": {
+                    "number": 1,
+                    "win": 1,
+                    "draw": 0,
+                    "lose": 0
+                },
+                "Anaïs Adelin": {
+                    "number": 1,
+                    "win": 0,
+                    "draw": 0,
+                    "lose": 1
+                }
+            }
+        }
+    },
     "Jean Jouve": {
         "Data": {
-            "ELO": 39.7727840684862,
-            "match number": 28,
+            "ELO": 31.57032836430569,
+            "match number": 29,
             "decks played": {
                 "Niv-Mizzet, Guildpact": {
                     "number": 3,
@@ -3387,6 +3510,12 @@
                     "win": 0,
                     "draw": 0,
                     "lose": 1
+                },
+                "Brigid, Clachan's Heart": {
+                    "number": 1,
+                    "win": 0,
+                    "draw": 0,
+                    "lose": 1
                 }
             },
             "players fought": {
@@ -3397,10 +3526,10 @@
                     "lose": 0
                 },
                 "Dylan Bellier": {
-                    "number": 13,
+                    "number": 14,
                     "win": 3,
                     "draw": 1,
-                    "lose": 9
+                    "lose": 10
                 },
                 "Louis Liard": {
                     "number": 1,
@@ -3464,7 +3593,8 @@
                 "2025-07-31": 77.48304767821142,
                 "2026-01-01": 67.82966365158595,
                 "2026-02-20": 48.44238446944308,
-                "2026-02-22": 39.7727840684862
+                "2026-02-22": 39.7727840684862,
+                "2026-03-28": 31.57032836430569
             }
         },
         "Data Tournoi": {
@@ -4384,7 +4514,7 @@
     },
     "Léo Gougeon": {
         "Data": {
-            "match number": 18,
+            "match number": 21,
             "decks played": {
                 "Marchesa, Dealer of Death": {
                     "number": 10,
@@ -4397,6 +4527,12 @@
                     "win": 4,
                     "draw": 1,
                     "lose": 3
+                },
+                "Alania, Divergent Storm": {
+                    "number": 3,
+                    "win": 1,
+                    "draw": 0,
+                    "lose": 2
                 }
             },
             "players fought": {
@@ -4407,10 +4543,10 @@
                     "lose": 0
                 },
                 "Nicolas Gaidier": {
-                    "number": 4,
+                    "number": 5,
                     "win": 3,
                     "draw": 0,
-                    "lose": 1
+                    "lose": 2
                 },
                 "Léon Le Loir": {
                     "number": 1,
@@ -4419,10 +4555,10 @@
                     "lose": 0
                 },
                 "Charlotte Beauchamp": {
-                    "number": 3,
+                    "number": 4,
                     "win": 3,
                     "draw": 0,
-                    "lose": 0
+                    "lose": 1
                 },
                 "Paul Costentin": {
                     "number": 1,
@@ -4453,11 +4589,17 @@
                     "win": 0,
                     "draw": 1,
                     "lose": 0
+                },
+                "Anaïs Adelin": {
+                    "number": 1,
+                    "win": 1,
+                    "draw": 0,
+                    "lose": 0
                 }
             }
         },
         "Data Tournoi": {
-            "match number": 17,
+            "match number": 20,
             "decks played": {
                 "Marchesa, Dealer of Death": {
                     "number": 9,
@@ -4470,14 +4612,20 @@
                     "win": 4,
                     "draw": 1,
                     "lose": 3
+                },
+                "Alania, Divergent Storm": {
+                    "number": 3,
+                    "win": 1,
+                    "draw": 0,
+                    "lose": 2
                 }
             },
             "players fought": {
                 "Nicolas Gaidier": {
-                    "number": 4,
+                    "number": 5,
                     "win": 3,
                     "draw": 0,
-                    "lose": 1
+                    "lose": 2
                 },
                 "Léon Le Loir": {
                     "number": 1,
@@ -4486,10 +4634,10 @@
                     "lose": 0
                 },
                 "Charlotte Beauchamp": {
-                    "number": 3,
+                    "number": 4,
                     "win": 3,
                     "draw": 0,
-                    "lose": 0
+                    "lose": 1
                 },
                 "Paul Costentin": {
                     "number": 1,
@@ -4519,6 +4667,12 @@
                     "number": 1,
                     "win": 0,
                     "draw": 1,
+                    "lose": 0
+                },
+                "Anaïs Adelin": {
+                    "number": 1,
+                    "win": 1,
+                    "draw": 0,
                     "lose": 0
                 }
             }
@@ -5331,8 +5485,8 @@
     },
     "Milan Arrouas": {
         "Data": {
-            "ELO": 261.56027885577515,
-            "match number": 43,
+            "ELO": 279.98770303666817,
+            "match number": 47,
             "decks played": {
                 "Niko, Light of Hope": {
                     "number": 16,
@@ -5387,14 +5541,20 @@
                     "win": 0,
                     "draw": 1,
                     "lose": 0
+                },
+                "Dark Leo & Shredder": {
+                    "number": 4,
+                    "win": 3,
+                    "draw": 0,
+                    "lose": 1
                 }
             },
             "players fought": {
                 "Nicolas Gaidier": {
-                    "number": 9,
-                    "win": 6,
+                    "number": 11,
+                    "win": 7,
                     "draw": 1,
-                    "lose": 2
+                    "lose": 3
                 },
                 "Dylan Bellier": {
                     "number": 6,
@@ -5433,8 +5593,8 @@
                     "lose": 0
                 },
                 "Charlotte Beauchamp": {
-                    "number": 3,
-                    "win": 3,
+                    "number": 4,
+                    "win": 4,
                     "draw": 0,
                     "lose": 0
                 },
@@ -5475,8 +5635,8 @@
                     "lose": 1
                 },
                 "Erwan Col": {
-                    "number": 1,
-                    "win": 1,
+                    "number": 2,
+                    "win": 2,
                     "draw": 0,
                     "lose": 0
                 },
@@ -5508,12 +5668,13 @@
                 "2026-01-31": 260.6478465156893,
                 "2026-02-20": 267.88160619207827,
                 "2026-03-07": 273.20595148143485,
-                "2026-03-21": 261.56027885577515
+                "2026-03-21": 261.56027885577515,
+                "2026-03-28": 279.98770303666817
             }
         },
         "Data Tournoi": {
-            "ELO": 236.85395728890285,
-            "match number": 36,
+            "ELO": 243.92768994530493,
+            "match number": 39,
             "decks played": {
                 "Niko, Light of Hope": {
                     "number": 16,
@@ -5562,14 +5723,20 @@
                     "win": 0,
                     "draw": 1,
                     "lose": 0
+                },
+                "Dark Leo & Shredder": {
+                    "number": 3,
+                    "win": 2,
+                    "draw": 0,
+                    "lose": 1
                 }
             },
             "players fought": {
                 "Nicolas Gaidier": {
-                    "number": 8,
+                    "number": 9,
                     "win": 5,
                     "draw": 1,
-                    "lose": 2
+                    "lose": 3
                 },
                 "Dylan Bellier": {
                     "number": 6,
@@ -5608,8 +5775,8 @@
                     "lose": 0
                 },
                 "Charlotte Beauchamp": {
-                    "number": 3,
-                    "win": 3,
+                    "number": 4,
+                    "win": 4,
                     "draw": 0,
                     "lose": 0
                 },
@@ -5650,8 +5817,8 @@
                     "lose": 0
                 },
                 "Erwan Col": {
-                    "number": 1,
-                    "win": 1,
+                    "number": 2,
+                    "win": 2,
                     "draw": 0,
                     "lose": 0
                 },
@@ -5674,7 +5841,8 @@
                 "2025-12-05": 234.12292825530423,
                 "2026-01-23": 241.77692910609017,
                 "2026-02-20": 248.7729802585286,
-                "2026-03-21": 236.85395728890285
+                "2026-03-21": 236.85395728890285,
+                "2026-03-28": 243.92768994530493
             }
         }
     },
@@ -5988,8 +6156,8 @@
     },
     "Nicolas Gaidier": {
         "Data": {
-            "ELO": 335.2885650517049,
-            "match number": 304,
+            "ELO": 345.11218685356965,
+            "match number": 310,
             "decks played": {
                 "Thalia and The Gitrog Monster": {
                     "number": 11,
@@ -5998,10 +6166,10 @@
                     "lose": 3
                 },
                 "Dovin Baan": {
-                    "number": 12,
-                    "win": 5,
+                    "number": 14,
+                    "win": 6,
                     "draw": 5,
-                    "lose": 2
+                    "lose": 3
                 },
                 "Sigarda, Champion of Light": {
                     "number": 10,
@@ -6124,10 +6292,10 @@
                     "lose": 1
                 },
                 "Far Fortune, End Boss": {
-                    "number": 6,
+                    "number": 7,
                     "win": 2,
                     "draw": 0,
-                    "lose": 4
+                    "lose": 5
                 },
                 "Loot, the Pathfinder": {
                     "number": 7,
@@ -6284,6 +6452,12 @@
                     "win": 1,
                     "draw": 0,
                     "lose": 0
+                },
+                "Tajic, Legion's Edge": {
+                    "number": 3,
+                    "win": 3,
+                    "draw": 0,
+                    "lose": 0
                 }
             },
             "players fought": {
@@ -6330,10 +6504,10 @@
                     "lose": 1
                 },
                 "Charlotte Beauchamp": {
-                    "number": 182,
-                    "win": 109,
+                    "number": 184,
+                    "win": 110,
                     "draw": 3,
-                    "lose": 70
+                    "lose": 71
                 },
                 "Gaëlle Richet": {
                     "number": 21,
@@ -6408,8 +6582,8 @@
                     "lose": 1
                 },
                 "Léo Gougeon": {
-                    "number": 4,
-                    "win": 1,
+                    "number": 5,
+                    "win": 2,
                     "draw": 0,
                     "lose": 3
                 },
@@ -6420,10 +6594,10 @@
                     "lose": 2
                 },
                 "Milan Arrouas": {
-                    "number": 9,
-                    "win": 2,
+                    "number": 11,
+                    "win": 3,
                     "draw": 1,
-                    "lose": 6
+                    "lose": 7
                 },
                 "Sylvain Benhamiche": {
                     "number": 1,
@@ -6465,6 +6639,12 @@
                     "number": 1,
                     "win": 0,
                     "draw": 1,
+                    "lose": 0
+                },
+                "Hugo": {
+                    "number": 1,
+                    "win": 1,
+                    "draw": 0,
                     "lose": 0
                 }
             },
@@ -6561,12 +6741,15 @@
                 "2026-03-09": 297.32535779445135,
                 "2026-03-11": 305.6174016592505,
                 "2026-03-13": 321.85662864340804,
-                "2026-03-21": 335.2885650517049
+                "2026-03-21": 335.2885650517049,
+                "2026-03-22": 343.02718094488245,
+                "2026-03-26": 330.48055228771165,
+                "2026-03-28": 345.11218685356965
             }
         },
         "Data Tournoi": {
-            "ELO": 260.28987864677293,
-            "match number": 110,
+            "ELO": 287.33405615438073,
+            "match number": 113,
             "decks played": {
                 "Thalia and The Gitrog Monster": {
                     "number": 6,
@@ -6723,6 +6906,12 @@
                     "win": 1,
                     "draw": 0,
                     "lose": 2
+                },
+                "Tajic, Legion's Edge": {
+                    "number": 3,
+                    "win": 3,
+                    "draw": 0,
+                    "lose": 0
                 }
             },
             "players fought": {
@@ -6841,8 +7030,8 @@
                     "lose": 1
                 },
                 "Léo Gougeon": {
-                    "number": 4,
-                    "win": 1,
+                    "number": 5,
+                    "win": 2,
                     "draw": 0,
                     "lose": 3
                 },
@@ -6853,8 +7042,8 @@
                     "lose": 1
                 },
                 "Milan Arrouas": {
-                    "number": 8,
-                    "win": 2,
+                    "number": 9,
+                    "win": 3,
                     "draw": 1,
                     "lose": 5
                 },
@@ -6899,6 +7088,12 @@
                     "win": 0,
                     "draw": 1,
                     "lose": 0
+                },
+                "Hugo": {
+                    "number": 1,
+                    "win": 1,
+                    "draw": 0,
+                    "lose": 0
                 }
             },
             "historic": {
@@ -6940,7 +7135,8 @@
                 "2026-01-03": 250.98454862603518,
                 "2026-01-23": 258.5120269390412,
                 "2026-02-20": 244.9443687847479,
-                "2026-03-21": 260.28987864677293
+                "2026-03-21": 260.28987864677293,
+                "2026-03-28": 287.33405615438073
             }
         }
     },
