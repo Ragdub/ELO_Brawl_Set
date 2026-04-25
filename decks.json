@@ -847,14 +847,14 @@
         "Decks": {
             "Gideon Jura": {
                 "Data": {
-                    "ELO": 85.63616093245622,
-                    "match number": 5,
+                    "ELO": 81.11394363286443,
+                    "match number": 6,
                     "players": {
                         "Dylan Bellier": {
-                            "number": 5,
+                            "number": 6,
                             "win": 1,
                             "draw": 0,
-                            "lose": 4
+                            "lose": 5
                         }
                     },
                     "decks fought": {
@@ -887,12 +887,19 @@
                             "win": 0,
                             "draw": 0,
                             "lose": 1
+                        },
+                        "Grub, Storied Matriarch": {
+                            "number": 1,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 1
                         }
                     },
                     "historic": {
                         "2025-01-31": 94.95716755661596,
                         "2025-05-29": 90.28942528526254,
-                        "2025-09-12": 85.63616093245622
+                        "2025-09-12": 85.63616093245622,
+                        "2026-03-29": 81.11394363286443
                     }
                 },
                 "Data Tournoi": {
@@ -1180,14 +1187,20 @@
             },
             "Geist of Saint Traft": {
                 "Data": {
-                    "ELO": 100.39955555280994,
-                    "match number": 2,
+                    "ELO": 105.80914602033828,
+                    "match number": 3,
                     "players": {
                         "Léon Le Loir": {
                             "number": 2,
                             "win": 1,
                             "draw": 0,
                             "lose": 1
+                        },
+                        "Dylan Bellier": {
+                            "number": 1,
+                            "win": 1,
+                            "draw": 0,
+                            "lose": 0
                         }
                     },
                     "decks fought": {
@@ -1202,11 +1215,18 @@
                             "win": 0,
                             "draw": 0,
                             "lose": 1
+                        },
+                        "Dark Leo & Shredder": {
+                            "number": 1,
+                            "win": 1,
+                            "draw": 0,
+                            "lose": 0
                         }
                     },
                     "historic": {
                         "2025-06-17": 105.30706921339603,
-                        "2025-12-20": 100.39955555280994
+                        "2025-12-20": 100.39955555280994,
+                        "2026-04-24": 105.80914602033828
                     }
                 },
                 "Data Tournoi": {
@@ -2068,14 +2088,14 @@
             },
             "Nahiri, the Harbinger": {
                 "Data": {
-                    "ELO": 85.02293330449339,
-                    "match number": 3,
+                    "ELO": 80.65004675265625,
+                    "match number": 4,
                     "players": {
                         "Dylan Bellier": {
-                            "number": 3,
+                            "number": 4,
                             "win": 0,
                             "draw": 0,
-                            "lose": 3
+                            "lose": 4
                         }
                     },
                     "decks fought": {
@@ -2096,10 +2116,17 @@
                             "win": 0,
                             "draw": 0,
                             "lose": 1
+                        },
+                        "Ziatora, the Incinerator": {
+                            "number": 1,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 1
                         }
                     },
                     "historic": {
-                        "2025-05-16": 85.02293330449339
+                        "2025-05-16": 85.02293330449339,
+                        "2026-03-29": 80.65004675265625
                     }
                 },
                 "Data Tournoi": {
@@ -7310,6 +7337,66 @@
                     "decks fought": {},
                     "historic": {}
                 }
+            },
+            "Tatsunari, Toad Rider": {
+                "Data": {
+                    "ELO": 89.52474777216173,
+                    "match number": 3,
+                    "players": {
+                        "Hugo Le Blev": {
+                            "number": 3,
+                            "win": 0,
+                            "draw": 1,
+                            "lose": 2
+                        }
+                    },
+                    "decks fought": {
+                        "Maralen, Fae Ascendant": {
+                            "number": 2,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 2
+                        },
+                        "Trystan, Callous Cultivator": {
+                            "number": 1,
+                            "win": 0,
+                            "draw": 1,
+                            "lose": 0
+                        }
+                    },
+                    "historic": {
+                        "2026-04-24": 89.52474777216173
+                    }
+                },
+                "Data Tournoi": {
+                    "ELO": 89.58366715354313,
+                    "match number": 3,
+                    "players": {
+                        "Hugo Le Blev": {
+                            "number": 3,
+                            "win": 0,
+                            "draw": 1,
+                            "lose": 2
+                        }
+                    },
+                    "decks fought": {
+                        "Maralen, Fae Ascendant": {
+                            "number": 2,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 2
+                        },
+                        "Trystan, Callous Cultivator": {
+                            "number": 1,
+                            "win": 0,
+                            "draw": 1,
+                            "lose": 0
+                        }
+                    },
+                    "historic": {
+                        "2026-04-24": 89.58366715354313
+                    }
+                }
             }
         },
         "Date": "2022-02-18"
@@ -7398,12 +7485,12 @@
             },
             "Ziatora, the Incinerator": {
                 "Data": {
-                    "ELO": 99.06627491115773,
-                    "match number": 4,
+                    "ELO": 103.43916146299487,
+                    "match number": 5,
                     "players": {
                         "Nicolas Gaidier": {
-                            "number": 4,
-                            "win": 2,
+                            "number": 5,
+                            "win": 3,
                             "draw": 0,
                             "lose": 2
                         }
@@ -7432,11 +7519,18 @@
                             "win": 0,
                             "draw": 0,
                             "lose": 1
+                        },
+                        "Nahiri, the Harbinger": {
+                            "number": 1,
+                            "win": 1,
+                            "draw": 0,
+                            "lose": 0
                         }
                     },
                     "historic": {
                         "2024-08-17": 104.75767074178607,
-                        "2025-05-11": 99.06627491115773
+                        "2025-05-11": 99.06627491115773,
+                        "2026-03-29": 103.43916146299487
                     }
                 },
                 "Data Tournoi": {
@@ -8660,8 +8754,8 @@
             },
             "Venser, Corpse Puppet": {
                 "Data": {
-                    "ELO": 113.31357845799168,
-                    "match number": 12,
+                    "ELO": 107.20828131205761,
+                    "match number": 13,
                     "players": {
                         "Gaëlle Richet": {
                             "number": 5,
@@ -8670,10 +8764,10 @@
                             "lose": 2
                         },
                         "Nicolas Gaidier": {
-                            "number": 6,
+                            "number": 7,
                             "win": 4,
                             "draw": 0,
-                            "lose": 2
+                            "lose": 3
                         },
                         "Dylan Bellier": {
                             "number": 1,
@@ -8748,6 +8842,12 @@
                             "win": 0,
                             "draw": 0,
                             "lose": 1
+                        },
+                        "Mabel, Heir to Cragflame": {
+                            "number": 1,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 1
                         }
                     },
                     "historic": {
@@ -8761,7 +8861,8 @@
                         "2025-07-28": 121.44740984967075,
                         "2025-09-12": 125.67276469844754,
                         "2025-12-07": 119.51586264488513,
-                        "2026-02-22": 113.31357845799168
+                        "2026-02-22": 113.31357845799168,
+                        "2026-04-12": 107.20828131205761
                     }
                 },
                 "Data Tournoi": {
@@ -9538,6 +9639,38 @@
                         "2025-03-29": 110.0890521027341,
                         "2025-04-12": 104.62047597777122
                     }
+                }
+            },
+            "Niv-Mizzet, Supreme": {
+                "Data": {
+                    "ELO": 105.49378148485805,
+                    "match number": 1,
+                    "players": {
+                        "Dylan Bellier": {
+                            "number": 1,
+                            "win": 1,
+                            "draw": 0,
+                            "lose": 0
+                        }
+                    },
+                    "decks fought": {
+                        "Nicanzil, Current Conductor": {
+                            "number": 1,
+                            "win": 1,
+                            "draw": 0,
+                            "lose": 0
+                        }
+                    },
+                    "historic": {
+                        "2026-03-29": 105.49378148485805
+                    }
+                },
+                "Data Tournoi": {
+                    "ELO": 100,
+                    "match number": 0,
+                    "players": {},
+                    "decks fought": {},
+                    "historic": {}
                 }
             }
         },
@@ -11543,14 +11676,14 @@
             },
             "Nicanzil, Current Conductor": {
                 "Data": {
-                    "ELO": 93.14220637805614,
-                    "match number": 9,
+                    "ELO": 87.6484248931981,
+                    "match number": 10,
                     "players": {
                         "Nicolas Gaidier": {
-                            "number": 3,
+                            "number": 4,
                             "win": 2,
                             "draw": 0,
-                            "lose": 1
+                            "lose": 2
                         },
                         "Léon Le Loir": {
                             "number": 4,
@@ -11619,6 +11752,12 @@
                             "win": 0,
                             "draw": 0,
                             "lose": 1
+                        },
+                        "Niv-Mizzet, Supreme": {
+                            "number": 1,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 1
                         }
                     },
                     "historic": {
@@ -11626,7 +11765,8 @@
                         "2025-11-22": 103.38841884269229,
                         "2025-12-17": 98.30574724867523,
                         "2025-12-18": 93.13376580524864,
-                        "2026-01-08": 93.14220637805614
+                        "2026-01-08": 93.14220637805614,
+                        "2026-03-29": 87.6484248931981
                     }
                 },
                 "Data Tournoi": {
@@ -14478,14 +14618,14 @@
             },
             "Mabel, Heir to Cragflame": {
                 "Data": {
-                    "ELO": 112.32600378739315,
-                    "match number": 27,
+                    "ELO": 115.170291888251,
+                    "match number": 31,
                     "players": {
                         "Charlotte Beauchamp": {
-                            "number": 21,
-                            "win": 11,
+                            "number": 24,
+                            "win": 12,
                             "draw": 1,
-                            "lose": 9
+                            "lose": 11
                         },
                         "Louis Liard": {
                             "number": 3,
@@ -14496,6 +14636,12 @@
                         "Nicolas Gaidier": {
                             "number": 3,
                             "win": 3,
+                            "draw": 0,
+                            "lose": 0
+                        },
+                        "Chloé Besnet": {
+                            "number": 1,
+                            "win": 1,
                             "draw": 0,
                             "lose": 0
                         }
@@ -14632,6 +14778,30 @@
                             "win": 1,
                             "draw": 0,
                             "lose": 0
+                        },
+                        "Maralen, Fae Ascendant": {
+                            "number": 1,
+                            "win": 1,
+                            "draw": 0,
+                            "lose": 0
+                        },
+                        "Eshki Dragonclaw": {
+                            "number": 1,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 1
+                        },
+                        "Venser, Corpse Puppet": {
+                            "number": 1,
+                            "win": 1,
+                            "draw": 0,
+                            "lose": 0
+                        },
+                        "Sanar, Unfinished Genius": {
+                            "number": 1,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 1
                         }
                     },
                     "historic": {
@@ -14648,7 +14818,10 @@
                         "2025-07-19": 98.39920707764854,
                         "2025-07-27": 94.14412208016286,
                         "2025-09-21": 99.9168307950161,
-                        "2025-12-05": 112.32600378739315
+                        "2025-12-05": 112.32600378739315,
+                        "2026-04-05": 117.11180532304324,
+                        "2026-04-12": 119.23456385683079,
+                        "2026-04-14": 115.170291888251
                     }
                 },
                 "Data Tournoi": {
@@ -15130,7 +15303,7 @@
             },
             "Alania, Divergent Storm": {
                 "Data": {
-                    "ELO": 95.59444785846209,
+                    "ELO": 95.59409253324003,
                     "match number": 3,
                     "players": {
                         "Léo Gougeon": {
@@ -15161,11 +15334,11 @@
                         }
                     },
                     "historic": {
-                        "2026-03-28": 95.59444785846209
+                        "2026-03-28": 95.59409253324003
                     }
                 },
                 "Data Tournoi": {
-                    "ELO": 95.24911855851948,
+                    "ELO": 95.24874239855816,
                     "match number": 3,
                     "players": {
                         "Léo Gougeon": {
@@ -15196,7 +15369,7 @@
                         }
                     },
                     "historic": {
-                        "2026-03-28": 95.24911855851948
+                        "2026-03-28": 95.24874239855816
                     }
                 }
             }
@@ -15207,12 +15380,12 @@
         "Decks": {
             "Arabella, Abandoned Doll": {
                 "Data": {
-                    "ELO": 166.85071847747363,
-                    "match number": 41,
+                    "ELO": 171.71049411749024,
+                    "match number": 42,
                     "players": {
                         "Gaëlle Richet": {
-                            "number": 24,
-                            "win": 17,
+                            "number": 25,
+                            "win": 18,
                             "draw": 2,
                             "lose": 5
                         },
@@ -15441,8 +15614,8 @@
                             "lose": 0
                         },
                         "Aang, at the Crossroads": {
-                            "number": 1,
-                            "win": 0,
+                            "number": 2,
+                            "win": 1,
                             "draw": 1,
                             "lose": 0
                         }
@@ -15469,7 +15642,8 @@
                         "2025-10-31": 159.37765737475647,
                         "2025-12-05": 172.72798984785825,
                         "2026-01-30": 167.0687339059596,
-                        "2026-01-31": 166.85071847747363
+                        "2026-01-31": 166.85071847747363,
+                        "2026-03-29": 171.71049411749024
                     }
                 },
                 "Data Tournoi": {
@@ -15973,8 +16147,8 @@
             },
             "Marina Vendrell": {
                 "Data": {
-                    "ELO": 74.57589472353692,
-                    "match number": 33,
+                    "ELO": 74.62573926426482,
+                    "match number": 36,
                     "players": {
                         "Nicolas Gaidier": {
                             "number": 18,
@@ -15989,10 +16163,10 @@
                             "lose": 1
                         },
                         "Gaëlle Richet": {
-                            "number": 9,
-                            "win": 2,
-                            "draw": 1,
-                            "lose": 6
+                            "number": 12,
+                            "win": 3,
+                            "draw": 2,
+                            "lose": 7
                         },
                         "Dylan Bellier": {
                             "number": 3,
@@ -16151,6 +16325,24 @@
                             "win": 0,
                             "draw": 0,
                             "lose": 1
+                        },
+                        "Kirol, Attentive First-Year": {
+                            "number": 1,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 1
+                        },
+                        "Trystan, Callous Cultivator": {
+                            "number": 1,
+                            "win": 1,
+                            "draw": 0,
+                            "lose": 0
+                        },
+                        "Maralen, Fae Ascendant": {
+                            "number": 1,
+                            "win": 0,
+                            "draw": 1,
+                            "lose": 0
                         }
                     },
                     "historic": {
@@ -16169,12 +16361,13 @@
                         "2025-09-07": 92.87456714756,
                         "2025-09-13": 87.52917528590336,
                         "2025-11-22": 88.78148179789144,
-                        "2025-11-28": 74.57589472353692
+                        "2025-11-28": 74.57589472353692,
+                        "2026-04-24": 74.62573926426482
                     }
                 },
                 "Data Tournoi": {
-                    "ELO": 71.96329495772517,
-                    "match number": 14,
+                    "ELO": 72.04907379275694,
+                    "match number": 17,
                     "players": {
                         "Nicolas Amblard": {
                             "number": 2,
@@ -16189,10 +16382,10 @@
                             "lose": 4
                         },
                         "Gaëlle Richet": {
-                            "number": 6,
-                            "win": 1,
-                            "draw": 1,
-                            "lose": 4
+                            "number": 9,
+                            "win": 2,
+                            "draw": 2,
+                            "lose": 5
                         }
                     },
                     "decks fought": {
@@ -16261,6 +16454,24 @@
                             "win": 0,
                             "draw": 0,
                             "lose": 1
+                        },
+                        "Kirol, Attentive First-Year": {
+                            "number": 1,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 1
+                        },
+                        "Trystan, Callous Cultivator": {
+                            "number": 1,
+                            "win": 1,
+                            "draw": 0,
+                            "lose": 0
+                        },
+                        "Maralen, Fae Ascendant": {
+                            "number": 1,
+                            "win": 0,
+                            "draw": 1,
+                            "lose": 0
                         }
                     },
                     "historic": {
@@ -16268,7 +16479,8 @@
                         "2024-11-02": 90.00440280388882,
                         "2025-09-13": 86.46213054205953,
                         "2025-11-22": 86.80455177477383,
-                        "2025-11-28": 71.96329495772517
+                        "2025-11-28": 71.96329495772517,
+                        "2026-04-24": 72.04907379275694
                     }
                 }
             },
@@ -17916,12 +18128,12 @@
         "Decks": {
             "Eshki Dragonclaw": {
                 "Data": {
-                    "ELO": 111.5787729805316,
-                    "match number": 12,
+                    "ELO": 115.56131159267814,
+                    "match number": 13,
                     "players": {
                         "Nicolas Gaidier": {
-                            "number": 12,
-                            "win": 8,
+                            "number": 13,
+                            "win": 9,
                             "draw": 0,
                             "lose": 4
                         }
@@ -17980,6 +18192,12 @@
                             "win": 1,
                             "draw": 0,
                             "lose": 0
+                        },
+                        "Mabel, Heir to Cragflame": {
+                            "number": 1,
+                            "win": 1,
+                            "draw": 0,
+                            "lose": 0
                         }
                     },
                     "historic": {
@@ -17988,7 +18206,8 @@
                         "2025-05-11": 101.32716147395297,
                         "2025-07-23": 95.68064855944375,
                         "2025-12-05": 99.58042006420429,
-                        "2026-01-03": 111.5787729805316
+                        "2026-01-03": 111.5787729805316,
+                        "2026-04-12": 115.56131159267814
                     }
                 },
                 "Data Tournoi": {
@@ -18607,7 +18826,7 @@
             },
             "Betor, Kin to All": {
                 "Data": {
-                    "ELO": 103.11285834454438,
+                    "ELO": 103.14146865988863,
                     "match number": 7,
                     "players": {
                         "Milan Arrouas": {
@@ -18616,7 +18835,7 @@
                             "draw": 0,
                             "lose": 1
                         },
-                        "Hugo": {
+                        "Hugo Le Blev": {
                             "number": 3,
                             "win": 1,
                             "draw": 0,
@@ -18664,11 +18883,11 @@
                     "historic": {
                         "2026-02-20": 103.61687983819448,
                         "2026-03-07": 107.84818580249963,
-                        "2026-03-28": 103.11285834454438
+                        "2026-03-28": 103.14146865988863
                     }
                 },
                 "Data Tournoi": {
-                    "ELO": 98.5453108908589,
+                    "ELO": 98.57873668471856,
                     "match number": 6,
                     "players": {
                         "Milan Arrouas": {
@@ -18677,7 +18896,7 @@
                             "draw": 0,
                             "lose": 1
                         },
-                        "Hugo": {
+                        "Hugo Le Blev": {
                             "number": 3,
                             "win": 1,
                             "draw": 0,
@@ -18718,7 +18937,7 @@
                     },
                     "historic": {
                         "2026-02-20": 103.49802557621922,
-                        "2026-03-28": 98.5453108908589
+                        "2026-03-28": 98.57873668471856
                     }
                 }
             }
@@ -19988,14 +20207,14 @@
             },
             "Aang, at the Crossroads": {
                 "Data": {
-                    "ELO": 104.86801881681359,
-                    "match number": 10,
+                    "ELO": 100.00824317679698,
+                    "match number": 11,
                     "players": {
                         "Milan Arrouas": {
-                            "number": 7,
+                            "number": 8,
                             "win": 3,
                             "draw": 1,
-                            "lose": 3
+                            "lose": 4
                         },
                         "David Tanguy": {
                             "number": 3,
@@ -20030,10 +20249,10 @@
                             "lose": 1
                         },
                         "Arabella, Abandoned Doll": {
-                            "number": 1,
+                            "number": 2,
                             "win": 0,
                             "draw": 1,
-                            "lose": 0
+                            "lose": 1
                         },
                         "Huatli, Poet of Unity": {
                             "number": 1,
@@ -20065,7 +20284,8 @@
                         "2026-01-23": 104.01381335252407,
                         "2026-01-31": 104.23182878101004,
                         "2026-03-07": 98.56848090702397,
-                        "2026-03-21": 104.86801881681359
+                        "2026-03-21": 104.86801881681359,
+                        "2026-03-29": 100.00824317679698
                     }
                 },
                 "Data Tournoi": {
@@ -20198,6 +20418,38 @@
                     "decks fought": {},
                     "historic": {}
                 }
+            },
+            "Gran-Gran": {
+                "Data": {
+                    "ELO": 104.60063709421789,
+                    "match number": 1,
+                    "players": {
+                        "Milan Arrouas": {
+                            "number": 1,
+                            "win": 1,
+                            "draw": 0,
+                            "lose": 0
+                        }
+                    },
+                    "decks fought": {
+                        "Eirdu, Carrier of Dawn": {
+                            "number": 1,
+                            "win": 1,
+                            "draw": 0,
+                            "lose": 0
+                        }
+                    },
+                    "historic": {
+                        "2026-03-29": 104.60063709421789
+                    }
+                },
+                "Data Tournoi": {
+                    "ELO": 100,
+                    "match number": 0,
+                    "players": {},
+                    "decks fought": {},
+                    "historic": {}
+                }
             }
         },
         "Date": "2025-11-21"
@@ -20206,14 +20458,14 @@
         "Decks": {
             "Maralen, Fae Ascendant": {
                 "Data": {
-                    "ELO": 91.08502487745749,
-                    "match number": 35,
+                    "ELO": 78.08405905542892,
+                    "match number": 44,
                     "players": {
                         "Charlotte Beauchamp": {
-                            "number": 29,
-                            "win": 13,
+                            "number": 35,
+                            "win": 14,
                             "draw": 1,
-                            "lose": 15
+                            "lose": 20
                         },
                         "Erwan Col": {
                             "number": 5,
@@ -20225,6 +20477,12 @@
                             "number": 1,
                             "win": 0,
                             "draw": 0,
+                            "lose": 1
+                        },
+                        "Armand Auriel": {
+                            "number": 3,
+                            "win": 1,
+                            "draw": 1,
                             "lose": 1
                         }
                     },
@@ -20372,6 +20630,36 @@
                             "win": 1,
                             "draw": 0,
                             "lose": 0
+                        },
+                        "Mabel, Heir to Cragflame": {
+                            "number": 1,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 1
+                        },
+                        "Sanar, Unfinished Genius": {
+                            "number": 4,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 4
+                        },
+                        "Tatsunari, Toad Rider": {
+                            "number": 2,
+                            "win": 2,
+                            "draw": 0,
+                            "lose": 0
+                        },
+                        "Kirol, Attentive First-Year": {
+                            "number": 1,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 1
+                        },
+                        "Marina Vendrell": {
+                            "number": 1,
+                            "win": 0,
+                            "draw": 1,
+                            "lose": 0
                         }
                     },
                     "historic": {
@@ -20390,24 +20678,34 @@
                         "2026-03-21": 96.77614055959197,
                         "2026-03-22": 92.9068326130032,
                         "2026-03-26": 99.1801469415886,
-                        "2026-03-28": 91.08502487745749
+                        "2026-03-28": 91.05007654489764,
+                        "2026-04-05": 86.26427500924754,
+                        "2026-04-13": 82.44897261277434,
+                        "2026-04-22": 78.80747548736605,
+                        "2026-04-24": 78.08405905542892
                     }
                 },
                 "Data Tournoi": {
-                    "ELO": 79.89874009987619,
-                    "match number": 16,
+                    "ELO": 77.72898886017309,
+                    "match number": 22,
                     "players": {
                         "Charlotte Beauchamp": {
-                            "number": 11,
-                            "win": 4,
+                            "number": 14,
+                            "win": 5,
                             "draw": 1,
-                            "lose": 6
+                            "lose": 8
                         },
                         "Erwan Col": {
                             "number": 5,
                             "win": 1,
                             "draw": 0,
                             "lose": 4
+                        },
+                        "Armand Auriel": {
+                            "number": 3,
+                            "win": 1,
+                            "draw": 1,
+                            "lose": 1
                         }
                     },
                     "decks fought": {
@@ -20470,24 +20768,49 @@
                             "win": 1,
                             "draw": 0,
                             "lose": 0
+                        },
+                        "Sanar, Unfinished Genius": {
+                            "number": 2,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 2
+                        },
+                        "Tatsunari, Toad Rider": {
+                            "number": 2,
+                            "win": 2,
+                            "draw": 0,
+                            "lose": 0
+                        },
+                        "Kirol, Attentive First-Year": {
+                            "number": 1,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 1
+                        },
+                        "Marina Vendrell": {
+                            "number": 1,
+                            "win": 0,
+                            "draw": 1,
+                            "lose": 0
                         }
                     },
                     "historic": {
                         "2026-01-23": 90.57603949504995,
                         "2026-02-20": 93.15305683995254,
                         "2026-03-21": 87.80355457716458,
-                        "2026-03-28": 79.89874009987619
+                        "2026-03-28": 79.86167418188884,
+                        "2026-04-24": 77.72898886017309
                     }
                 }
             },
             "Grub, Storied Matriarch": {
                 "Data": {
-                    "ELO": 92.42382498823046,
-                    "match number": 8,
+                    "ELO": 96.94604228782225,
+                    "match number": 9,
                     "players": {
                         "Nicolas Gaidier": {
-                            "number": 8,
-                            "win": 4,
+                            "number": 9,
+                            "win": 5,
                             "draw": 0,
                             "lose": 4
                         }
@@ -20522,13 +20845,20 @@
                             "win": 1,
                             "draw": 0,
                             "lose": 0
+                        },
+                        "Gideon Jura": {
+                            "number": 1,
+                            "win": 1,
+                            "draw": 0,
+                            "lose": 0
                         }
                     },
                     "historic": {
                         "2026-01-22": 93.80701693193848,
                         "2026-01-23": 94.2714565237873,
                         "2026-03-07": 98.20999327178939,
-                        "2026-03-09": 92.42382498823046
+                        "2026-03-09": 92.42382498823046,
+                        "2026-03-29": 96.94604228782225
                     }
                 },
                 "Data Tournoi": {
@@ -20909,8 +21239,8 @@
             },
             "Trystan, Callous Cultivator": {
                 "Data": {
-                    "ELO": 100.098797539372,
-                    "match number": 3,
+                    "ELO": 91.67120323346455,
+                    "match number": 6,
                     "players": {
                         "Milan Arrouas": {
                             "number": 1,
@@ -20919,10 +21249,10 @@
                             "lose": 0
                         },
                         "Anaïs Adelin": {
-                            "number": 2,
+                            "number": 5,
                             "win": 1,
-                            "draw": 0,
-                            "lose": 1
+                            "draw": 1,
+                            "lose": 3
                         }
                     },
                     "decks fought": {
@@ -20942,17 +21272,36 @@
                             "number": 1,
                             "win": 1,
                             "draw": 0,
+                            "lose": 0
+                        },
+                        "Dark Leo & Shredder": {
+                            "number": 1,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 1
+                        },
+                        "Marina Vendrell": {
+                            "number": 1,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 1
+                        },
+                        "Tatsunari, Toad Rider": {
+                            "number": 1,
+                            "win": 0,
+                            "draw": 1,
                             "lose": 0
                         }
                     },
                     "historic": {
                         "2026-03-21": 99.39232524912326,
-                        "2026-03-28": 100.098797539372
+                        "2026-03-28": 100.10549088180966,
+                        "2026-04-24": 91.67120323346455
                     }
                 },
                 "Data Tournoi": {
-                    "ELO": 100.09556700524078,
-                    "match number": 3,
+                    "ELO": 91.2005824030312,
+                    "match number": 6,
                     "players": {
                         "Milan Arrouas": {
                             "number": 1,
@@ -20961,10 +21310,10 @@
                             "lose": 0
                         },
                         "Anaïs Adelin": {
-                            "number": 2,
+                            "number": 5,
                             "win": 1,
-                            "draw": 0,
-                            "lose": 1
+                            "draw": 1,
+                            "lose": 3
                         }
                     },
                     "decks fought": {
@@ -20985,11 +21334,134 @@
                             "win": 1,
                             "draw": 0,
                             "lose": 0
+                        },
+                        "Dark Leo & Shredder": {
+                            "number": 1,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 1
+                        },
+                        "Marina Vendrell": {
+                            "number": 1,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 1
+                        },
+                        "Tatsunari, Toad Rider": {
+                            "number": 1,
+                            "win": 0,
+                            "draw": 1,
+                            "lose": 0
                         }
                     },
                     "historic": {
                         "2026-03-21": 99.5461114831165,
-                        "2026-03-28": 100.09556700524078
+                        "2026-03-28": 100.0995832893298,
+                        "2026-04-24": 91.2005824030312
+                    }
+                }
+            },
+            "Eirdu, Carrier of Dawn": {
+                "Data": {
+                    "ELO": 95.39936290578211,
+                    "match number": 1,
+                    "players": {
+                        "Gaëlle Richet": {
+                            "number": 1,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 1
+                        }
+                    },
+                    "decks fought": {
+                        "Gran-Gran": {
+                            "number": 1,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 1
+                        }
+                    },
+                    "historic": {
+                        "2026-03-29": 95.39936290578211
+                    }
+                },
+                "Data Tournoi": {
+                    "ELO": 100,
+                    "match number": 0,
+                    "players": {},
+                    "decks fought": {},
+                    "historic": {}
+                }
+            },
+            "Kirol, Attentive First-Year": {
+                "Data": {
+                    "ELO": 103.83139692856747,
+                    "match number": 3,
+                    "players": {
+                        "Dylan Bellier": {
+                            "number": 3,
+                            "win": 2,
+                            "draw": 0,
+                            "lose": 1
+                        }
+                    },
+                    "decks fought": {
+                        "Marina Vendrell": {
+                            "number": 1,
+                            "win": 1,
+                            "draw": 0,
+                            "lose": 0
+                        },
+                        "Dark Leo & Shredder": {
+                            "number": 1,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 1
+                        },
+                        "Maralen, Fae Ascendant": {
+                            "number": 1,
+                            "win": 1,
+                            "draw": 0,
+                            "lose": 0
+                        }
+                    },
+                    "historic": {
+                        "2026-04-24": 103.83139692856747
+                    }
+                },
+                "Data Tournoi": {
+                    "ELO": 104.59518293899738,
+                    "match number": 3,
+                    "players": {
+                        "Dylan Bellier": {
+                            "number": 3,
+                            "win": 2,
+                            "draw": 0,
+                            "lose": 1
+                        }
+                    },
+                    "decks fought": {
+                        "Marina Vendrell": {
+                            "number": 1,
+                            "win": 1,
+                            "draw": 0,
+                            "lose": 0
+                        },
+                        "Dark Leo & Shredder": {
+                            "number": 1,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 1
+                        },
+                        "Maralen, Fae Ascendant": {
+                            "number": 1,
+                            "win": 1,
+                            "draw": 0,
+                            "lose": 0
+                        }
+                    },
+                    "historic": {
+                        "2026-04-24": 104.59518293899738
                     }
                 }
             }
@@ -21000,14 +21472,14 @@
         "Decks": {
             "Dark Leo & Shredder": {
                 "Data": {
-                    "ELO": 109.2137120904465,
-                    "match number": 4,
+                    "ELO": 107.94958054622472,
+                    "match number": 8,
                     "players": {
                         "Milan Arrouas": {
-                            "number": 4,
-                            "win": 3,
+                            "number": 8,
+                            "win": 5,
                             "draw": 0,
-                            "lose": 1
+                            "lose": 3
                         }
                     },
                     "decks fought": {
@@ -21028,21 +21500,46 @@
                             "win": 1,
                             "draw": 0,
                             "lose": 0
+                        },
+                        "Trystan, Callous Cultivator": {
+                            "number": 1,
+                            "win": 1,
+                            "draw": 0,
+                            "lose": 0
+                        },
+                        "Kirol, Attentive First-Year": {
+                            "number": 1,
+                            "win": 1,
+                            "draw": 0,
+                            "lose": 0
+                        },
+                        "Geist of Saint Traft": {
+                            "number": 1,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 1
+                        },
+                        "Sanar, Unfinished Genius": {
+                            "number": 1,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 1
                         }
                     },
                     "historic": {
-                        "2026-03-28": 109.2137120904465
+                        "2026-03-28": 109.2137120904465,
+                        "2026-04-24": 107.94958054622472
                     }
                 },
                 "Data Tournoi": {
-                    "ELO": 103.53686632820104,
-                    "match number": 3,
+                    "ELO": 107.4447938388069,
+                    "match number": 6,
                     "players": {
                         "Milan Arrouas": {
-                            "number": 3,
-                            "win": 2,
+                            "number": 6,
+                            "win": 4,
                             "draw": 0,
-                            "lose": 1
+                            "lose": 2
                         }
                     },
                     "decks fought": {
@@ -21057,14 +21554,107 @@
                             "win": 0,
                             "draw": 0,
                             "lose": 1
+                        },
+                        "Trystan, Callous Cultivator": {
+                            "number": 1,
+                            "win": 1,
+                            "draw": 0,
+                            "lose": 0
+                        },
+                        "Kirol, Attentive First-Year": {
+                            "number": 1,
+                            "win": 1,
+                            "draw": 0,
+                            "lose": 0
+                        },
+                        "Sanar, Unfinished Genius": {
+                            "number": 1,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 1
                         }
                     },
                     "historic": {
-                        "2026-03-28": 103.53686632820104
+                        "2026-03-28": 103.53686632820104,
+                        "2026-04-24": 107.4447938388069
                     }
                 }
             }
         },
         "Date": "2026-03-06"
+    },
+    "sos": {
+        "Decks": {
+            "Sanar, Unfinished Genius": {
+                "Data": {
+                    "ELO": 123.12732740597986,
+                    "match number": 6,
+                    "players": {
+                        "Nicolas Gaidier": {
+                            "number": 6,
+                            "win": 6,
+                            "draw": 0,
+                            "lose": 0
+                        }
+                    },
+                    "decks fought": {
+                        "Maralen, Fae Ascendant": {
+                            "number": 4,
+                            "win": 4,
+                            "draw": 0,
+                            "lose": 0
+                        },
+                        "Mabel, Heir to Cragflame": {
+                            "number": 1,
+                            "win": 1,
+                            "draw": 0,
+                            "lose": 0
+                        },
+                        "Dark Leo & Shredder": {
+                            "number": 1,
+                            "win": 1,
+                            "draw": 0,
+                            "lose": 0
+                        }
+                    },
+                    "historic": {
+                        "2026-04-13": 103.8153023964732,
+                        "2026-04-14": 107.87957436505299,
+                        "2026-04-22": 111.52107149046128,
+                        "2026-04-24": 123.12732740597986
+                    }
+                },
+                "Data Tournoi": {
+                    "ELO": 112.8591297698362,
+                    "match number": 3,
+                    "players": {
+                        "Nicolas Gaidier": {
+                            "number": 3,
+                            "win": 3,
+                            "draw": 0,
+                            "lose": 0
+                        }
+                    },
+                    "decks fought": {
+                        "Maralen, Fae Ascendant": {
+                            "number": 2,
+                            "win": 2,
+                            "draw": 0,
+                            "lose": 0
+                        },
+                        "Dark Leo & Shredder": {
+                            "number": 1,
+                            "win": 1,
+                            "draw": 0,
+                            "lose": 0
+                        }
+                    },
+                    "historic": {
+                        "2026-04-24": 112.8591297698362
+                    }
+                }
+            }
+        },
+        "Date": "2026-04-24"
     }
 }
