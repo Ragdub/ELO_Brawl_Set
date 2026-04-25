@@ -7,10 +7,10 @@ Decks,Set,ELO
 "Dina, Soul Steeper",stx,72.53113283182893
 "Lagrella, the Magpie",snc,74.21856276544747
 Cromat,apc,74.31554772733546
-Marina Vendrell,dsk,74.62573926426482
+Marina Vendrell,dsk,74.62489317898113
 Vorinclex,khm,75.56232592882718
 Admiral Beckett Brass,xln,76.3920760929054
-"Maralen, Fae Ascendant",ecl,78.08405905542892
+"Maralen, Fae Ascendant",ecl,78.00071468992734
 "Satsuki, the Living Lore",neo,78.92728164374121
 "Tovolar, Dire Overlord",mid,79.96580323218389
 "Chandra, Spark Hunter",dft,80.4094409711563
@@ -89,6 +89,7 @@ Quintorius Kand,lci,95.33747354102896
 "Alania, Divergent Storm",blb,95.59409253324003
 Gladiolus Amicitia,fin,95.61670584886818
 "Angrath, the Flame-Chained",rix,95.67565937212306
+Geist of Saint Traft,isd,95.80914602033828
 Zurgo Helmsmasher,ktk,96.14402232136926
 "Etrata, the Silencer",grn,96.5239034101717
 "Aang, Swift Savior",tla,96.79178746384972
@@ -131,7 +132,7 @@ Zurgo and Ojutai,mom,102.38106416189802
 "Anim Pakal, Thousandth Moon",lci,103.30331166478537
 "Mendicant Core, Guidelight",dft,103.39282027411458
 "Ziatora, the Incinerator",snc,103.43916146299487
-"Kirol, Attentive First-Year",ecl,103.83139692856747
+"Kirol, Attentive First-Year",ecl,103.91558737935276
 "Rip, Spawn Hunter",dsk,104.03949593543202
 "Ash, Party Crasher",ecl,104.03981510437373
 Mabouba,tla,104.09421455435918
@@ -159,13 +160,11 @@ Satoru Umezawa,neo,104.73366678067035
 "Ral, Izzet Viceroy",grn,105.5741444061847
 "Ureni, the Song Unending",tdm,105.59431413077522
 "Loot, the Pathfinder",dft,105.59931399411401
-Geist of Saint Traft,isd,105.80914602033828
 "Depala, Pilot Exemplar",kld,105.86224489745456
 "Judith, the Scourge Diva",rna,105.91781087214159
 "Clement, the Worrywort",blb,105.92081750924916
 "Mimeoplasm, Revered One",dft,106.03286231506439
 "Venser, Corpse Puppet",one,107.20828131205761
-Dark Leo & Shredder,tmt,107.94958054622472
 Dovin Baan,kld,108.54453930298887
 "Dennick, Pious Apprentice",mid,108.5617566391818
 Hylda of the Icy Crown,woe,108.69799268827686
@@ -198,6 +197,7 @@ Eshki Dragonclaw,tdm,115.56131159267814
 The Wandering Emperor,neo,115.61521989361678
 Thalia and The Gitrog Monster,mom,115.7960714903539
 "Aurelia, Exemplar of Justice",grn,117.64123726152371
+Dark Leo & Shredder,tmt,117.76368288209714
 "Olivia, Crimson Bride",vow,118.07454204684909
 "Ash, Party Crasher",woe,118.09935849011016
 "Syr Vondam, Sunstar Exemplar",eoe,118.59430885638379
@@ -206,7 +206,7 @@ Thalia and The Gitrog Monster,mom,115.7960714903539
 "Atraxa, Grand Unifier",one,119.52923165415388
 "Nashi, Searcher in the Dark",dsk,119.60276752939167
 "Zurgo, Thunder's Decree",tdm,120.99478251223653
-"Sanar, Unfinished Genius",sos,123.12732740597986
+"Sanar, Unfinished Genius",sos,123.31322507010744
 "Teferi, Time Raveler",war,124.12452746352916
 "Nicol Bolas, Dragon-God",war,124.68301727263571
 "Lagorin, Soul of Alacria",dft,126.38960787282885
