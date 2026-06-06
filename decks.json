@@ -1187,8 +1187,8 @@
             },
             "Geist of Saint Traft": {
                 "Data": {
-                    "ELO": 95.80914602033828,
-                    "match number": 3,
+                    "ELO": 85.04931867957495,
+                    "match number": 10,
                     "players": {
                         "Léon Le Loir": {
                             "number": 2,
@@ -1201,6 +1201,12 @@
                             "win": 0,
                             "draw": 0,
                             "lose": 1
+                        },
+                        "Æddis Desaw": {
+                            "number": 7,
+                            "win": 2,
+                            "draw": 0,
+                            "lose": 5
                         }
                     },
                     "decks fought": {
@@ -1221,20 +1227,92 @@
                             "win": 0,
                             "draw": 0,
                             "lose": 1
+                        },
+                        "Syr Vondam, Sunstar Exemplar": {
+                            "number": 1,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 1
+                        },
+                        "Koma, Cosmos Serpent": {
+                            "number": 1,
+                            "win": 1,
+                            "draw": 0,
+                            "lose": 0
+                        },
+                        "Tovolar, Dire Overlord": {
+                            "number": 1,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 1
+                        },
+                        "Maralen, Fae Ascendant": {
+                            "number": 1,
+                            "win": 1,
+                            "draw": 0,
+                            "lose": 0
+                        },
+                        "Ral, Crackling Wit": {
+                            "number": 1,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 1
+                        },
+                        "Kenrith, the Returned King": {
+                            "number": 1,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 1
+                        },
+                        "Dovin Baan": {
+                            "number": 1,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 1
                         }
                     },
                     "historic": {
                         "2025-06-17": 105.30706921339603,
                         "2025-12-20": 100.39955555280994,
-                        "2026-04-24": 95.80914602033828
+                        "2026-04-24": 95.80914602033828,
+                        "2026-06-05": 92.34436717920833,
+                        "2026-06-06": 85.04931867957495
                     }
                 },
                 "Data Tournoi": {
-                    "ELO": 100,
-                    "match number": 0,
-                    "players": {},
-                    "decks fought": {},
-                    "historic": {}
+                    "ELO": 95.86165953017532,
+                    "match number": 3,
+                    "players": {
+                        "Æddis Desaw": {
+                            "number": 3,
+                            "win": 1,
+                            "draw": 0,
+                            "lose": 2
+                        }
+                    },
+                    "decks fought": {
+                        "Maralen, Fae Ascendant": {
+                            "number": 1,
+                            "win": 1,
+                            "draw": 0,
+                            "lose": 0
+                        },
+                        "Ral, Crackling Wit": {
+                            "number": 1,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 1
+                        },
+                        "Dovin Baan": {
+                            "number": 1,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 1
+                        }
+                    },
+                    "historic": {
+                        "2026-06-06": 95.86165953017532
+                    }
                 }
             }
         },
@@ -2179,14 +2257,14 @@
         "Decks": {
             "Dovin Baan": {
                 "Data": {
-                    "ELO": 108.54453930298887,
-                    "match number": 14,
+                    "ELO": 104.69790759745678,
+                    "match number": 17,
                     "players": {
                         "Nicolas Gaidier": {
-                            "number": 14,
-                            "win": 6,
-                            "draw": 5,
-                            "lose": 3
+                            "number": 17,
+                            "win": 7,
+                            "draw": 6,
+                            "lose": 4
                         }
                     },
                     "decks fought": {
@@ -2251,16 +2329,28 @@
                             "lose": 0
                         },
                         "Maralen, Fae Ascendant": {
-                            "number": 2,
+                            "number": 3,
                             "win": 2,
                             "draw": 0,
-                            "lose": 0
+                            "lose": 1
                         },
                         "Dark Leo & Shredder": {
                             "number": 1,
                             "win": 0,
                             "draw": 0,
                             "lose": 1
+                        },
+                        "Kirol, History Buff": {
+                            "number": 1,
+                            "win": 0,
+                            "draw": 1,
+                            "lose": 0
+                        },
+                        "Geist of Saint Traft": {
+                            "number": 1,
+                            "win": 1,
+                            "draw": 0,
+                            "lose": 0
                         }
                     },
                     "historic": {
@@ -2271,18 +2361,19 @@
                         "2025-03-30": 106.36975301648127,
                         "2026-01-30": 110.15315933037317,
                         "2026-03-22": 114.02246727696193,
-                        "2026-03-28": 108.54453930298887
+                        "2026-03-28": 108.54453930298887,
+                        "2026-06-06": 104.69790759745678
                     }
                 },
                 "Data Tournoi": {
-                    "ELO": 99.5095216677314,
-                    "match number": 6,
+                    "ELO": 96.66157370304097,
+                    "match number": 9,
                     "players": {
                         "Nicolas Gaidier": {
-                            "number": 6,
-                            "win": 1,
-                            "draw": 4,
-                            "lose": 1
+                            "number": 9,
+                            "win": 2,
+                            "draw": 5,
+                            "lose": 2
                         }
                     },
                     "decks fought": {
@@ -2321,11 +2412,30 @@
                             "win": 0,
                             "draw": 0,
                             "lose": 1
+                        },
+                        "Kirol, History Buff": {
+                            "number": 1,
+                            "win": 0,
+                            "draw": 1,
+                            "lose": 0
+                        },
+                        "Maralen, Fae Ascendant": {
+                            "number": 1,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 1
+                        },
+                        "Geist of Saint Traft": {
+                            "number": 1,
+                            "win": 1,
+                            "draw": 0,
+                            "lose": 0
                         }
                     },
                     "historic": {
                         "2024-01-13": 105.05985459666232,
-                        "2025-02-01": 99.5095216677314
+                        "2025-02-01": 99.5095216677314,
+                        "2026-06-06": 96.66157370304097
                     }
                 }
             },
@@ -4316,6 +4426,38 @@
                     "decks fought": {},
                     "historic": {}
                 }
+            },
+            "Kenrith, the Returned King": {
+                "Data": {
+                    "ELO": 104.35697252781554,
+                    "match number": 1,
+                    "players": {
+                        "Dylan Bellier": {
+                            "number": 1,
+                            "win": 1,
+                            "draw": 0,
+                            "lose": 0
+                        }
+                    },
+                    "decks fought": {
+                        "Geist of Saint Traft": {
+                            "number": 1,
+                            "win": 1,
+                            "draw": 0,
+                            "lose": 0
+                        }
+                    },
+                    "historic": {
+                        "2026-06-06": 104.35697252781554
+                    }
+                },
+                "Data Tournoi": {
+                    "ELO": 100,
+                    "match number": 0,
+                    "players": {},
+                    "decks fought": {},
+                    "historic": {}
+                }
             }
         },
         "Date": "2019-10-04"
@@ -5423,6 +5565,38 @@
                     "decks fought": {},
                     "historic": {}
                 }
+            },
+            "Koma, Cosmos Serpent": {
+                "Data": {
+                    "ELO": 94.39344898462767,
+                    "match number": 1,
+                    "players": {
+                        "Dylan Bellier": {
+                            "number": 1,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 1
+                        }
+                    },
+                    "decks fought": {
+                        "Geist of Saint Traft": {
+                            "number": 1,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 1
+                        }
+                    },
+                    "historic": {
+                        "2026-06-05": 94.39344898462767
+                    }
+                },
+                "Data Tournoi": {
+                    "ELO": 100,
+                    "match number": 0,
+                    "players": {},
+                    "decks fought": {},
+                    "historic": {}
+                }
             }
         },
         "Date": "2021-02-05"
@@ -6154,8 +6328,8 @@
             },
             "Tovolar, Dire Overlord": {
                 "Data": {
-                    "ELO": 79.96580323218389,
-                    "match number": 21,
+                    "ELO": 84.71159140092311,
+                    "match number": 22,
                     "players": {
                         "Charlotte Beauchamp": {
                             "number": 15,
@@ -6180,6 +6354,12 @@
                             "win": 0,
                             "draw": 0,
                             "lose": 3
+                        },
+                        "Dylan Bellier": {
+                            "number": 1,
+                            "win": 1,
+                            "draw": 0,
+                            "lose": 0
                         }
                     },
                     "decks fought": {
@@ -6296,6 +6476,12 @@
                             "win": 0,
                             "draw": 0,
                             "lose": 1
+                        },
+                        "Geist of Saint Traft": {
+                            "number": 1,
+                            "win": 1,
+                            "draw": 0,
+                            "lose": 0
                         }
                     },
                     "historic": {
@@ -6310,7 +6496,8 @@
                         "2025-05-27": 102.48096526007436,
                         "2025-06-01": 97.86413522232391,
                         "2025-06-13": 94.02850895491987,
-                        "2025-12-05": 79.96580323218389
+                        "2025-12-05": 79.96580323218389,
+                        "2026-06-05": 84.71159140092311
                     }
                 },
                 "Data Tournoi": {
@@ -7380,20 +7567,20 @@
             },
             "Tatsunari, Toad Rider": {
                 "Data": {
-                    "ELO": 86.54781209711498,
-                    "match number": 5,
+                    "ELO": 83.261168222339,
+                    "match number": 8,
                     "players": {
                         "Hugo Le Blev": {
-                            "number": 5,
-                            "win": 0,
+                            "number": 8,
+                            "win": 1,
                             "draw": 2,
-                            "lose": 3
+                            "lose": 5
                         }
                     },
                     "decks fought": {
                         "Maralen, Fae Ascendant": {
-                            "number": 2,
-                            "win": 0,
+                            "number": 3,
+                            "win": 1,
                             "draw": 0,
                             "lose": 2
                         },
@@ -7404,12 +7591,18 @@
                             "lose": 0
                         },
                         "Kirol, History Buff": {
-                            "number": 1,
+                            "number": 2,
                             "win": 0,
                             "draw": 1,
-                            "lose": 0
+                            "lose": 1
                         },
                         "Sanar, Unfinished Genius": {
+                            "number": 1,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 1
+                        },
+                        "Ral, Crackling Wit": {
                             "number": 1,
                             "win": 0,
                             "draw": 0,
@@ -7418,24 +7611,25 @@
                     },
                     "historic": {
                         "2026-04-24": 89.52474777216173,
-                        "2026-05-23": 86.54781209711498
+                        "2026-05-23": 86.54781209711498,
+                        "2026-06-06": 83.261168222339
                     }
                 },
                 "Data Tournoi": {
-                    "ELO": 86.3459400775566,
-                    "match number": 5,
+                    "ELO": 82.72969034160899,
+                    "match number": 8,
                     "players": {
                         "Hugo Le Blev": {
-                            "number": 5,
-                            "win": 0,
+                            "number": 8,
+                            "win": 1,
                             "draw": 2,
-                            "lose": 3
+                            "lose": 5
                         }
                     },
                     "decks fought": {
                         "Maralen, Fae Ascendant": {
-                            "number": 2,
-                            "win": 0,
+                            "number": 3,
+                            "win": 1,
                             "draw": 0,
                             "lose": 2
                         },
@@ -7446,12 +7640,18 @@
                             "lose": 0
                         },
                         "Kirol, History Buff": {
-                            "number": 1,
+                            "number": 2,
                             "win": 0,
                             "draw": 1,
-                            "lose": 0
+                            "lose": 1
                         },
                         "Sanar, Unfinished Genius": {
+                            "number": 1,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 1
+                        },
+                        "Ral, Crackling Wit": {
                             "number": 1,
                             "win": 0,
                             "draw": 0,
@@ -7460,7 +7660,8 @@
                     },
                     "historic": {
                         "2026-04-24": 89.58366715354313,
-                        "2026-05-23": 86.3459400775566
+                        "2026-05-23": 86.3459400775566,
+                        "2026-06-06": 82.72969034160899
                     }
                 }
             }
@@ -14083,12 +14284,12 @@
             },
             "Ral, Crackling Wit": {
                 "Data": {
-                    "ELO": 110.74183224915032,
-                    "match number": 15,
+                    "ELO": 123.89157882326987,
+                    "match number": 18,
                     "players": {
                         "Dylan Bellier": {
-                            "number": 11,
-                            "win": 8,
+                            "number": 14,
+                            "win": 11,
                             "draw": 0,
                             "lose": 3
                         },
@@ -14183,6 +14384,24 @@
                             "win": 0,
                             "draw": 0,
                             "lose": 1
+                        },
+                        "Tatsunari, Toad Rider": {
+                            "number": 1,
+                            "win": 1,
+                            "draw": 0,
+                            "lose": 0
+                        },
+                        "Geist of Saint Traft": {
+                            "number": 1,
+                            "win": 1,
+                            "draw": 0,
+                            "lose": 0
+                        },
+                        "Kirol, History Buff": {
+                            "number": 1,
+                            "win": 1,
+                            "draw": 0,
+                            "lose": 0
                         }
                     },
                     "historic": {
@@ -14195,16 +14414,17 @@
                         "2025-04-15": 115.20549039289662,
                         "2025-04-16": 110.33738829056065,
                         "2025-12-26": 105.69765923083416,
-                        "2026-01-02": 110.74183224915032
+                        "2026-01-02": 110.74183224915032,
+                        "2026-06-06": 123.89157882326987
                     }
                 },
                 "Data Tournoi": {
-                    "ELO": 94.8258296578735,
-                    "match number": 8,
+                    "ELO": 109.19807101715516,
+                    "match number": 11,
                     "players": {
                         "Dylan Bellier": {
-                            "number": 5,
-                            "win": 3,
+                            "number": 8,
+                            "win": 6,
                             "draw": 0,
                             "lose": 2
                         },
@@ -14257,12 +14477,31 @@
                             "win": 0,
                             "draw": 0,
                             "lose": 1
+                        },
+                        "Tatsunari, Toad Rider": {
+                            "number": 1,
+                            "win": 1,
+                            "draw": 0,
+                            "lose": 0
+                        },
+                        "Geist of Saint Traft": {
+                            "number": 1,
+                            "win": 1,
+                            "draw": 0,
+                            "lose": 0
+                        },
+                        "Kirol, History Buff": {
+                            "number": 1,
+                            "win": 1,
+                            "draw": 0,
+                            "lose": 0
                         }
                     },
                     "historic": {
                         "2024-08-17": 104.67623332712918,
                         "2024-09-14": 94.71599769627902,
-                        "2025-03-01": 94.8258296578735
+                        "2025-03-01": 94.8258296578735,
+                        "2026-06-06": 109.19807101715516
                     }
                 }
             },
@@ -20001,12 +20240,12 @@
             },
             "Syr Vondam, Sunstar Exemplar": {
                 "Data": {
-                    "ELO": 118.59430885638379,
-                    "match number": 4,
+                    "ELO": 122.91985054414684,
+                    "match number": 5,
                     "players": {
                         "Dylan Bellier": {
-                            "number": 4,
-                            "win": 4,
+                            "number": 5,
+                            "win": 5,
                             "draw": 0,
                             "lose": 0
                         }
@@ -20035,11 +20274,18 @@
                             "win": 1,
                             "draw": 0,
                             "lose": 0
+                        },
+                        "Geist of Saint Traft": {
+                            "number": 1,
+                            "win": 1,
+                            "draw": 0,
+                            "lose": 0
                         }
                     },
                     "historic": {
                         "2026-02-22": 104.33480020047844,
-                        "2026-03-21": 118.59430885638379
+                        "2026-03-21": 118.59430885638379,
+                        "2026-06-05": 122.91985054414684
                     }
                 },
                 "Data Tournoi": {
@@ -20595,14 +20841,14 @@
         "Decks": {
             "Maralen, Fae Ascendant": {
                 "Data": {
-                    "ELO": 84.02146495508656,
-                    "match number": 47,
+                    "ELO": 80.12886048618935,
+                    "match number": 50,
                     "players": {
                         "Charlotte Beauchamp": {
-                            "number": 38,
-                            "win": 16,
+                            "number": 41,
+                            "win": 17,
                             "draw": 1,
-                            "lose": 21
+                            "lose": 23
                         },
                         "Erwan Col": {
                             "number": 5,
@@ -20655,8 +20901,8 @@
                             "lose": 1
                         },
                         "Dovin Baan": {
-                            "number": 2,
-                            "win": 0,
+                            "number": 3,
+                            "win": 1,
                             "draw": 0,
                             "lose": 2
                         },
@@ -20781,10 +21027,10 @@
                             "lose": 4
                         },
                         "Tatsunari, Toad Rider": {
-                            "number": 2,
+                            "number": 3,
                             "win": 2,
                             "draw": 0,
-                            "lose": 0
+                            "lose": 1
                         },
                         "Kirol, Attentive First-Year": {
                             "number": 1,
@@ -20815,6 +21061,12 @@
                             "win": 1,
                             "draw": 0,
                             "lose": 0
+                        },
+                        "Geist of Saint Traft": {
+                            "number": 1,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 1
                         }
                     },
                     "historic": {
@@ -20838,18 +21090,19 @@
                         "2026-04-13": 82.44897261277434,
                         "2026-04-22": 78.80747548736605,
                         "2026-04-24": 78.00071468992734,
-                        "2026-05-23": 84.02146495508656
+                        "2026-05-23": 84.02146495508656,
+                        "2026-06-06": 80.12886048618935
                     }
                 },
                 "Data Tournoi": {
-                    "ELO": 83.55108108107528,
-                    "match number": 25,
+                    "ELO": 79.5933771256712,
+                    "match number": 28,
                     "players": {
                         "Charlotte Beauchamp": {
-                            "number": 17,
-                            "win": 7,
+                            "number": 20,
+                            "win": 8,
                             "draw": 1,
-                            "lose": 9
+                            "lose": 11
                         },
                         "Erwan Col": {
                             "number": 5,
@@ -20932,10 +21185,10 @@
                             "lose": 2
                         },
                         "Tatsunari, Toad Rider": {
-                            "number": 2,
+                            "number": 3,
                             "win": 2,
                             "draw": 0,
-                            "lose": 0
+                            "lose": 1
                         },
                         "Kirol, Attentive First-Year": {
                             "number": 1,
@@ -20966,6 +21219,18 @@
                             "win": 1,
                             "draw": 0,
                             "lose": 0
+                        },
+                        "Geist of Saint Traft": {
+                            "number": 1,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 1
+                        },
+                        "Dovin Baan": {
+                            "number": 1,
+                            "win": 1,
+                            "draw": 0,
+                            "lose": 0
                         }
                     },
                     "historic": {
@@ -20974,7 +21239,8 @@
                         "2026-03-21": 87.80355457716458,
                         "2026-03-28": 79.86167418188884,
                         "2026-04-24": 77.72898886017309,
-                        "2026-05-23": 83.55108108107528
+                        "2026-05-23": 83.55108108107528,
+                        "2026-06-06": 79.5933771256712
                     }
                 }
             },
@@ -22013,14 +22279,14 @@
             },
             "Kirol, History Buff": {
                 "Data": {
-                    "ELO": 109.0959364367343,
-                    "match number": 3,
+                    "ELO": 109.91014588363787,
+                    "match number": 6,
                     "players": {
                         "David Tanguy": {
-                            "number": 3,
-                            "win": 2,
-                            "draw": 1,
-                            "lose": 0
+                            "number": 6,
+                            "win": 3,
+                            "draw": 2,
+                            "lose": 1
                         }
                     },
                     "decks fought": {
@@ -22031,8 +22297,8 @@
                             "lose": 0
                         },
                         "Tatsunari, Toad Rider": {
-                            "number": 1,
-                            "win": 0,
+                            "number": 2,
+                            "win": 1,
                             "draw": 1,
                             "lose": 0
                         },
@@ -22041,21 +22307,34 @@
                             "win": 1,
                             "draw": 0,
                             "lose": 0
+                        },
+                        "Dovin Baan": {
+                            "number": 1,
+                            "win": 0,
+                            "draw": 1,
+                            "lose": 0
+                        },
+                        "Ral, Crackling Wit": {
+                            "number": 1,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 1
                         }
                     },
                     "historic": {
-                        "2026-05-23": 109.0959364367343
+                        "2026-05-23": 109.0959364367343,
+                        "2026-06-06": 109.91014588363787
                     }
                 },
                 "Data Tournoi": {
-                    "ELO": 109.09186043379384,
-                    "match number": 3,
+                    "ELO": 109.279861200379,
+                    "match number": 6,
                     "players": {
                         "David Tanguy": {
-                            "number": 3,
-                            "win": 2,
-                            "draw": 1,
-                            "lose": 0
+                            "number": 6,
+                            "win": 3,
+                            "draw": 2,
+                            "lose": 1
                         }
                     },
                     "decks fought": {
@@ -22066,8 +22345,8 @@
                             "lose": 0
                         },
                         "Tatsunari, Toad Rider": {
-                            "number": 1,
-                            "win": 0,
+                            "number": 2,
+                            "win": 1,
                             "draw": 1,
                             "lose": 0
                         },
@@ -22076,10 +22355,23 @@
                             "win": 1,
                             "draw": 0,
                             "lose": 0
+                        },
+                        "Dovin Baan": {
+                            "number": 1,
+                            "win": 0,
+                            "draw": 1,
+                            "lose": 0
+                        },
+                        "Ral, Crackling Wit": {
+                            "number": 1,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 1
                         }
                     },
                     "historic": {
-                        "2026-05-23": 109.09186043379384
+                        "2026-05-23": 109.09186043379384,
+                        "2026-06-06": 109.279861200379
                     }
                 }
             }

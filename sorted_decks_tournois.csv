@@ -5,9 +5,10 @@ Marina Vendrell,dsk,72.04907379275694
 Vorinclex,khm,75.56232592882718
 "Yenna, Redtooth Regent",woe,75.96067933957488
 "Voja, Jaws of the Conclave",mkm,76.09496973250103
+"Maralen, Fae Ascendant",ecl,79.5933771256712
+"Tatsunari, Toad Rider",neo,82.72969034160899
 "Sygg, Wanderwine Wisdom",ecl,82.73372825296646
 "Zoraline, Cosmos Caller",blb,82.78143730616681
-"Maralen, Fae Ascendant",ecl,83.55108108107528
 "Hapatra, Vizier of Poisons",akh,84.4351804324413
 "Nahiri, the Harbinger",soi,84.78501080890757
 "Neriv, Heart of the Storm",tdm,85.05096947919641
@@ -15,7 +16,6 @@ Rafiq of the Many,ala,85.05824011726938
 "Choco, Seeker of Paradise",fin,85.14096600851023
 "Tovolar, Dire Overlord",mid,85.57782794014878
 "Marchesa, Dealer of Death",otj,86.30851226372387
-"Tatsunari, Toad Rider",neo,86.3459400775566
 "Illuna, Apex of Wishes",iko,86.69447053787475
 "Niv-Mizzet, Supreme",mat,89.0467768233048
 "Harbin, Vanguard Aviator",bro,89.84721379107678
@@ -37,7 +37,6 @@ High Perfect Morcant,ecl,94.49437703207062
 "Jodah, the Unifier",dmu,94.6522310125152
 Infinite Guideline Station,eoe,94.66404823848367
 "Lagorin, Soul of Alacria",dft,94.81423031807171
-"Ral, Crackling Wit",blb,94.8258296578735
 "Oko, the Ringleader",otj,94.84785139883519
 Sarkhan Unbroken,dtk,94.84941295039947
 "Vito, Fanatic of Aclazotz",lci,94.87242622566525
@@ -55,19 +54,20 @@ Kaito Shizuki,neo,95.1572944116722
 "Squall, SeeD Mercenary",fin,95.27464509314726
 Quintorius Kand,lci,95.33707748947505
 "Lukka, Bound to Ruin",one,95.69862095638541
+Geist of Saint Traft,isd,95.86165953017532
 "Far Fortune, End Boss",dft,95.8669869829201
 "Wydwen, the Biting Gale",lrw,95.867900099617
 "Oko, Lorwyn Liege",ecl,95.89752428701647
 "Aang, Swift Savior",tla,96.00927431949685
 "Silk, Web Weaver",spm,96.1287072156071
 Professor Dellian Fel,sos,96.57748859399047
+Dovin Baan,kld,96.66157370304097
 "Omnath, Locus of Mana",wwk,97.46028585954026
 "Betor, Kin to All",tdm,98.57873668471856
 "Loot, the Pathfinder",dft,98.8102444319201
 "Helga, Skittish Seer",blb,98.87718690027316
 "Chandra, Flamecaller",ogw,99.34479145726348
 "Ob Nixilis, the Adversary",snc,99.48715508704394
-Dovin Baan,kld,99.5095216677314
 "Niv-Mizzet, Guildpact",mkm,99.53653348115247
 "Nicanzil, Current Conductor",lci,99.66346082722923
 "Haliya, Ascendant Cadet",eoe,99.71437318418019
@@ -84,7 +84,6 @@ Rhys the Exiled,mor,100
 Sharuum the Hegemon,ala,100
 "Tezzeret, Agent of Bolas",mbs,100
 Liliana of the Veil,isd,100
-Geist of Saint Traft,isd,100
 "Sorin, Lord of Innistrad",dka,100
 "Isperia, Supreme Judge",rtr,100
 Domri Rade,gtc,100
@@ -108,12 +107,14 @@ Niv-Mizzet Reborn,war,100
 "Oko, Thief of Crowns",eld,100
 "Syr Gwyn, Hero of Ashvale",eld,100
 "Alela, Artful Provocateur",eld,100
+"Kenrith, the Returned King",eld,100
 Lurrus of the Dream-Den,iko,100
 "Brokkos, Apex of Forever",iko,100
 Nissa of Shadowed Boughs,znr,100
 "Yasharn, Implacable Earth",znr,100
 "Esika, God of the Tree // The Prismatic Bridge",khm,100
 "Firja, Judge of Valor",khm,100
+"Koma, Cosmos Serpent",khm,100
 "Shaile, Dean of Radiance // Embrose, Dean of Shadow",stx,100
 "Codie, Vociferous Codex",stx,100
 "Plargg, Dean of Chaos",stx,100
@@ -192,8 +193,9 @@ Wrenn and Seven,mid,105.0371906843745
 Dark Leo & Shredder,tmt,107.4447938388069
 "Kolodin, Triumph Caster",dft,108.7708461973447
 Eshki Dragonclaw,tdm,108.97529088775659
-"Kirol, History Buff",sos,109.09186043379384
+"Ral, Crackling Wit",blb,109.19807101715516
 "Cecil, Dark Knight",fin,109.23866293282362
+"Kirol, History Buff",sos,109.279861200379
 "Anzrag, the Quake-Mole",mkm,109.29938763256662
 "Aang, at the Crossroads",tla,109.6833121238146
 "Etrata, the Silencer",grn,109.71029840390945

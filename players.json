@@ -809,7 +809,7 @@
     },
     "Charlotte Beauchamp": {
         "Data": {
-            "match number": 297,
+            "match number": 300,
             "decks played": {
                 "Totentanz, Swarm Piper": {
                     "number": 36,
@@ -920,10 +920,10 @@
                     "lose": 1
                 },
                 "Maralen, Fae Ascendant": {
-                    "number": 38,
-                    "win": 16,
+                    "number": 41,
+                    "win": 17,
                     "draw": 1,
-                    "lose": 21
+                    "lose": 23
                 }
             },
             "players fought": {
@@ -958,8 +958,8 @@
                     "lose": 7
                 },
                 "Nicolas Gaidier": {
-                    "number": 193,
-                    "win": 75,
+                    "number": 194,
+                    "win": 76,
                     "draw": 3,
                     "lose": 115
                 },
@@ -1096,12 +1096,18 @@
                     "lose": 1
                 },
                 "Hugo Le Blev": {
-                    "number": 1,
+                    "number": 2,
                     "win": 1,
                     "draw": 0,
-                    "lose": 0
+                    "lose": 1
                 },
                 "David Tanguy": {
+                    "number": 1,
+                    "win": 0,
+                    "draw": 0,
+                    "lose": 1
+                },
+                "Æddis Desaw": {
                     "number": 1,
                     "win": 0,
                     "draw": 0,
@@ -1110,7 +1116,7 @@
             }
         },
         "Data Tournoi": {
-            "match number": 110,
+            "match number": 113,
             "decks played": {
                 "Totentanz, Swarm Piper": {
                     "number": 20,
@@ -1203,10 +1209,10 @@
                     "lose": 2
                 },
                 "Maralen, Fae Ascendant": {
-                    "number": 17,
-                    "win": 7,
+                    "number": 20,
+                    "win": 8,
                     "draw": 1,
-                    "lose": 9
+                    "lose": 11
                 }
             },
             "players fought": {
@@ -1241,8 +1247,8 @@
                     "lose": 6
                 },
                 "Nicolas Gaidier": {
-                    "number": 19,
-                    "win": 7,
+                    "number": 20,
+                    "win": 8,
                     "draw": 2,
                     "lose": 10
                 },
@@ -1361,12 +1367,18 @@
                     "lose": 1
                 },
                 "Hugo Le Blev": {
-                    "number": 1,
+                    "number": 2,
                     "win": 1,
                     "draw": 0,
-                    "lose": 0
+                    "lose": 1
                 },
                 "David Tanguy": {
+                    "number": 1,
+                    "win": 0,
+                    "draw": 0,
+                    "lose": 1
+                },
+                "Æddis Desaw": {
                     "number": 1,
                     "win": 0,
                     "draw": 0,
@@ -1553,8 +1565,8 @@
     },
     "David Tanguy": {
         "Data": {
-            "ELO": 130.79094869304785,
-            "match number": 6,
+            "ELO": 132.41936758685497,
+            "match number": 9,
             "decks played": {
                 "Aang, at the Crossroads": {
                     "number": 3,
@@ -1563,17 +1575,17 @@
                     "lose": 0
                 },
                 "Kirol, History Buff": {
-                    "number": 3,
-                    "win": 2,
-                    "draw": 1,
-                    "lose": 0
+                    "number": 6,
+                    "win": 3,
+                    "draw": 2,
+                    "lose": 1
                 }
             },
             "players fought": {
                 "Nicolas Gaidier": {
-                    "number": 1,
+                    "number": 2,
                     "win": 0,
-                    "draw": 1,
+                    "draw": 2,
                     "lose": 0
                 },
                 "Louis Liard": {
@@ -1595,8 +1607,8 @@
                     "lose": 0
                 },
                 "Hugo Le Blev": {
-                    "number": 1,
-                    "win": 0,
+                    "number": 2,
+                    "win": 1,
                     "draw": 1,
                     "lose": 0
                 },
@@ -1605,16 +1617,23 @@
                     "win": 1,
                     "draw": 0,
                     "lose": 0
+                },
+                "Dylan Bellier": {
+                    "number": 1,
+                    "win": 0,
+                    "draw": 0,
+                    "lose": 1
                 }
             },
             "historic": {
                 "2026-03-21": 112.59907581957924,
-                "2026-05-23": 130.79094869304785
+                "2026-05-23": 130.79094869304785,
+                "2026-06-06": 132.41936758685497
             }
         },
         "Data Tournoi": {
-            "ELO": 129.89634426443098,
-            "match number": 6,
+            "ELO": 130.2723457976013,
+            "match number": 9,
             "decks played": {
                 "Aang, at the Crossroads": {
                     "number": 3,
@@ -1623,17 +1642,17 @@
                     "lose": 0
                 },
                 "Kirol, History Buff": {
-                    "number": 3,
-                    "win": 2,
-                    "draw": 1,
-                    "lose": 0
+                    "number": 6,
+                    "win": 3,
+                    "draw": 2,
+                    "lose": 1
                 }
             },
             "players fought": {
                 "Nicolas Gaidier": {
-                    "number": 1,
+                    "number": 2,
                     "win": 0,
-                    "draw": 1,
+                    "draw": 2,
                     "lose": 0
                 },
                 "Louis Liard": {
@@ -1655,8 +1674,8 @@
                     "lose": 0
                 },
                 "Hugo Le Blev": {
-                    "number": 1,
-                    "win": 0,
+                    "number": 2,
+                    "win": 1,
                     "draw": 1,
                     "lose": 0
                 },
@@ -1665,18 +1684,25 @@
                     "win": 1,
                     "draw": 0,
                     "lose": 0
+                },
+                "Dylan Bellier": {
+                    "number": 1,
+                    "win": 0,
+                    "draw": 0,
+                    "lose": 1
                 }
             },
             "historic": {
                 "2026-03-21": 111.71262339684328,
-                "2026-05-23": 129.89634426443098
+                "2026-05-23": 129.89634426443098,
+                "2026-06-06": 130.2723457976013
             }
         }
     },
     "Dylan Bellier": {
         "Data": {
-            "ELO": 186.1051692882258,
-            "match number": 255,
+            "ELO": 228.04816517435586,
+            "match number": 262,
             "decks played": {
                 "The Wandering Emperor": {
                     "number": 5,
@@ -1715,8 +1741,8 @@
                     "lose": 0
                 },
                 "Ral, Crackling Wit": {
-                    "number": 11,
-                    "win": 8,
+                    "number": 14,
+                    "win": 11,
                     "draw": 0,
                     "lose": 3
                 },
@@ -2105,8 +2131,8 @@
                     "lose": 2
                 },
                 "Syr Vondam, Sunstar Exemplar": {
-                    "number": 4,
-                    "win": 4,
+                    "number": 5,
+                    "win": 5,
                     "draw": 0,
                     "lose": 0
                 },
@@ -2145,6 +2171,24 @@
                     "win": 0,
                     "draw": 0,
                     "lose": 1
+                },
+                "Koma, Cosmos Serpent": {
+                    "number": 1,
+                    "win": 0,
+                    "draw": 0,
+                    "lose": 1
+                },
+                "Tovolar, Dire Overlord": {
+                    "number": 1,
+                    "win": 1,
+                    "draw": 0,
+                    "lose": 0
+                },
+                "Kenrith, the Returned King": {
+                    "number": 1,
+                    "win": 1,
+                    "draw": 0,
+                    "lose": 0
                 }
             },
             "players fought": {
@@ -2257,10 +2301,10 @@
                     "lose": 2
                 },
                 "Æddis Desaw": {
-                    "number": 3,
-                    "win": 2,
+                    "number": 8,
+                    "win": 6,
                     "draw": 0,
-                    "lose": 1
+                    "lose": 2
                 },
                 "Anaïs Adelin": {
                     "number": 3,
@@ -2285,6 +2329,18 @@
                     "win": 0,
                     "draw": 0,
                     "lose": 1
+                },
+                "Hugo Le Blev": {
+                    "number": 1,
+                    "win": 1,
+                    "draw": 0,
+                    "lose": 0
+                },
+                "David Tanguy": {
+                    "number": 1,
+                    "win": 1,
+                    "draw": 0,
+                    "lose": 0
                 }
             },
             "historic": {
@@ -2382,12 +2438,14 @@
                 "2026-05-12": 229.90819801340183,
                 "2026-05-19": 219.18648990954625,
                 "2026-05-21": 208.89537611840663,
-                "2026-05-23": 186.1051692882258
+                "2026-05-23": 186.1051692882258,
+                "2026-06-05": 193.03472697048568,
+                "2026-06-06": 228.04816517435586
             }
         },
         "Data Tournoi": {
-            "ELO": 149.00220183588695,
-            "match number": 102,
+            "ELO": 177.74668455445027,
+            "match number": 105,
             "decks played": {
                 "The Wandering Emperor": {
                     "number": 3,
@@ -2426,8 +2484,8 @@
                     "lose": 0
                 },
                 "Ral, Crackling Wit": {
-                    "number": 5,
-                    "win": 3,
+                    "number": 8,
+                    "win": 6,
                     "draw": 0,
                     "lose": 2
                 },
@@ -2690,6 +2748,24 @@
                     "win": 0,
                     "draw": 0,
                     "lose": 1
+                },
+                "Hugo Le Blev": {
+                    "number": 1,
+                    "win": 1,
+                    "draw": 0,
+                    "lose": 0
+                },
+                "Æddis Desaw": {
+                    "number": 1,
+                    "win": 1,
+                    "draw": 0,
+                    "lose": 0
+                },
+                "David Tanguy": {
+                    "number": 1,
+                    "win": 1,
+                    "draw": 0,
+                    "lose": 0
                 }
             },
             "historic": {
@@ -2727,7 +2803,8 @@
                 "2026-02-20": 131.25702748672668,
                 "2026-03-21": 161.7182823112826,
                 "2026-04-24": 170.90864818927736,
-                "2026-05-23": 149.00220183588695
+                "2026-05-23": 149.00220183588695,
+                "2026-06-06": 177.74668455445027
             }
         }
     },
@@ -3534,8 +3611,8 @@
     },
     "Hugo Le Blev": {
         "Data": {
-            "ELO": 63.68218990900796,
-            "match number": 8,
+            "ELO": 57.10890215945601,
+            "match number": 11,
             "decks played": {
                 "Betor, Kin to All": {
                     "number": 3,
@@ -3544,10 +3621,10 @@
                     "lose": 2
                 },
                 "Tatsunari, Toad Rider": {
-                    "number": 5,
-                    "win": 0,
+                    "number": 8,
+                    "win": 1,
                     "draw": 2,
-                    "lose": 3
+                    "lose": 5
                 }
             },
             "players fought": {
@@ -3576,27 +3653,34 @@
                     "lose": 1
                 },
                 "Charlotte Beauchamp": {
-                    "number": 1,
-                    "win": 0,
+                    "number": 2,
+                    "win": 1,
                     "draw": 0,
                     "lose": 1
                 },
                 "David Tanguy": {
-                    "number": 1,
+                    "number": 2,
                     "win": 0,
                     "draw": 1,
-                    "lose": 0
+                    "lose": 1
+                },
+                "Dylan Bellier": {
+                    "number": 1,
+                    "win": 0,
+                    "draw": 0,
+                    "lose": 1
                 }
             },
             "historic": {
                 "2026-03-28": 90.586565714778,
                 "2026-04-24": 69.63606125910145,
-                "2026-05-23": 63.68218990900796
+                "2026-05-23": 63.68218990900796,
+                "2026-06-06": 57.10890215945601
             }
         },
         "Data Tournoi": {
-            "ELO": 62.8533023721119,
-            "match number": 8,
+            "ELO": 55.62080290021665,
+            "match number": 11,
             "decks played": {
                 "Betor, Kin to All": {
                     "number": 3,
@@ -3605,10 +3689,10 @@
                     "lose": 2
                 },
                 "Tatsunari, Toad Rider": {
-                    "number": 5,
-                    "win": 0,
+                    "number": 8,
+                    "win": 1,
                     "draw": 2,
-                    "lose": 3
+                    "lose": 5
                 }
             },
             "players fought": {
@@ -3637,22 +3721,29 @@
                     "lose": 1
                 },
                 "Charlotte Beauchamp": {
-                    "number": 1,
-                    "win": 0,
+                    "number": 2,
+                    "win": 1,
                     "draw": 0,
                     "lose": 1
                 },
                 "David Tanguy": {
-                    "number": 1,
+                    "number": 2,
                     "win": 0,
                     "draw": 1,
-                    "lose": 0
+                    "lose": 1
+                },
+                "Dylan Bellier": {
+                    "number": 1,
+                    "win": 0,
+                    "draw": 0,
+                    "lose": 1
                 }
             },
             "historic": {
                 "2026-03-28": 90.16142221699867,
                 "2026-04-24": 69.32875652408495,
-                "2026-05-23": 62.8533023721119
+                "2026-05-23": 62.8533023721119,
+                "2026-06-06": 55.62080290021665
             }
         }
     },
@@ -6463,8 +6554,8 @@
     },
     "Nicolas Gaidier": {
         "Data": {
-            "ELO": 378.0162685862867,
-            "match number": 327,
+            "ELO": 370.3230051752226,
+            "match number": 330,
             "decks played": {
                 "Thalia and The Gitrog Monster": {
                     "number": 11,
@@ -6473,10 +6564,10 @@
                     "lose": 3
                 },
                 "Dovin Baan": {
-                    "number": 14,
-                    "win": 6,
-                    "draw": 5,
-                    "lose": 3
+                    "number": 17,
+                    "win": 7,
+                    "draw": 6,
+                    "lose": 4
                 },
                 "Sigarda, Champion of Light": {
                     "number": 10,
@@ -6823,10 +6914,10 @@
                     "lose": 1
                 },
                 "Charlotte Beauchamp": {
-                    "number": 193,
+                    "number": 194,
                     "win": 115,
                     "draw": 3,
-                    "lose": 75
+                    "lose": 76
                 },
                 "Gaëlle Richet": {
                     "number": 21,
@@ -6955,14 +7046,20 @@
                     "lose": 2
                 },
                 "David Tanguy": {
-                    "number": 1,
+                    "number": 2,
                     "win": 0,
-                    "draw": 1,
+                    "draw": 2,
                     "lose": 0
                 },
                 "Hugo Le Blev": {
                     "number": 2,
                     "win": 2,
+                    "draw": 0,
+                    "lose": 0
+                },
+                "Æddis Desaw": {
+                    "number": 1,
+                    "win": 1,
                     "draw": 0,
                     "lose": 0
                 }
@@ -7072,12 +7169,13 @@
                 "2026-04-24": 394.29576465935116,
                 "2026-05-04": 382.09676620106416,
                 "2026-05-07": 356.9808598603785,
-                "2026-05-23": 378.0162685862867
+                "2026-05-23": 378.0162685862867,
+                "2026-06-06": 370.3230051752226
             }
         },
         "Data Tournoi": {
-            "ELO": 335.7010886580215,
-            "match number": 119,
+            "ELO": 330.0051927286406,
+            "match number": 122,
             "decks played": {
                 "Thalia and The Gitrog Monster": {
                     "number": 6,
@@ -7086,10 +7184,10 @@
                     "lose": 1
                 },
                 "Dovin Baan": {
-                    "number": 6,
-                    "win": 1,
-                    "draw": 4,
-                    "lose": 1
+                    "number": 9,
+                    "win": 2,
+                    "draw": 5,
+                    "lose": 2
                 },
                 "Sigarda, Champion of Light": {
                     "number": 6,
@@ -7292,10 +7390,10 @@
                     "lose": 1
                 },
                 "Charlotte Beauchamp": {
-                    "number": 19,
+                    "number": 20,
                     "win": 10,
                     "draw": 2,
-                    "lose": 7
+                    "lose": 8
                 },
                 "Gaëlle Richet": {
                     "number": 13,
@@ -7418,14 +7516,20 @@
                     "lose": 1
                 },
                 "David Tanguy": {
-                    "number": 1,
+                    "number": 2,
                     "win": 0,
-                    "draw": 1,
+                    "draw": 2,
                     "lose": 0
                 },
                 "Hugo Le Blev": {
                     "number": 2,
                     "win": 2,
+                    "draw": 0,
+                    "lose": 0
+                },
+                "Æddis Desaw": {
+                    "number": 1,
+                    "win": 1,
                     "draw": 0,
                     "lose": 0
                 }
@@ -7472,7 +7576,8 @@
                 "2026-03-21": 260.28987864677293,
                 "2026-03-28": 287.33405615438073,
                 "2026-04-24": 313.0523156940532,
-                "2026-05-23": 335.7010886580215
+                "2026-05-23": 335.7010886580215,
+                "2026-06-06": 330.0051927286406
             }
         }
     },
@@ -8454,8 +8559,8 @@
     },
     "Æddis Desaw": {
         "Data": {
-            "ELO": 82.09200541736216,
-            "match number": 4,
+            "ELO": 60.572350735835485,
+            "match number": 11,
             "decks played": {
                 "Clement, the Worrywort": {
                     "number": 1,
@@ -8474,6 +8579,12 @@
                     "win": 1,
                     "draw": 0,
                     "lose": 0
+                },
+                "Geist of Saint Traft": {
+                    "number": 7,
+                    "win": 2,
+                    "draw": 0,
+                    "lose": 5
                 }
             },
             "players fought": {
@@ -8484,23 +8595,65 @@
                     "lose": 1
                 },
                 "Dylan Bellier": {
+                    "number": 8,
+                    "win": 2,
+                    "draw": 0,
+                    "lose": 6
+                },
+                "Charlotte Beauchamp": {
+                    "number": 1,
+                    "win": 1,
+                    "draw": 0,
+                    "lose": 0
+                },
+                "Nicolas Gaidier": {
+                    "number": 1,
+                    "win": 0,
+                    "draw": 0,
+                    "lose": 1
+                }
+            },
+            "historic": {
+                "2025-09-18": 90.11510740219732,
+                "2025-09-21": 82.09200541736216,
+                "2026-06-05": 75.16244773510228,
+                "2026-06-06": 60.572350735835485
+            }
+        },
+        "Data Tournoi": {
+            "ELO": 91.72331906035062,
+            "match number": 3,
+            "decks played": {
+                "Geist of Saint Traft": {
                     "number": 3,
                     "win": 1,
                     "draw": 0,
                     "lose": 2
                 }
             },
+            "players fought": {
+                "Charlotte Beauchamp": {
+                    "number": 1,
+                    "win": 1,
+                    "draw": 0,
+                    "lose": 0
+                },
+                "Dylan Bellier": {
+                    "number": 1,
+                    "win": 0,
+                    "draw": 0,
+                    "lose": 1
+                },
+                "Nicolas Gaidier": {
+                    "number": 1,
+                    "win": 0,
+                    "draw": 0,
+                    "lose": 1
+                }
+            },
             "historic": {
-                "2025-09-18": 90.11510740219732,
-                "2025-09-21": 82.09200541736216
+                "2026-06-06": 91.72331906035062
             }
-        },
-        "Data Tournoi": {
-            "ELO": 100,
-            "match number": 0,
-            "decks played": {},
-            "players fought": {},
-            "historic": {}
         }
     }
 }
