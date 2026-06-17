@@ -6,9 +6,9 @@ Vorinclex,khm,75.56232592882718
 "Yenna, Redtooth Regent",woe,75.96067933957488
 "Voja, Jaws of the Conclave",mkm,76.09496973250103
 "Maralen, Fae Ascendant",ecl,79.5933771256712
-"Tatsunari, Toad Rider",neo,82.72969034160899
 "Sygg, Wanderwine Wisdom",ecl,82.73372825296646
 "Zoraline, Cosmos Caller",blb,82.78143730616681
+"Tatsunari, Toad Rider",neo,84.30400331466983
 "Hapatra, Vizier of Poisons",akh,84.4351804324413
 "Nahiri, the Harbinger",soi,84.78501080890757
 "Neriv, Heart of the Storm",tdm,85.05096947919641
@@ -29,6 +29,7 @@ Rafiq of the Many,ala,85.05824011726938
 "Alpharael, Dreaming Acolyte",eoe,90.36261843136464
 "Greta, Sweettooth Scourge",woe,90.39763633114036
 "Katilda, Dawnhart Prime",mid,90.43838023519505
+"Blech, Loafing Pest",sos,91.1229004479847
 "Trystan, Callous Cultivator",ecl,91.2005824030312
 "Totentanz, Swarm Piper",woe,91.31614625597281
 Glissa Sunslayer,one,93.21617092285334
@@ -53,6 +54,7 @@ Kaito Shizuki,neo,95.1572944116722
 "Alania, Divergent Storm",blb,95.24874239855816
 "Squall, SeeD Mercenary",fin,95.27464509314726
 Quintorius Kand,lci,95.33707748947505
+"Prismari, the Inspiration",sos,95.39120936365602
 "Lukka, Bound to Ruin",one,95.69862095638541
 Geist of Saint Traft,isd,95.86165953017532
 "Far Fortune, End Boss",dft,95.8669869829201
@@ -191,7 +193,6 @@ Wrenn and Seven,mid,105.0371906843745
 "Depala, Pilot Exemplar",kld,105.7293875579672
 "Zurgo, Thunder's Decree",tdm,105.85523681399957
 Dark Leo & Shredder,tmt,107.4447938388069
-"Kolodin, Triumph Caster",dft,108.7708461973447
 Eshki Dragonclaw,tdm,108.97529088775659
 "Ral, Crackling Wit",blb,109.19807101715516
 "Cecil, Dark Knight",fin,109.23866293282362
@@ -217,6 +218,7 @@ The Wandering Emperor,neo,114.90646839261645
 "Syr Vondam, Sunstar Exemplar",eoe,115.23062741227795
 The Swarmweaver,dsk,118.44912997615931
 "Olivia, Crimson Bride",vow,120.58820884030364
+"Kolodin, Triumph Caster",dft,120.68242341264313
 "Sanar, Unfinished Genius",sos,124.18351625182035
 "Winter, Misanthropic Guide",dsk,126.3166217803134
 "Niko, Light of Hope",dsk,139.0333785776166

@@ -2810,14 +2810,20 @@
     },
     "Erwan Col": {
         "Data": {
-            "ELO": 74.11276496347577,
-            "match number": 5,
+            "ELO": 65.28589674818303,
+            "match number": 8,
             "decks played": {
                 "Maralen, Fae Ascendant": {
                     "number": 5,
                     "win": 1,
                     "draw": 0,
                     "lose": 4
+                },
+                "Prismari, the Inspiration": {
+                    "number": 3,
+                    "win": 1,
+                    "draw": 0,
+                    "lose": 2
                 }
             },
             "players fought": {
@@ -2834,32 +2840,45 @@
                     "lose": 0
                 },
                 "Milan Arrouas": {
+                    "number": 3,
+                    "win": 0,
+                    "draw": 0,
+                    "lose": 3
+                },
+                "Hugo Le Blev": {
                     "number": 2,
                     "win": 0,
                     "draw": 0,
                     "lose": 2
                 },
-                "Hugo Le Blev": {
+                "Jules Faucherre": {
                     "number": 1,
-                    "win": 0,
+                    "win": 1,
                     "draw": 0,
-                    "lose": 1
+                    "lose": 0
                 }
             },
             "historic": {
                 "2026-02-20": 92.31399749520935,
-                "2026-03-28": 74.11276496347577
+                "2026-03-28": 74.11276496347577,
+                "2026-06-13": 65.28589674818303
             }
         },
         "Data Tournoi": {
-            "ELO": 74.7422426254864,
-            "match number": 5,
+            "ELO": 65.52466135279847,
+            "match number": 8,
             "decks played": {
                 "Maralen, Fae Ascendant": {
                     "number": 5,
                     "win": 1,
                     "draw": 0,
                     "lose": 4
+                },
+                "Prismari, the Inspiration": {
+                    "number": 3,
+                    "win": 1,
+                    "draw": 0,
+                    "lose": 2
                 }
             },
             "players fought": {
@@ -2876,21 +2895,28 @@
                     "lose": 0
                 },
                 "Milan Arrouas": {
+                    "number": 3,
+                    "win": 0,
+                    "draw": 0,
+                    "lose": 3
+                },
+                "Hugo Le Blev": {
                     "number": 2,
                     "win": 0,
                     "draw": 0,
                     "lose": 2
                 },
-                "Hugo Le Blev": {
+                "Jules Faucherre": {
                     "number": 1,
-                    "win": 0,
+                    "win": 1,
                     "draw": 0,
-                    "lose": 1
+                    "lose": 0
                 }
             },
             "historic": {
                 "2026-02-20": 92.804785112661,
-                "2026-03-28": 74.7422426254864
+                "2026-03-28": 74.7422426254864,
+                "2026-06-13": 65.52466135279847
             }
         }
     },
@@ -3611,8 +3637,8 @@
     },
     "Hugo Le Blev": {
         "Data": {
-            "ELO": 57.10890215945601,
-            "match number": 11,
+            "ELO": 60.527711186809555,
+            "match number": 14,
             "decks played": {
                 "Betor, Kin to All": {
                     "number": 3,
@@ -3621,10 +3647,10 @@
                     "lose": 2
                 },
                 "Tatsunari, Toad Rider": {
-                    "number": 8,
-                    "win": 1,
-                    "draw": 2,
-                    "lose": 5
+                    "number": 11,
+                    "win": 2,
+                    "draw": 3,
+                    "lose": 6
                 }
             },
             "players fought": {
@@ -3635,8 +3661,8 @@
                     "lose": 2
                 },
                 "Erwan Col": {
-                    "number": 1,
-                    "win": 1,
+                    "number": 2,
+                    "win": 2,
                     "draw": 0,
                     "lose": 0
                 },
@@ -3669,18 +3695,31 @@
                     "win": 0,
                     "draw": 0,
                     "lose": 1
+                },
+                "Milan Arrouas": {
+                    "number": 1,
+                    "win": 0,
+                    "draw": 0,
+                    "lose": 1
+                },
+                "Jules Faucherre": {
+                    "number": 1,
+                    "win": 0,
+                    "draw": 1,
+                    "lose": 0
                 }
             },
             "historic": {
                 "2026-03-28": 90.586565714778,
                 "2026-04-24": 69.63606125910145,
                 "2026-05-23": 63.68218990900796,
-                "2026-06-06": 57.10890215945601
+                "2026-06-06": 57.10890215945601,
+                "2026-06-13": 60.527711186809555
             }
         },
         "Data Tournoi": {
-            "ELO": 55.62080290021665,
-            "match number": 11,
+            "ELO": 58.769428846338315,
+            "match number": 14,
             "decks played": {
                 "Betor, Kin to All": {
                     "number": 3,
@@ -3689,10 +3728,10 @@
                     "lose": 2
                 },
                 "Tatsunari, Toad Rider": {
-                    "number": 8,
-                    "win": 1,
-                    "draw": 2,
-                    "lose": 5
+                    "number": 11,
+                    "win": 2,
+                    "draw": 3,
+                    "lose": 6
                 }
             },
             "players fought": {
@@ -3703,8 +3742,8 @@
                     "lose": 2
                 },
                 "Erwan Col": {
-                    "number": 1,
-                    "win": 1,
+                    "number": 2,
+                    "win": 2,
                     "draw": 0,
                     "lose": 0
                 },
@@ -3737,13 +3776,26 @@
                     "win": 0,
                     "draw": 0,
                     "lose": 1
+                },
+                "Milan Arrouas": {
+                    "number": 1,
+                    "win": 0,
+                    "draw": 0,
+                    "lose": 1
+                },
+                "Jules Faucherre": {
+                    "number": 1,
+                    "win": 0,
+                    "draw": 1,
+                    "lose": 0
                 }
             },
             "historic": {
                 "2026-03-28": 90.16142221699867,
                 "2026-04-24": 69.32875652408495,
                 "2026-05-23": 62.8533023721119,
-                "2026-06-06": 55.62080290021665
+                "2026-06-06": 55.62080290021665,
+                "2026-06-13": 58.769428846338315
             }
         }
     },
@@ -4165,8 +4217,8 @@
     },
     "Jules Faucherre": {
         "Data": {
-            "ELO": 49.97633473391325,
-            "match number": 16,
+            "ELO": 32.673395155481614,
+            "match number": 19,
             "decks played": {
                 "Niko, Light of Hope": {
                     "number": 3,
@@ -4203,6 +4255,12 @@
                     "win": 1,
                     "draw": 0,
                     "lose": 2
+                },
+                "Blech, Loafing Pest": {
+                    "number": 3,
+                    "win": 0,
+                    "draw": 1,
+                    "lose": 2
                 }
             },
             "players fought": {
@@ -4237,10 +4295,10 @@
                     "lose": 1
                 },
                 "Milan Arrouas": {
-                    "number": 4,
+                    "number": 5,
                     "win": 1,
                     "draw": 0,
-                    "lose": 3
+                    "lose": 4
                 },
                 "Lucie Gaidier": {
                     "number": 1,
@@ -4253,6 +4311,18 @@
                     "win": 1,
                     "draw": 0,
                     "lose": 0
+                },
+                "Erwan Col": {
+                    "number": 1,
+                    "win": 0,
+                    "draw": 0,
+                    "lose": 1
+                },
+                "Hugo Le Blev": {
+                    "number": 1,
+                    "win": 0,
+                    "draw": 1,
+                    "lose": 0
                 }
             },
             "historic": {
@@ -4261,12 +4331,13 @@
                 "2026-01-09": 79.71187435316115,
                 "2026-03-07": 72.95346044289359,
                 "2026-03-21": 55.77025102136166,
-                "2026-05-23": 49.97633473391325
+                "2026-05-23": 49.97633473391325,
+                "2026-06-13": 32.673395155481614
             }
         },
         "Data Tournoi": {
-            "ELO": 52.759637974056005,
-            "match number": 11,
+            "ELO": 35.005438870025394,
+            "match number": 14,
             "decks played": {
                 "Niko, Light of Hope": {
                     "number": 3,
@@ -4290,6 +4361,12 @@
                     "number": 3,
                     "win": 1,
                     "draw": 0,
+                    "lose": 2
+                },
+                "Blech, Loafing Pest": {
+                    "number": 3,
+                    "win": 0,
+                    "draw": 1,
                     "lose": 2
                 }
             },
@@ -4325,15 +4402,27 @@
                     "lose": 1
                 },
                 "Milan Arrouas": {
-                    "number": 1,
+                    "number": 2,
                     "win": 0,
                     "draw": 0,
-                    "lose": 1
+                    "lose": 2
                 },
                 "Dylan Bellier": {
                     "number": 1,
                     "win": 1,
                     "draw": 0,
+                    "lose": 0
+                },
+                "Erwan Col": {
+                    "number": 1,
+                    "win": 0,
+                    "draw": 0,
+                    "lose": 1
+                },
+                "Hugo Le Blev": {
+                    "number": 1,
+                    "win": 0,
+                    "draw": 1,
                     "lose": 0
                 }
             },
@@ -4341,7 +4430,8 @@
                 "2025-11-28": 88.38236867738874,
                 "2025-12-05": 77.69602052968266,
                 "2026-03-21": 59.6046607860751,
-                "2026-05-23": 52.759637974056005
+                "2026-05-23": 52.759637974056005,
+                "2026-06-13": 35.005438870025394
             }
         }
     },
@@ -5874,8 +5964,8 @@
     },
     "Milan Arrouas": {
         "Data": {
-            "ELO": 296.569367528372,
-            "match number": 53,
+            "ELO": 319.28036629474286,
+            "match number": 56,
             "decks played": {
                 "Niko, Light of Hope": {
                     "number": 16,
@@ -5884,8 +5974,8 @@
                     "lose": 2
                 },
                 "Kolodin, Triumph Caster": {
-                    "number": 7,
-                    "win": 5,
+                    "number": 10,
+                    "win": 8,
                     "draw": 0,
                     "lose": 2
                 },
@@ -6024,14 +6114,14 @@
                     "lose": 0
                 },
                 "Jules Faucherre": {
-                    "number": 4,
-                    "win": 3,
+                    "number": 5,
+                    "win": 4,
                     "draw": 0,
                     "lose": 1
                 },
                 "Erwan Col": {
-                    "number": 2,
-                    "win": 2,
+                    "number": 3,
+                    "win": 3,
                     "draw": 0,
                     "lose": 0
                 },
@@ -6045,6 +6135,12 @@
                     "number": 1,
                     "win": 0,
                     "draw": 1,
+                    "lose": 0
+                },
+                "Hugo Le Blev": {
+                    "number": 1,
+                    "win": 1,
+                    "draw": 0,
                     "lose": 0
                 }
             },
@@ -6066,12 +6162,13 @@
                 "2026-03-21": 261.56027885577515,
                 "2026-03-28": 279.98770303666817,
                 "2026-03-29": 279.4694259450707,
-                "2026-04-24": 296.569367528372
+                "2026-04-24": 296.569367528372,
+                "2026-06-13": 319.28036629474286
             }
         },
         "Data Tournoi": {
-            "ELO": 251.74354496651662,
-            "match number": 42,
+            "ELO": 275.5666993971135,
+            "match number": 45,
             "decks played": {
                 "Niko, Light of Hope": {
                     "number": 16,
@@ -6080,8 +6177,8 @@
                     "lose": 2
                 },
                 "Kolodin, Triumph Caster": {
-                    "number": 6,
-                    "win": 4,
+                    "number": 9,
+                    "win": 7,
                     "draw": 0,
                     "lose": 2
                 },
@@ -6208,14 +6305,14 @@
                     "lose": 0
                 },
                 "Jules Faucherre": {
-                    "number": 1,
-                    "win": 1,
+                    "number": 2,
+                    "win": 2,
                     "draw": 0,
                     "lose": 0
                 },
                 "Erwan Col": {
-                    "number": 2,
-                    "win": 2,
+                    "number": 3,
+                    "win": 3,
                     "draw": 0,
                     "lose": 0
                 },
@@ -6223,6 +6320,12 @@
                     "number": 1,
                     "win": 0,
                     "draw": 1,
+                    "lose": 0
+                },
+                "Hugo Le Blev": {
+                    "number": 1,
+                    "win": 1,
+                    "draw": 0,
                     "lose": 0
                 }
             },
@@ -6240,7 +6343,8 @@
                 "2026-02-20": 248.7729802585286,
                 "2026-03-21": 236.85395728890285,
                 "2026-03-28": 243.92768994530493,
-                "2026-04-24": 251.74354496651662
+                "2026-04-24": 251.74354496651662,
+                "2026-06-13": 275.5666993971135
             }
         }
     },

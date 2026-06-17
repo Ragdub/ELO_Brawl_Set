@@ -7567,14 +7567,14 @@
             },
             "Tatsunari, Toad Rider": {
                 "Data": {
-                    "ELO": 83.261168222339,
-                    "match number": 8,
+                    "ELO": 84.97057273601578,
+                    "match number": 11,
                     "players": {
                         "Hugo Le Blev": {
-                            "number": 8,
-                            "win": 1,
-                            "draw": 2,
-                            "lose": 5
+                            "number": 11,
+                            "win": 2,
+                            "draw": 3,
+                            "lose": 6
                         }
                     },
                     "decks fought": {
@@ -7607,23 +7607,42 @@
                             "win": 0,
                             "draw": 0,
                             "lose": 1
+                        },
+                        "Kolodin, Triumph Caster": {
+                            "number": 1,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 1
+                        },
+                        "Blech, Loafing Pest": {
+                            "number": 1,
+                            "win": 0,
+                            "draw": 1,
+                            "lose": 0
+                        },
+                        "Prismari, the Inspiration": {
+                            "number": 1,
+                            "win": 1,
+                            "draw": 0,
+                            "lose": 0
                         }
                     },
                     "historic": {
                         "2026-04-24": 89.52474777216173,
                         "2026-05-23": 86.54781209711498,
-                        "2026-06-06": 83.261168222339
+                        "2026-06-06": 83.261168222339,
+                        "2026-06-13": 84.97057273601578
                     }
                 },
                 "Data Tournoi": {
-                    "ELO": 82.72969034160899,
-                    "match number": 8,
+                    "ELO": 84.30400331466983,
+                    "match number": 11,
                     "players": {
                         "Hugo Le Blev": {
-                            "number": 8,
-                            "win": 1,
-                            "draw": 2,
-                            "lose": 5
+                            "number": 11,
+                            "win": 2,
+                            "draw": 3,
+                            "lose": 6
                         }
                     },
                     "decks fought": {
@@ -7656,12 +7675,31 @@
                             "win": 0,
                             "draw": 0,
                             "lose": 1
+                        },
+                        "Kolodin, Triumph Caster": {
+                            "number": 1,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 1
+                        },
+                        "Blech, Loafing Pest": {
+                            "number": 1,
+                            "win": 0,
+                            "draw": 1,
+                            "lose": 0
+                        },
+                        "Prismari, the Inspiration": {
+                            "number": 1,
+                            "win": 1,
+                            "draw": 0,
+                            "lose": 0
                         }
                     },
                     "historic": {
                         "2026-04-24": 89.58366715354313,
                         "2026-05-23": 86.3459400775566,
-                        "2026-06-06": 82.72969034160899
+                        "2026-06-06": 82.72969034160899,
+                        "2026-06-13": 84.30400331466983
                     }
                 }
             }
@@ -17901,12 +17939,12 @@
             },
             "Kolodin, Triumph Caster": {
                 "Data": {
-                    "ELO": 109.21124313058917,
-                    "match number": 8,
+                    "ELO": 120.56674251377457,
+                    "match number": 11,
                     "players": {
                         "Milan Arrouas": {
-                            "number": 7,
-                            "win": 5,
+                            "number": 10,
+                            "win": 8,
                             "draw": 0,
                             "lose": 2
                         },
@@ -17965,21 +18003,40 @@
                             "win": 1,
                             "draw": 0,
                             "lose": 0
+                        },
+                        "Tatsunari, Toad Rider": {
+                            "number": 1,
+                            "win": 1,
+                            "draw": 0,
+                            "lose": 0
+                        },
+                        "Prismari, the Inspiration": {
+                            "number": 1,
+                            "win": 1,
+                            "draw": 0,
+                            "lose": 0
+                        },
+                        "Blech, Loafing Pest": {
+                            "number": 1,
+                            "win": 1,
+                            "draw": 0,
+                            "lose": 0
                         }
                     },
                     "historic": {
                         "2025-04-12": 94.37269164860588,
                         "2025-05-11": 88.60074960407921,
-                        "2025-11-28": 109.21124313058917
+                        "2025-11-28": 109.21124313058917,
+                        "2026-06-13": 120.56674251377457
                     }
                 },
                 "Data Tournoi": {
-                    "ELO": 108.7708461973447,
-                    "match number": 6,
+                    "ELO": 120.68242341264313,
+                    "match number": 9,
                     "players": {
                         "Milan Arrouas": {
-                            "number": 6,
-                            "win": 4,
+                            "number": 9,
+                            "win": 7,
                             "draw": 0,
                             "lose": 2
                         }
@@ -18020,11 +18077,30 @@
                             "win": 1,
                             "draw": 0,
                             "lose": 0
+                        },
+                        "Tatsunari, Toad Rider": {
+                            "number": 1,
+                            "win": 1,
+                            "draw": 0,
+                            "lose": 0
+                        },
+                        "Prismari, the Inspiration": {
+                            "number": 1,
+                            "win": 1,
+                            "draw": 0,
+                            "lose": 0
+                        },
+                        "Blech, Loafing Pest": {
+                            "number": 1,
+                            "win": 1,
+                            "draw": 0,
+                            "lose": 0
                         }
                     },
                     "historic": {
                         "2025-04-12": 94.26359828837641,
-                        "2025-11-28": 108.7708461973447
+                        "2025-11-28": 108.7708461973447,
+                        "2026-06-13": 120.68242341264313
                     }
                 }
             },
@@ -22372,6 +22448,150 @@
                     "historic": {
                         "2026-05-23": 109.09186043379384,
                         "2026-06-06": 109.279861200379
+                    }
+                }
+            },
+            "Blech, Loafing Pest": {
+                "Data": {
+                    "ELO": 91.34853021078418,
+                    "match number": 3,
+                    "players": {
+                        "Jules Faucherre": {
+                            "number": 3,
+                            "win": 0,
+                            "draw": 1,
+                            "lose": 2
+                        }
+                    },
+                    "decks fought": {
+                        "Prismari, the Inspiration": {
+                            "number": 1,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 1
+                        },
+                        "Tatsunari, Toad Rider": {
+                            "number": 1,
+                            "win": 0,
+                            "draw": 1,
+                            "lose": 0
+                        },
+                        "Kolodin, Triumph Caster": {
+                            "number": 1,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 1
+                        }
+                    },
+                    "historic": {
+                        "2026-06-13": 91.34853021078418
+                    }
+                },
+                "Data Tournoi": {
+                    "ELO": 91.1229004479847,
+                    "match number": 3,
+                    "players": {
+                        "Jules Faucherre": {
+                            "number": 3,
+                            "win": 0,
+                            "draw": 1,
+                            "lose": 2
+                        }
+                    },
+                    "decks fought": {
+                        "Prismari, the Inspiration": {
+                            "number": 1,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 1
+                        },
+                        "Tatsunari, Toad Rider": {
+                            "number": 1,
+                            "win": 0,
+                            "draw": 1,
+                            "lose": 0
+                        },
+                        "Kolodin, Triumph Caster": {
+                            "number": 1,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 1
+                        }
+                    },
+                    "historic": {
+                        "2026-06-13": 91.1229004479847
+                    }
+                }
+            },
+            "Prismari, the Inspiration": {
+                "Data": {
+                    "ELO": 95.58656589235363,
+                    "match number": 3,
+                    "players": {
+                        "Erwan Col": {
+                            "number": 3,
+                            "win": 1,
+                            "draw": 0,
+                            "lose": 2
+                        }
+                    },
+                    "decks fought": {
+                        "Blech, Loafing Pest": {
+                            "number": 1,
+                            "win": 1,
+                            "draw": 0,
+                            "lose": 0
+                        },
+                        "Kolodin, Triumph Caster": {
+                            "number": 1,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 1
+                        },
+                        "Tatsunari, Toad Rider": {
+                            "number": 1,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 1
+                        }
+                    },
+                    "historic": {
+                        "2026-06-13": 95.58656589235363
+                    }
+                },
+                "Data Tournoi": {
+                    "ELO": 95.39120936365602,
+                    "match number": 3,
+                    "players": {
+                        "Erwan Col": {
+                            "number": 3,
+                            "win": 1,
+                            "draw": 0,
+                            "lose": 2
+                        }
+                    },
+                    "decks fought": {
+                        "Blech, Loafing Pest": {
+                            "number": 1,
+                            "win": 1,
+                            "draw": 0,
+                            "lose": 0
+                        },
+                        "Kolodin, Triumph Caster": {
+                            "number": 1,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 1
+                        },
+                        "Tatsunari, Toad Rider": {
+                            "number": 1,
+                            "win": 0,
+                            "draw": 0,
+                            "lose": 1
+                        }
+                    },
+                    "historic": {
+                        "2026-06-13": 95.39120936365602
                     }
                 }
             }

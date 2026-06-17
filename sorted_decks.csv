@@ -17,13 +17,13 @@ Admiral Beckett Brass,xln,76.3920760929054
 "Alpharael, Dreaming Acolyte",eoe,80.82202014335921
 Gideon Jura,roe,81.11394363286443
 "Voja, Jaws of the Conclave",mkm,82.72284009277104
-"Tatsunari, Toad Rider",neo,83.261168222339
 "Sygg, Wanderwine Wisdom",ecl,83.9156719480753
 Wrenn and Seven,mid,84.67919155660262
 "Tovolar, Dire Overlord",mid,84.71159140092311
 "Abuelo, Ancestral Echo",lci,84.72096842205754
 "Greta, Sweettooth Scourge",woe,84.79876928812682
 "Firja, Judge of Valor",khm,84.890400426496
+"Tatsunari, Toad Rider",neo,84.97057273601578
 "Hapatra, Vizier of Poisons",akh,84.99824520578613
 Geist of Saint Traft,isd,85.04931867957495
 Rafiq of the Many,ala,85.05824011726938
@@ -50,6 +50,7 @@ Domri Rade,gtc,90.45760541189298
 Chandra Nalaar,lrw,90.94774342234659
 "Katilda, Dawnhart Prime",mid,91.04703583987975
 "Choco, Seeker of Paradise",fin,91.27596484429692
+"Blech, Loafing Pest",sos,91.34853021078418
 "Wydwen, the Biting Gale",lrw,91.39142905934669
 "Trystan, Callous Cultivator",ecl,91.67120323346455
 The Mycotyrant,lci,91.76737766469819
@@ -91,6 +92,7 @@ Quintorius Kand,lci,95.33747354102896
 "Oko, Lorwyn Liege",ecl,95.4791622873993
 "Kalain, Reclusive Painter",afr,95.48250658663716
 "Lukka, Bound to Ruin",one,95.56802598750474
+"Prismari, the Inspiration",sos,95.58656589235363
 "Alania, Divergent Storm",blb,95.59409253324003
 Gladiolus Amicitia,fin,95.61670584886818
 "Angrath, the Flame-Chained",rix,95.67565937212306
@@ -173,7 +175,6 @@ Satoru Umezawa,neo,104.73366678067035
 "Venser, Corpse Puppet",one,107.20828131205761
 "Dennick, Pious Apprentice",mid,108.5617566391818
 Hylda of the Icy Crown,woe,108.69799268827686
-"Kolodin, Triumph Caster",dft,109.21124313058917
 "Malcolm, Alluring Scoundrel",lci,109.26964842342565
 "Chandra, Dressed to Kill",vow,109.32336152084943
 "Obyra, Dreaming Duelist",woe,109.48687044812698
@@ -208,6 +209,7 @@ Dark Leo & Shredder,tmt,117.76368288209714
 "Raffine, Scheming Seer",snc,119.36559786325208
 "Atraxa, Grand Unifier",one,119.52923165415388
 "Nashi, Searcher in the Dark",dsk,119.60276752939167
+"Kolodin, Triumph Caster",dft,120.56674251377457
 "Zurgo, Thunder's Decree",tdm,120.99478251223653
 "Mabel, Heir to Cragflame",blb,121.2697911173945
 "Syr Vondam, Sunstar Exemplar",eoe,122.91985054414684
