@@ -2,12 +2,12 @@ Decks,Set,ELO
 "Lagrella, the Magpie",snc,62.81758715292375
 "Wylie Duke, Atiin Hero",otj,69.46893153592212
 Marina Vendrell,dsk,72.04907379275694
+"Trystan, Callous Cultivator",ecl,72.74215749065016
 Vorinclex,khm,75.56232592882718
 "Yenna, Redtooth Regent",woe,75.96067933957488
 "Voja, Jaws of the Conclave",mkm,76.09496973250103
-"Maralen, Fae Ascendant",ecl,79.5933771256712
 "Sygg, Wanderwine Wisdom",ecl,82.73372825296646
-"Zoraline, Cosmos Caller",blb,82.78143730616681
+"Zoraline, Cosmos Caller",blb,83.6835177384365
 "Tatsunari, Toad Rider",neo,84.30400331466983
 "Hapatra, Vizier of Poisons",akh,84.4351804324413
 "Nahiri, the Harbinger",soi,84.78501080890757
@@ -22,6 +22,7 @@ Rafiq of the Many,ala,85.05824011726938
 "Satsuki, the Living Lore",neo,89.92554940696135
 "Dina, Soul Steeper",stx,89.95871887226397
 "Byrke, Long Ear of the Law",blb,90.00246037312257
+"Sméagol, Helpful Guide",ltr,90.05381464040359
 "Vivien, Monsters' Advocate",iko,90.08598372202424
 "Raff Capashen, Ship's Mage",dom,90.09353160738355
 "Falco Spara, Pactweaver",snc,90.13559594503629
@@ -30,8 +31,8 @@ Rafiq of the Many,ala,85.05824011726938
 "Greta, Sweettooth Scourge",woe,90.39763633114036
 "Katilda, Dawnhart Prime",mid,90.43838023519505
 "Blech, Loafing Pest",sos,91.1229004479847
-"Trystan, Callous Cultivator",ecl,91.2005824030312
 "Totentanz, Swarm Piper",woe,91.31614625597281
+"Abigale, Poet Laureate",sos,91.84188577410171
 Glissa Sunslayer,one,93.21617092285334
 High Perfect Morcant,ecl,94.49437703207062
 "Johann, Apprentice Sorcerer",woe,94.60908143385947
@@ -64,6 +65,7 @@ Geist of Saint Traft,isd,95.86165953017532
 "Silk, Web Weaver",spm,96.1287072156071
 Professor Dellian Fel,sos,96.57748859399047
 Dovin Baan,kld,96.66157370304097
+"Maralen, Fae Ascendant",ecl,96.78960196872663
 "Omnath, Locus of Mana",wwk,97.46028585954026
 "Betor, Kin to All",tdm,98.57873668471856
 "Loot, the Pathfinder",dft,98.8102444319201
@@ -101,7 +103,6 @@ Anax and Cymede,ths,100
 "Ral, Izzet Viceroy",grn,100
 "Dovin, Grand Arbiter",rna,100
 Teysa Karlov,rna,100
-"Nicol Bolas, Dragon-God",war,100
 "Chandra, Fire Artisan",war,100
 "Nissa, Who Shakes the World",war,100
 Niv-Mizzet Reborn,war,100
@@ -159,7 +160,6 @@ Mabouba,tla,100
 Gran-Gran,tla,100
 "Ash, Party Crasher",ecl,100
 "Eirdu, Carrier of Dawn",ecl,100
-"Abigale, Poet Laureate",sos,100
 "Kutzil, Malamet Exemplar",lci,100.1127257311987
 "Miriam, Herd Whisperer",otj,100.19406767351737
 "Mabel, Heir to Cragflame",blb,100.36986193996937
@@ -167,6 +167,7 @@ Gran-Gran,tla,100
 "Gev, Scaled Scorch",blb,100.65307071116011
 The Mycotyrant,lci,100.78289713400758
 Zurgo Helmsmasher,ktk,101.05909630288507
+"Silverquill, the Disputant",sos,101.23198727767894
 "Grub, Storied Matriarch",ecl,103.76373915650302
 "Tannuk, Memorial Ensign",eoe,103.96206537343033
 "Zuko, Conflicted",tla,104.20976075856149
@@ -192,11 +193,11 @@ Wrenn and Seven,mid,105.0371906843745
 "Snapdax, Apex of the Hunt",iko,105.59421325424695
 "Depala, Pilot Exemplar",kld,105.7293875579672
 "Zurgo, Thunder's Decree",tdm,105.85523681399957
+"Nicol Bolas, Dragon-God",war,106.92992796091859
 Dark Leo & Shredder,tmt,107.4447938388069
 Eshki Dragonclaw,tdm,108.97529088775659
 "Ral, Crackling Wit",blb,109.19807101715516
 "Cecil, Dark Knight",fin,109.23866293282362
-"Kirol, History Buff",sos,109.279861200379
 "Anzrag, the Quake-Mole",mkm,109.29938763256662
 "Aang, at the Crossroads",tla,109.6833121238146
 "Etrata, the Silencer",grn,109.71029840390945
@@ -206,6 +207,7 @@ Eshki Dragonclaw,tdm,108.97529088775659
 "Nashi, Searcher in the Dark",dsk,110.33520511019005
 "Kefka, Court Mage",fin,110.88587357679661
 "Tajic, Legion's Edge",grn,113.5220887538039
+"Kirol, History Buff",sos,113.701691626401
 Thalia and The Gitrog Monster,mom,114.37395355242555
 "Narset, Jeskai Waymaster",tdm,114.53125635911917
 "Raffine, Scheming Seer",snc,114.55000388248607
@@ -220,7 +222,7 @@ The Swarmweaver,dsk,118.44912997615931
 "Olivia, Crimson Bride",vow,120.58820884030364
 "Kolodin, Triumph Caster",dft,120.68242341264313
 "Sanar, Unfinished Genius",sos,124.18351625182035
-"Winter, Misanthropic Guide",dsk,126.3166217803134
+"Winter, Misanthropic Guide",dsk,132.19729533824452
 "Niko, Light of Hope",dsk,139.0333785776166
 "Arabella, Abandoned Doll",dsk,147.39240705932258
 "Finneas, Ace Archer",blb,152.5406854772872

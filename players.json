@@ -91,8 +91,8 @@
     },
     "Anaïs Adelin": {
         "Data": {
-            "ELO": 24.231103031792696,
-            "match number": 16,
+            "ELO": -12.791435681153578,
+            "match number": 20,
             "decks played": {
                 "Mishra, Claimed by Gix": {
                     "number": 3,
@@ -119,10 +119,10 @@
                     "lose": 2
                 },
                 "Trystan, Callous Cultivator": {
-                    "number": 5,
+                    "number": 9,
                     "win": 1,
                     "draw": 1,
-                    "lose": 3
+                    "lose": 7
                 }
             },
             "players fought": {
@@ -157,10 +157,10 @@
                     "lose": 2
                 },
                 "Charlotte Beauchamp": {
-                    "number": 1,
+                    "number": 3,
                     "win": 0,
                     "draw": 0,
-                    "lose": 1
+                    "lose": 3
                 },
                 "Léo Gougeon": {
                     "number": 1,
@@ -173,6 +173,18 @@
                     "win": 1,
                     "draw": 1,
                     "lose": 0
+                },
+                "Erwan Col": {
+                    "number": 1,
+                    "win": 0,
+                    "draw": 0,
+                    "lose": 1
+                },
+                "Armand Auriel": {
+                    "number": 1,
+                    "win": 0,
+                    "draw": 0,
+                    "lose": 1
                 }
             },
             "historic": {
@@ -181,12 +193,14 @@
                 "2025-12-12": 55.738849667832646,
                 "2026-03-07": 39.673347063110086,
                 "2026-03-28": 41.09967832848291,
-                "2026-04-24": 24.231103031792696
+                "2026-04-24": 24.231103031792696,
+                "2026-07-25": 4.842376786653947,
+                "2026-08-01": -12.791435681153578
             }
         },
         "Data Tournoi": {
-            "ELO": 35.56854446163166,
-            "match number": 14,
+            "ELO": -1.3483053631304358,
+            "match number": 18,
             "decks played": {
                 "Mishra, Claimed by Gix": {
                     "number": 3,
@@ -207,10 +221,10 @@
                     "lose": 3
                 },
                 "Trystan, Callous Cultivator": {
-                    "number": 5,
+                    "number": 9,
                     "win": 1,
                     "draw": 1,
-                    "lose": 3
+                    "lose": 7
                 }
             },
             "players fought": {
@@ -245,10 +259,10 @@
                     "lose": 1
                 },
                 "Charlotte Beauchamp": {
-                    "number": 1,
+                    "number": 3,
                     "win": 0,
                     "draw": 0,
-                    "lose": 1
+                    "lose": 3
                 },
                 "Léo Gougeon": {
                     "number": 1,
@@ -261,6 +275,18 @@
                     "win": 1,
                     "draw": 1,
                     "lose": 0
+                },
+                "Erwan Col": {
+                    "number": 1,
+                    "win": 0,
+                    "draw": 0,
+                    "lose": 1
+                },
+                "Armand Auriel": {
+                    "number": 1,
+                    "win": 0,
+                    "draw": 0,
+                    "lose": 1
                 }
             },
             "historic": {
@@ -268,7 +294,9 @@
                 "2025-10-31": 80.61361391070709,
                 "2025-12-12": 52.259602621802266,
                 "2026-03-28": 53.36654623422885,
-                "2026-04-24": 35.56854446163166
+                "2026-04-24": 35.56854446163166,
+                "2026-07-25": 16.505476029704113,
+                "2026-08-01": -1.3483053631304358
             }
         }
     },
@@ -398,8 +426,8 @@
     },
     "Armand Auriel": {
         "Data": {
-            "ELO": 105.86483141084963,
-            "match number": 10,
+            "ELO": 127.69382237567277,
+            "match number": 13,
             "decks played": {
                 "Quintorius Kand": {
                     "number": 3,
@@ -414,9 +442,9 @@
                     "lose": 1
                 },
                 "Maralen, Fae Ascendant": {
-                    "number": 3,
-                    "win": 1,
-                    "draw": 1,
+                    "number": 6,
+                    "win": 3,
+                    "draw": 2,
                     "lose": 1
                 }
             },
@@ -452,12 +480,24 @@
                     "lose": 0
                 },
                 "Nicolas Gaidier": {
-                    "number": 2,
+                    "number": 3,
                     "win": 0,
-                    "draw": 0,
+                    "draw": 1,
                     "lose": 2
                 },
                 "Hugo Le Blev": {
+                    "number": 1,
+                    "win": 1,
+                    "draw": 0,
+                    "lose": 0
+                },
+                "Mathis": {
+                    "number": 1,
+                    "win": 1,
+                    "draw": 0,
+                    "lose": 0
+                },
+                "Anaïs Adelin": {
                     "number": 1,
                     "win": 1,
                     "draw": 0,
@@ -467,12 +507,13 @@
             "historic": {
                 "2024-08-17": 90.67494708205793,
                 "2025-10-31": 102.07299249671263,
-                "2026-04-24": 105.86483141084963
+                "2026-04-24": 105.86483141084963,
+                "2026-08-01": 127.69382237567277
             }
         },
         "Data Tournoi": {
-            "ELO": 105.04824470364936,
-            "match number": 10,
+            "ELO": 126.72707613695266,
+            "match number": 13,
             "decks played": {
                 "Quintorius Kand": {
                     "number": 3,
@@ -487,9 +528,9 @@
                     "lose": 1
                 },
                 "Maralen, Fae Ascendant": {
-                    "number": 3,
-                    "win": 1,
-                    "draw": 1,
+                    "number": 6,
+                    "win": 3,
+                    "draw": 2,
                     "lose": 1
                 }
             },
@@ -525,12 +566,24 @@
                     "lose": 0
                 },
                 "Nicolas Gaidier": {
-                    "number": 2,
+                    "number": 3,
                     "win": 0,
-                    "draw": 0,
+                    "draw": 1,
                     "lose": 2
                 },
                 "Hugo Le Blev": {
+                    "number": 1,
+                    "win": 1,
+                    "draw": 0,
+                    "lose": 0
+                },
+                "Mathis": {
+                    "number": 1,
+                    "win": 1,
+                    "draw": 0,
+                    "lose": 0
+                },
+                "Anaïs Adelin": {
                     "number": 1,
                     "win": 1,
                     "draw": 0,
@@ -540,7 +593,8 @@
             "historic": {
                 "2024-08-17": 90.6741549789501,
                 "2025-10-31": 102.38462860694924,
-                "2026-04-24": 105.04824470364936
+                "2026-04-24": 105.04824470364936,
+                "2026-08-01": 126.72707613695266
             }
         }
     },
@@ -809,7 +863,7 @@
     },
     "Charlotte Beauchamp": {
         "Data": {
-            "match number": 300,
+            "match number": 305,
             "decks played": {
                 "Totentanz, Swarm Piper": {
                     "number": 36,
@@ -848,10 +902,10 @@
                     "lose": 7
                 },
                 "Zoraline, Cosmos Caller": {
-                    "number": 29,
-                    "win": 9,
+                    "number": 31,
+                    "win": 10,
                     "draw": 2,
-                    "lose": 18
+                    "lose": 19
                 },
                 "Yenna, Redtooth Regent": {
                     "number": 15,
@@ -920,10 +974,10 @@
                     "lose": 1
                 },
                 "Maralen, Fae Ascendant": {
-                    "number": 41,
-                    "win": 17,
+                    "number": 44,
+                    "win": 19,
                     "draw": 1,
-                    "lose": 23
+                    "lose": 24
                 }
             },
             "players fought": {
@@ -958,10 +1012,10 @@
                     "lose": 7
                 },
                 "Nicolas Gaidier": {
-                    "number": 194,
+                    "number": 196,
                     "win": 76,
                     "draw": 3,
-                    "lose": 115
+                    "lose": 117
                 },
                 "Léon Le Loir": {
                     "number": 13,
@@ -1072,8 +1126,8 @@
                     "lose": 0
                 },
                 "Anaïs Adelin": {
-                    "number": 1,
-                    "win": 1,
+                    "number": 3,
+                    "win": 3,
                     "draw": 0,
                     "lose": 0
                 },
@@ -1102,8 +1156,8 @@
                     "lose": 1
                 },
                 "David Tanguy": {
-                    "number": 1,
-                    "win": 0,
+                    "number": 2,
+                    "win": 1,
                     "draw": 0,
                     "lose": 1
                 },
@@ -1116,7 +1170,7 @@
             }
         },
         "Data Tournoi": {
-            "match number": 113,
+            "match number": 118,
             "decks played": {
                 "Totentanz, Swarm Piper": {
                     "number": 20,
@@ -1155,10 +1209,10 @@
                     "lose": 2
                 },
                 "Zoraline, Cosmos Caller": {
-                    "number": 9,
-                    "win": 4,
+                    "number": 11,
+                    "win": 5,
                     "draw": 2,
-                    "lose": 3
+                    "lose": 4
                 },
                 "Mabel, Heir to Cragflame": {
                     "number": 5,
@@ -1209,10 +1263,10 @@
                     "lose": 2
                 },
                 "Maralen, Fae Ascendant": {
-                    "number": 20,
-                    "win": 8,
+                    "number": 23,
+                    "win": 10,
                     "draw": 1,
-                    "lose": 11
+                    "lose": 12
                 }
             },
             "players fought": {
@@ -1247,10 +1301,10 @@
                     "lose": 6
                 },
                 "Nicolas Gaidier": {
-                    "number": 20,
+                    "number": 22,
                     "win": 8,
                     "draw": 2,
-                    "lose": 10
+                    "lose": 12
                 },
                 "Léon Le Loir": {
                     "number": 8,
@@ -1349,8 +1403,8 @@
                     "lose": 0
                 },
                 "Anaïs Adelin": {
-                    "number": 1,
-                    "win": 1,
+                    "number": 3,
+                    "win": 3,
                     "draw": 0,
                     "lose": 0
                 },
@@ -1373,8 +1427,8 @@
                     "lose": 1
                 },
                 "David Tanguy": {
-                    "number": 1,
-                    "win": 0,
+                    "number": 2,
+                    "win": 1,
                     "draw": 0,
                     "lose": 1
                 },
@@ -1565,8 +1619,8 @@
     },
     "David Tanguy": {
         "Data": {
-            "ELO": 132.41936758685497,
-            "match number": 9,
+            "ELO": 141.7566944620524,
+            "match number": 14,
             "decks played": {
                 "Aang, at the Crossroads": {
                     "number": 3,
@@ -1575,17 +1629,17 @@
                     "lose": 0
                 },
                 "Kirol, History Buff": {
-                    "number": 6,
-                    "win": 3,
-                    "draw": 2,
-                    "lose": 1
+                    "number": 11,
+                    "win": 5,
+                    "draw": 4,
+                    "lose": 2
                 }
             },
             "players fought": {
                 "Nicolas Gaidier": {
-                    "number": 2,
+                    "number": 3,
                     "win": 0,
-                    "draw": 2,
+                    "draw": 3,
                     "lose": 0
                 },
                 "Louis Liard": {
@@ -1601,10 +1655,10 @@
                     "lose": 0
                 },
                 "Charlotte Beauchamp": {
-                    "number": 1,
+                    "number": 2,
                     "win": 1,
                     "draw": 0,
-                    "lose": 0
+                    "lose": 1
                 },
                 "Hugo Le Blev": {
                     "number": 2,
@@ -1623,17 +1677,31 @@
                     "win": 0,
                     "draw": 0,
                     "lose": 1
+                },
+                "Erwan Col": {
+                    "number": 2,
+                    "win": 1,
+                    "draw": 1,
+                    "lose": 0
+                },
+                "Mathis": {
+                    "number": 1,
+                    "win": 1,
+                    "draw": 0,
+                    "lose": 0
                 }
             },
             "historic": {
                 "2026-03-21": 112.59907581957924,
                 "2026-05-23": 130.79094869304785,
-                "2026-06-06": 132.41936758685497
+                "2026-06-06": 132.41936758685497,
+                "2026-07-25": 134.07896474841942,
+                "2026-08-01": 141.7566944620524
             }
         },
         "Data Tournoi": {
-            "ELO": 130.2723457976013,
-            "match number": 9,
+            "ELO": 139.11600664964533,
+            "match number": 14,
             "decks played": {
                 "Aang, at the Crossroads": {
                     "number": 3,
@@ -1642,17 +1710,17 @@
                     "lose": 0
                 },
                 "Kirol, History Buff": {
-                    "number": 6,
-                    "win": 3,
-                    "draw": 2,
-                    "lose": 1
+                    "number": 11,
+                    "win": 5,
+                    "draw": 4,
+                    "lose": 2
                 }
             },
             "players fought": {
                 "Nicolas Gaidier": {
-                    "number": 2,
+                    "number": 3,
                     "win": 0,
-                    "draw": 2,
+                    "draw": 3,
                     "lose": 0
                 },
                 "Louis Liard": {
@@ -1668,10 +1736,10 @@
                     "lose": 0
                 },
                 "Charlotte Beauchamp": {
-                    "number": 1,
+                    "number": 2,
                     "win": 1,
                     "draw": 0,
-                    "lose": 0
+                    "lose": 1
                 },
                 "Hugo Le Blev": {
                     "number": 2,
@@ -1690,19 +1758,33 @@
                     "win": 0,
                     "draw": 0,
                     "lose": 1
+                },
+                "Erwan Col": {
+                    "number": 2,
+                    "win": 1,
+                    "draw": 1,
+                    "lose": 0
+                },
+                "Mathis": {
+                    "number": 1,
+                    "win": 1,
+                    "draw": 0,
+                    "lose": 0
                 }
             },
             "historic": {
                 "2026-03-21": 111.71262339684328,
                 "2026-05-23": 129.89634426443098,
-                "2026-06-06": 130.2723457976013
+                "2026-06-06": 130.2723457976013,
+                "2026-07-25": 131.20742288779442,
+                "2026-08-01": 139.11600664964533
             }
         }
     },
     "Dylan Bellier": {
         "Data": {
-            "ELO": 228.04816517435586,
-            "match number": 262,
+            "ELO": 225.3830740968378,
+            "match number": 266,
             "decks played": {
                 "The Wandering Emperor": {
                     "number": 5,
@@ -1783,10 +1865,10 @@
                     "lose": 2
                 },
                 "Chandra, Dressed to Kill": {
-                    "number": 4,
-                    "win": 3,
+                    "number": 6,
+                    "win": 4,
                     "draw": 0,
-                    "lose": 1
+                    "lose": 2
                 },
                 "Chandra, Torch of Defiance": {
                     "number": 3,
@@ -2161,10 +2243,10 @@
                     "lose": 1
                 },
                 "Alela, Artful Provocateur": {
-                    "number": 2,
+                    "number": 3,
                     "win": 0,
                     "draw": 0,
-                    "lose": 2
+                    "lose": 3
                 },
                 "Beluna Grandsquall": {
                     "number": 1,
@@ -2189,14 +2271,20 @@
                     "win": 1,
                     "draw": 0,
                     "lose": 0
+                },
+                "The Mycotyrant": {
+                    "number": 1,
+                    "win": 1,
+                    "draw": 0,
+                    "lose": 0
                 }
             },
             "players fought": {
                 "Gaëlle Richet": {
-                    "number": 90,
-                    "win": 45,
+                    "number": 94,
+                    "win": 47,
                     "draw": 0,
-                    "lose": 45
+                    "lose": 47
                 },
                 "Charlotte Beauchamp": {
                     "number": 20,
@@ -2440,7 +2528,11 @@
                 "2026-05-21": 208.89537611840663,
                 "2026-05-23": 186.1051692882258,
                 "2026-06-05": 193.03472697048568,
-                "2026-06-06": 228.04816517435586
+                "2026-06-06": 228.04816517435586,
+                "2026-07-09": 217.20740895533746,
+                "2026-07-13": 226.97894508418253,
+                "2026-07-16": 236.19657994839707,
+                "2026-07-22": 225.3830740968378
             }
         },
         "Data Tournoi": {
@@ -2810,8 +2902,8 @@
     },
     "Erwan Col": {
         "Data": {
-            "ELO": 65.28589674818303,
-            "match number": 8,
+            "ELO": 52.701053329540066,
+            "match number": 13,
             "decks played": {
                 "Maralen, Fae Ascendant": {
                     "number": 5,
@@ -2822,6 +2914,18 @@
                 "Prismari, the Inspiration": {
                     "number": 3,
                     "win": 1,
+                    "draw": 0,
+                    "lose": 2
+                },
+                "Silverquill, the Disputant": {
+                    "number": 3,
+                    "win": 1,
+                    "draw": 1,
+                    "lose": 1
+                },
+                "Abigale, Poet Laureate": {
+                    "number": 2,
+                    "win": 0,
                     "draw": 0,
                     "lose": 2
                 }
@@ -2856,17 +2960,37 @@
                     "win": 1,
                     "draw": 0,
                     "lose": 0
+                },
+                "David Tanguy": {
+                    "number": 2,
+                    "win": 0,
+                    "draw": 1,
+                    "lose": 1
+                },
+                "Anaïs Adelin": {
+                    "number": 1,
+                    "win": 1,
+                    "draw": 0,
+                    "lose": 0
+                },
+                "Nicolas Gaidier": {
+                    "number": 2,
+                    "win": 0,
+                    "draw": 0,
+                    "lose": 2
                 }
             },
             "historic": {
                 "2026-02-20": 92.31399749520935,
                 "2026-03-28": 74.11276496347577,
-                "2026-06-13": 65.28589674818303
+                "2026-06-13": 65.28589674818303,
+                "2026-07-25": 68.45419382221637,
+                "2026-08-01": 52.701053329540066
             }
         },
         "Data Tournoi": {
-            "ELO": 65.52466135279847,
-            "match number": 8,
+            "ELO": 51.67240745635976,
+            "match number": 13,
             "decks played": {
                 "Maralen, Fae Ascendant": {
                     "number": 5,
@@ -2877,6 +3001,18 @@
                 "Prismari, the Inspiration": {
                     "number": 3,
                     "win": 1,
+                    "draw": 0,
+                    "lose": 2
+                },
+                "Silverquill, the Disputant": {
+                    "number": 3,
+                    "win": 1,
+                    "draw": 1,
+                    "lose": 1
+                },
+                "Abigale, Poet Laureate": {
+                    "number": 2,
+                    "win": 0,
                     "draw": 0,
                     "lose": 2
                 }
@@ -2911,12 +3047,32 @@
                     "win": 1,
                     "draw": 0,
                     "lose": 0
+                },
+                "David Tanguy": {
+                    "number": 2,
+                    "win": 0,
+                    "draw": 1,
+                    "lose": 1
+                },
+                "Anaïs Adelin": {
+                    "number": 1,
+                    "win": 1,
+                    "draw": 0,
+                    "lose": 0
+                },
+                "Nicolas Gaidier": {
+                    "number": 2,
+                    "win": 0,
+                    "draw": 0,
+                    "lose": 2
                 }
             },
             "historic": {
                 "2026-02-20": 92.804785112661,
                 "2026-03-28": 74.7422426254864,
-                "2026-06-13": 65.52466135279847
+                "2026-06-13": 65.52466135279847,
+                "2026-07-25": 67.98863590815634,
+                "2026-08-01": 51.67240745635976
             }
         }
     },
@@ -2948,8 +3104,8 @@
     },
     "Gaëlle Richet": {
         "Data": {
-            "ELO": 178.7565992004629,
-            "match number": 184,
+            "ELO": 181.42169027798096,
+            "match number": 188,
             "decks played": {
                 "Snapdax, Apex of the Hunt": {
                     "number": 34,
@@ -3000,8 +3156,8 @@
                     "lose": 3
                 },
                 "Marina Vendrell": {
-                    "number": 12,
-                    "win": 3,
+                    "number": 13,
+                    "win": 4,
                     "draw": 2,
                     "lose": 7
                 },
@@ -3084,8 +3240,8 @@
                     "lose": 0
                 },
                 "Tannuk, Memorial Ensign": {
-                    "number": 8,
-                    "win": 4,
+                    "number": 9,
+                    "win": 5,
                     "draw": 1,
                     "lose": 3
                 },
@@ -3108,24 +3264,30 @@
                     "lose": 1
                 },
                 "Brigid, Clachan's Heart": {
-                    "number": 3,
+                    "number": 4,
                     "win": 1,
                     "draw": 0,
-                    "lose": 2
+                    "lose": 3
                 },
                 "Eirdu, Carrier of Dawn": {
                     "number": 2,
                     "win": 1,
                     "draw": 0,
                     "lose": 1
+                },
+                "Vraska, Relic Seeker": {
+                    "number": 1,
+                    "win": 0,
+                    "draw": 0,
+                    "lose": 1
                 }
             },
             "players fought": {
                 "Dylan Bellier": {
-                    "number": 90,
-                    "win": 45,
+                    "number": 94,
+                    "win": 47,
                     "draw": 0,
-                    "lose": 45
+                    "lose": 47
                 },
                 "Lucie Haslé": {
                     "number": 5,
@@ -3353,7 +3515,11 @@
                 "2026-03-21": 167.84921140683744,
                 "2026-03-29": 168.36748849843485,
                 "2026-04-24": 168.46548540932326,
-                "2026-05-21": 178.7565992004629
+                "2026-05-21": 178.7565992004629,
+                "2026-07-09": 189.5973554194813,
+                "2026-07-13": 179.82581929063622,
+                "2026-07-16": 170.60818442642167,
+                "2026-07-22": 181.42169027798096
             }
         },
         "Data Tournoi": {
@@ -5750,6 +5916,58 @@
             }
         }
     },
+    "Mathis": {
+        "Data": {
+            "match number": 2,
+            "decks played": {
+                "Sméagol, Helpful Guide": {
+                    "number": 2,
+                    "win": 0,
+                    "draw": 0,
+                    "lose": 2
+                }
+            },
+            "players fought": {
+                "Armand Auriel": {
+                    "number": 1,
+                    "win": 0,
+                    "draw": 0,
+                    "lose": 1
+                },
+                "David Tanguy": {
+                    "number": 1,
+                    "win": 0,
+                    "draw": 0,
+                    "lose": 1
+                }
+            }
+        },
+        "Data Tournoi": {
+            "match number": 2,
+            "decks played": {
+                "Sméagol, Helpful Guide": {
+                    "number": 2,
+                    "win": 0,
+                    "draw": 0,
+                    "lose": 2
+                }
+            },
+            "players fought": {
+                "Armand Auriel": {
+                    "number": 1,
+                    "win": 0,
+                    "draw": 0,
+                    "lose": 1
+                },
+                "David Tanguy": {
+                    "number": 1,
+                    "win": 0,
+                    "draw": 0,
+                    "lose": 1
+                }
+            }
+        }
+    },
     "Matieu": {
         "Data": {
             "match number": 3,
@@ -6658,8 +6876,8 @@
     },
     "Nicolas Gaidier": {
         "Data": {
-            "ELO": 370.3230051752226,
-            "match number": 330,
+            "ELO": 392.213157187429,
+            "match number": 336,
             "decks played": {
                 "Thalia and The Gitrog Monster": {
                     "number": 11,
@@ -6740,9 +6958,9 @@
                     "lose": 3
                 },
                 "Winter, Misanthropic Guide": {
-                    "number": 24,
-                    "win": 16,
-                    "draw": 1,
+                    "number": 27,
+                    "win": 18,
+                    "draw": 2,
                     "lose": 7
                 },
                 "Marina Vendrell": {
@@ -6764,9 +6982,9 @@
                     "lose": 1
                 },
                 "Nicol Bolas, Dragon-God": {
-                    "number": 9,
-                    "win": 7,
-                    "draw": 0,
+                    "number": 12,
+                    "win": 9,
+                    "draw": 1,
                     "lose": 2
                 },
                 "Dennick, Pious Apprentice": {
@@ -7018,8 +7236,8 @@
                     "lose": 1
                 },
                 "Charlotte Beauchamp": {
-                    "number": 194,
-                    "win": 115,
+                    "number": 196,
+                    "win": 117,
                     "draw": 3,
                     "lose": 76
                 },
@@ -7120,9 +7338,9 @@
                     "lose": 0
                 },
                 "Armand Auriel": {
-                    "number": 2,
+                    "number": 3,
                     "win": 2,
-                    "draw": 0,
+                    "draw": 1,
                     "lose": 0
                 },
                 "Jules Faucherre": {
@@ -7150,9 +7368,9 @@
                     "lose": 2
                 },
                 "David Tanguy": {
-                    "number": 2,
+                    "number": 3,
                     "win": 0,
-                    "draw": 2,
+                    "draw": 3,
                     "lose": 0
                 },
                 "Hugo Le Blev": {
@@ -7164,6 +7382,12 @@
                 "Æddis Desaw": {
                     "number": 1,
                     "win": 1,
+                    "draw": 0,
+                    "lose": 0
+                },
+                "Erwan Col": {
+                    "number": 2,
+                    "win": 2,
                     "draw": 0,
                     "lose": 0
                 }
@@ -7274,12 +7498,14 @@
                 "2026-05-04": 382.09676620106416,
                 "2026-05-07": 356.9808598603785,
                 "2026-05-23": 378.0162685862867,
-                "2026-06-06": 370.3230051752226
+                "2026-06-06": 370.3230051752226,
+                "2026-07-25": 381.4272061871331,
+                "2026-08-01": 392.213157187429
             }
         },
         "Data Tournoi": {
-            "ELO": 330.0051927286406,
-            "match number": 122,
+            "ELO": 355.62639576634,
+            "match number": 128,
             "decks played": {
                 "Thalia and The Gitrog Monster": {
                     "number": 6,
@@ -7336,9 +7562,9 @@
                     "lose": 0
                 },
                 "Winter, Misanthropic Guide": {
-                    "number": 9,
-                    "win": 7,
-                    "draw": 1,
+                    "number": 12,
+                    "win": 9,
+                    "draw": 2,
                     "lose": 1
                 },
                 "Marina Vendrell": {
@@ -7448,6 +7674,12 @@
                     "win": 6,
                     "draw": 0,
                     "lose": 0
+                },
+                "Nicol Bolas, Dragon-God": {
+                    "number": 3,
+                    "win": 2,
+                    "draw": 1,
+                    "lose": 0
                 }
             },
             "players fought": {
@@ -7494,8 +7726,8 @@
                     "lose": 1
                 },
                 "Charlotte Beauchamp": {
-                    "number": 20,
-                    "win": 10,
+                    "number": 22,
+                    "win": 12,
                     "draw": 2,
                     "lose": 8
                 },
@@ -7590,9 +7822,9 @@
                     "lose": 0
                 },
                 "Armand Auriel": {
-                    "number": 2,
+                    "number": 3,
                     "win": 2,
-                    "draw": 0,
+                    "draw": 1,
                     "lose": 0
                 },
                 "Jules Faucherre": {
@@ -7620,9 +7852,9 @@
                     "lose": 1
                 },
                 "David Tanguy": {
-                    "number": 2,
+                    "number": 3,
                     "win": 0,
-                    "draw": 2,
+                    "draw": 3,
                     "lose": 0
                 },
                 "Hugo Le Blev": {
@@ -7634,6 +7866,12 @@
                 "Æddis Desaw": {
                     "number": 1,
                     "win": 1,
+                    "draw": 0,
+                    "lose": 0
+                },
+                "Erwan Col": {
+                    "number": 2,
+                    "win": 2,
                     "draw": 0,
                     "lose": 0
                 }
@@ -7681,7 +7919,9 @@
                 "2026-03-28": 287.33405615438073,
                 "2026-04-24": 313.0523156940532,
                 "2026-05-23": 335.7010886580215,
-                "2026-06-06": 330.0051927286406
+                "2026-06-06": 330.0051927286406,
+                "2026-07-25": 343.8650486504778,
+                "2026-08-01": 355.62639576634
             }
         }
     },
